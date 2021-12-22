@@ -18,4 +18,4 @@ You need to set up a virtual PC / Server on Azure and use it.
 - Introduction to Linux (Ubuntu)
 - Installation of Python, MySQL
 - Connection to an Azure MySQL Server from Python
-- Using the Azure App Service
+- Using the Azure App Service- Using the Azure App Service
