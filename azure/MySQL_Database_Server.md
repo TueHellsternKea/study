@@ -12,7 +12,7 @@ Creating a MySQL Database server on Azure
     - Subscription: *Your subscription name*
     - Resource group: *Create a new one*: mysqlserver
   - **Server details**
-    - Server name: *Name for your server*: tuehmysqlserver
+    - Server name: *Name for your server*: xxxhmysqlserver
     - Data source: *None*
     - Location: *(Europa) North Europa*
     - Version: *8.0*
