@@ -1,6 +1,6 @@
 # Virtualisering (Azure)
-    - 17-03-2021 - Torsdag- INT
-    - 18-03-2021 - Fredag - DK
+- 17-03-2021 - Torsdag- INT
+- 18-03-2021 - Fredag - DK
 
 
 # Beskrivelse
