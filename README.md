@@ -4,3 +4,5 @@
 - [4. Semester Modul 4.2](./4sem/modul-4-2.md)
 
 ## Guides
+- [Azure](./azure/README.md)
+- [Python](./python/python.md)
