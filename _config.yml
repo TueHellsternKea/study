@@ -2,3 +2,6 @@ theme: jekyll-theme-leap-day
 title: Tue Hellstern
 description: Teaching at Kea
 show_downloads: false
+
+plugins:
+- jekyll-remote-theme
