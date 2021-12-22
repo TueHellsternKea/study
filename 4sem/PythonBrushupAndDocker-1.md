@@ -2,10 +2,10 @@
     - 15-03-2021 - Tirsdag - DK
     - 16-03-2021 - Onsdag - INT
 
-# Beskrivelse
+## Beskrivelse
 Brush up on Python, MySQL and introduction to Docker.
 
-# Resources & Activities
+## Resources & Activities
 Before this class, make sure that the following programs are installed and updated on your PC:
 
 - Microsoft Visual Studio Code (https://code.visualstudio.com/)
