@@ -64,3 +64,6 @@ If it is not a production server, it may be beneficial to turn off SSL. This mak
 - Click *Save*
 
 ![](./image/create_mysql_3.jpg)
+
+# Links
+- [Azure documation MySQL Server](https://docs.microsoft.com/en-us/azure/mysql/)
