@@ -2,7 +2,7 @@
 
 <iframe width="560" height="315" src="./video/createmysqlserver.mp4" frameborder="0" allow="accelerometer; autoplay=false; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**Creating a MySQL Database server on Azure**
+## Creating a MySQL Database server on Azure
 
 - Login with your students email at [portal.azure.com] (https://portal.azure.com)
 - Select *All services*
