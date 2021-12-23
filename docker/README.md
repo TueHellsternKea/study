@@ -2,6 +2,9 @@
 ## Docker makes development efficient and predictable
 Docker takes away repetitive, mundane configuration tasks and is used throughout the development lifecycle for fast, easy and portable application development - desktop and cloud.
 
+# Guides
+- [Creating and Deploying a Flask app with Docker on Azure](./Creating-Deploying-Flask-Azure.md)
+
 # Links
 - [www.docker.com](https://www.docker.com)
 - [docs.docker.com](https://docs.docker.com)
