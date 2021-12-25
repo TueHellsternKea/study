@@ -5,6 +5,6 @@
 
 ## Guides
 - [Azure](./azure/README.md)
-- [Python](./python/python.md)
+- [Python](./python/README.md)
 - [GitHub](./github/README.md)
 - [Docker](./docker/README.md)
