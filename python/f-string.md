@@ -1,3 +1,4 @@
+[HOME](.README.md)
 # f-string
 f-string is the latest Python syntax to perform string formatting - They are called f-strings because you need to prefix a string with the letter **f'** in order to get an f-string. 
 
