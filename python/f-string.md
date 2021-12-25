@@ -8,6 +8,9 @@ The letter **f** also indicates that these strings are used for formatting.
 - f-string has been available since Python 3.6. 
 - It is more readable, concise, faster and error-free than traditional string formatting.
 
+### Jupyter Lab file
+[f-string.ipynb](f-string.ipynb)
+
 ### Links
 - https://docs.python.org/3/reference/lexical_analysis.html#f-strings
 - https://www.python.org/dev/peps/pep-0498/
