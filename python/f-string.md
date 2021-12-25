@@ -1,7 +1,7 @@
 # f-string
-**f-string** is the latest Python syntax to perform string formatting - Called f-strings because you need to prefix a string with the letter **f'** in order to get an f-string. 
+f-string is the latest Python syntax to perform string formatting - They are called f-strings because you need to prefix a string with the letter **f'** in order to get an f-string. 
 
-    “F-strings provide a way to embed expressions inside string literals, using a minimal syntax. It should be noted that an f-string is really an expression evaluated at run time, not a constant value. In Python source code, an f-string is a literal string, prefixed with f, which contains expressions inside braces. The expressions are replaced with their values.” (www.python.org/dev/peps/pep-0498/#abstract)
+*“F-strings provide a way to embed expressions inside string literals, using a minimal syntax. It should be noted that an f-string is really an expression evaluated at run time, not a constant value. In Python source code, an f-string is a literal string, prefixed with f, which contains expressions inside braces. The expressions are replaced with their values.”* [Source](https://www.python.org/dev/peps/pep-0498/#abstract)
 
 The letter **f** also indicates that these strings are used for formatting.
 
@@ -11,9 +11,6 @@ The letter **f** also indicates that these strings are used for formatting.
 ### Links
 - https://docs.python.org/3/reference/lexical_analysis.html#f-strings
 - https://www.python.org/dev/peps/pep-0498/
-
-### This as Jupyter Lab file
-[f-string.ipynb](./f-string.ipynb)
 
 ## Interpolation
 String interpolation is the most commonly used f-string feature. 
@@ -123,3 +120,67 @@ print(f'{date_val:%d-%m-%Y}')
 
     2021-12-25 19:26:09.276564
     25-12-2021
+    
+
+# Formatet output
+
+### Loop and formating, tabs and calucation
+
+
+```python
+print(f'Number\t\tSquare\t\tCube')
+for x in range(1, 11):
+    x = float(x)
+    print(f'{x:5.2f}\t\t{x*x:6.2f}\t\t{x*x*x:8.2f}')
+```
+
+    Number		Square		Cube
+     1.00		  1.00		    1.00
+     2.00		  4.00		    8.00
+     3.00		  9.00		   27.00
+     4.00		 16.00		   64.00
+     5.00		 25.00		  125.00
+     6.00		 36.00		  216.00
+     7.00		 49.00		  343.00
+     8.00		 64.00		  512.00
+     9.00		 81.00		  729.00
+    10.00		100.00		 1000.00
+    
+
+### Use of strings, decimals, and floats, as well as tabs for a *print report*.
+
+
+```python
+APPLES = .50
+BREAD = 1.50
+CHEESE = 2.25
+
+numApples = 3
+numBread = 4
+numCheese = 2
+
+prcApples = 3 * APPLES
+prcBread = 4 * BREAD
+prcCheese = 2 * CHEESE
+
+strApples = 'Apples'
+strBread = 'Bread'
+strCheese = 'Cheese'
+
+total = prcBread + prcBread + prcApples
+
+print(f'{"My List"}')
+print(f'{"="*40}')
+print(f'{strApples}\t{numApples:10d}\t\tkr.{prcApples:>5.2f}')
+print(f'{strBread}\t{numBread:10d}\t\tkr.{prcBread:>5.2f}')
+print(f'{strCheese}\t{numCheese:10d}\t\tkr.{prcCheese:>5.2f}')
+print(f'{"Total:"}\t\t\t\tkr.{total:>4.2f}')
+```
+
+    My List
+    ========================================
+    Apples	         3		kr. 1.50
+    Bread	         4		kr. 6.00
+    Cheese	         2		kr. 4.50
+    Total:				kr.13.50
+    
