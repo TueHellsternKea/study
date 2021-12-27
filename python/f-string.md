@@ -1,3 +1,4 @@
+[HOME](.README.md)
 # f-string
 f-string is the latest Python syntax to perform string formatting - They are called f-strings because you need to prefix a string with the letter **f** in order to get an f-string. 
 
@@ -7,6 +8,9 @@ The letter **f** also indicates that these strings are used for formatting.
 
 - f-string has been available since Python 3.6. 
 - It is more readable, concise, faster and error-free than traditional string formatting.
+
+### Jupyter Lab file
+[f-string.ipynb](f-string.ipynb)
 
 ### Links
 - https://docs.python.org/3/reference/lexical_analysis.html#f-strings
