@@ -1,5 +1,5 @@
 # f-string
-f-string is the latest Python syntax to perform string formatting - They are called f-strings because you need to prefix a string with the letter **f'** in order to get an f-string. 
+f-string is the latest Python syntax to perform string formatting - They are called f-strings because you need to prefix a string with the letter **f** in order to get an f-string. 
 
 *“F-strings provide a way to embed expressions inside string literals, using a minimal syntax. It should be noted that an f-string is really an expression evaluated at run time, not a constant value. In Python source code, an f-string is a literal string, prefixed with f, which contains expressions inside braces. The expressions are replaced with their values.”* [Source](https://www.python.org/dev/peps/pep-0498/#abstract)
 
@@ -15,7 +15,7 @@ The letter **f** also indicates that these strings are used for formatting.
 ## Interpolation
 String interpolation is the most commonly used f-string feature. 
 
-You just need to do enclose the value or variable in curly braces **{ }** and start with **f'**
+You just need to do enclose the value or variable in curly braces **{ }** and start with **f**
 
 
 ```python
@@ -31,7 +31,7 @@ print(f'Hello, {name}. You are {age}')
 # Variable names
 You can get get both a variable’s **value** and its **name**. 
 
-This can be very useful, especially when debugging, and can be easily done by putting an equal sign **{=}** in curly braces after calling the variable.
+This can be **very useful when debugging**, and can be easily done by putting an equal sign **{=}** in curly braces after calling the variable.
 
 
 ```python
@@ -98,6 +98,68 @@ print(f'{discount:.0%}')
     22%
     
 
+
+```python
+# Format pi by changing precision
+from math import pi
+
+for i in range(1, 7):
+    print(f'{pi:.{i}f}')
+```
+
+    3.1
+    3.14
+    3.142
+    3.1416
+    3.14159
+    3.141593
+    
+
+# Padding numbers with zeros
+You can pad any number with zeros by using f-strings. A well-known example is to append leading zeros to ID numbers. The purpose here is to have the numbers with the same length by using leading zeros.
+
+    f'{variable:0{width}}'
+
+**width** is used to specify the total number of digits of a number after leading zeros.
+
+
+```python
+# 10 step countdown
+for i in range(10, -1, -1):
+    print(f'{i:02}')
+```
+
+    10
+    09
+    08
+    07
+    06
+    05
+    04
+    03
+    02
+    01
+    00
+    
+
+
+```python
+# Find the longest id and pad with 0 in front of the numbers
+product_ids = [93, 123456789, 5332493, 32641, 15279535]
+
+longest_product_id = len(max(map(str, product_ids), key=len))
+
+for product_id in product_ids:
+    print(f'{product_id:0{longest_product_id}}')
+```
+
+    000000093
+    123456789
+    005332493
+    000032641
+    015279535
+    
+
 # Date time formatting
 f-strings also support the formatting of datetime.
 
@@ -106,6 +168,8 @@ Dates are formatted the same way as numbers, using format specifiers.
 - %d - day
 - %m - month
 - %Y - year
+- %H - hours
+- %M - minutes
 
 
 ```python
@@ -120,6 +184,33 @@ print(f'{date_val:%d-%m-%Y}')
 
     2021-12-25 19:26:09.276564
     25-12-2021
+    
+
+# Align Strings
+With f-string you can control the alignment of a string.
+
+    f'{variable:{aligment}{width}}'
+
+A variable name is followed by **:** (colon). Then, alignment is specified by one of these symbols:
+
+- Right alignment: **<**
+- Center alignment: **^**
+- Left alignment: **>**
+
+Lastly, decide the total width of the line.
+
+
+```python
+align = ['left', 'center', 'right']
+
+print(f'{align[0]:<25}')
+print(f'{align[1]:^25}')
+print(f'{align[2]:>25}')
+```
+
+    left                     
+             center          
+                        right
     
 
 # Formatet output
@@ -183,4 +274,25 @@ print(f'{"Total:"}\t\t\t\tkr.{total:>4.2f}')
     Bread	         4		kr. 6.00
     Cheese	         2		kr. 4.50
     Total:				kr.13.50
+    
+
+### Example of how to draw stairs on your console using f-strings.
+
+
+```python
+step = '|__'
+
+for i in range(1, 10):
+    print(f'{step:>{3*i}}')
+```
+
+    |__
+       |__
+          |__
+             |__
+                |__
+                   |__
+                      |__
+                         |__
+                            |__
     
