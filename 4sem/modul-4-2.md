@@ -12,12 +12,21 @@
 - [Python brushup and Docker 1](./01-Python-brushup_and_Docker_1/PythonBrushupAndDocker-1.md)
     - 15-03-2021 - Tirsdag - DK
     - 16-03-2021 - Onsdag - INT
+    - Slides
+        - [html]()
+        - [pdf]()
 - [Virtualisering (Azure)](./02-Virtualisering/Virtualisering.md)
     - 17-03-2021 - Torsdag- INT
     - 18-03-2021 - Fredag - DK
+    - Slides
+        - [html]()
+        - [pdf]()
 - [Python, Web Service API](./03-Python_WebService_API/Python-WebService-API.md)
     - 22-03-2021 - Tirsdag - DK
     - 23-03-2021 - Onsdag - INT
+    - Slides
+        - [html]()
+        - [pdf]()    - 
 - [Docker 2](./04-Docker_2/Docker-2.md)
     - 24-03-2021 - Torsdag - DK
     - 25-03-2021 - Fredag - INT
