@@ -17,8 +17,10 @@ Denne *kode* skal placeres i topen af Markdown filen
     ---
 
 ## Footer
+Indsæte samme footer tekst, fra dette slide og frem
+
         <!-- footer: Tekst -->
-Giver samme footer, fra dette slide og frem
+
 Brug denne kommado til at *nuldstille*
 
         <!-- footer: "" -->
