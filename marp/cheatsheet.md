@@ -4,17 +4,17 @@ Her er de Markdown kommandoer jeg brugere meget
 ## Opstart
 Denne *kode* skal placeres i topen af Markdown filen
 
-  ---
-  title: 4.2 Introduction
-  theme: gaia
-  _class: lead
-  paginate: true
-  marp: true
-  backgroundColor: #fff
-  size: 4K
-  @auto-scaling true
-  html: true
-  ---
+    ---
+    title: 4.2 Introduction
+    theme: gaia
+    _class: lead
+    paginate: true
+    marp: true
+    backgroundColor: #fff
+    size: 4K
+    @auto-scaling true
+    html: true
+    ---
 
 ## Footer
 - **<!-- footer: Tekst -->**
