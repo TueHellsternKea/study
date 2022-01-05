@@ -5,7 +5,7 @@ Her er de Markdown kommandoer jeg brugere meget
 Denne *kode* skal placeres i topen af Markdown filen
 
     ---
-    title: 4.2 Introduction
+    title: Din titel
     theme: gaia
     _class: lead
     paginate: true
