@@ -13,5 +13,6 @@ You have to use your Kea Student email when you signup for Azure, then we can gi
 ## Do more with Azure cloud computing services
 
 [Creating a MySQL Database server on Azure](./MySQL_Database_Server.md)
+[Jupyter Lab Azure Notebooks](./Jupyter_Lab_Azure_Notebooks.md)
 
 
