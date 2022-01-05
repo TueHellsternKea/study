@@ -17,7 +17,7 @@ Denne *kode* skal placeres i topen af Markdown filen
     ---
 
 ## Footer
-Footer teksten indsættes i nederste venstra hjørne. Det er ikke muligt at inkludere billeder i footer
+Footer teksten indsættes i nederste venstre hjørne. Det er ikke muligt at inkludere billeder i footer
 
 Indsætter samme footer tekst, fra dette slide og frem
 
