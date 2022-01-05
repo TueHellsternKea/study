@@ -1,4 +1,4 @@
-[Home](../README.md)
+[Home](./README.md)
 
 # Jupyter Lab
 JupyterLab is a web-based interactive development environment for notebooks, code, data and diagrams - [jupyter.org](https://jupyter.org)
