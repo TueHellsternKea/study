@@ -21,7 +21,7 @@ Indsæte samme footer tekst, fra dette slide og frem
 
         <!-- footer: Tekst -->
 
-Brug denne kommado til at *nuldstille*
+Brug denne kommado til at *nulstile*
 
         <!-- footer: "" -->
 
