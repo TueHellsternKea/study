@@ -39,7 +39,7 @@ There are some advantages of running your Jupyter Notebook on Azure as opposed t
     - Configure required setting
     - Compute name
     - Select - **Select from all options**
-    - Sort by **Cost**
+    - Sort by **Cost** (*double click*)
     - Select the lowest cost - *$0.07/hr - Standard_DS1_v2 1 cores, 3.5GB RAM, 7GB storage*
     - Click - **Create**
 - In the section *Quick actions* - Select - **Start with an empty notebook**
