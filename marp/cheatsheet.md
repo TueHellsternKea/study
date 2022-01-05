@@ -25,6 +25,6 @@ Brug denne kommado til at *nulstile*
 
         <!-- footer: "" -->
 
-Denne footer tekst indsættes kun på det ene slide
+Denne footer tekst indsættes kun på dette ene slide
 
         <!-- _footer: Kun dette slide -->
