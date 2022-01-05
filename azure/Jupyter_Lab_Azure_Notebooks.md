@@ -19,6 +19,9 @@ There are some advantages of running your Jupyter Notebook on Azure as opposed t
 - **The familiarity of Jupyter Notebook** - Jupyter Notebook has been the de facto options for data scientists for some years
 
 ## Azure setup
+Have a look at this video
+<iframe width="560" height="315" src="./video/createjupyterlab.mp4" 
+frameborder="0" allow="accelerometer; autoplay=false; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 - Login - [portal.azure.com](https://portal.azure.com)
