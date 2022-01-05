@@ -1,3 +1,4 @@
+[Home](./README.md)
 # Creating and Deploying a Flask app with Docker on Azure
 This demo builds a simple Python web application running on Docker Compose. 
 
