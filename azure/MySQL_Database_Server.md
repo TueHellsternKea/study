@@ -1,4 +1,4 @@
-[HOME](./README.md)
+[Home](./README.md)
 # Create MySQL Database
 
 <iframe width="560" height="315" src="./video/createmysqlserver.mp4" frameborder="0" allow="accelerometer; autoplay=false; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
