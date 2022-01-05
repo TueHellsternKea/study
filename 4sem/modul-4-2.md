@@ -4,8 +4,8 @@
 ## Introduction
 
 ### Slides
-- [html]()
-- [pdf]()
+- [html](./introduction.html)
+- [pdf](./introduction.pdf)
 
 # Teaching Sessions
 
