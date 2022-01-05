@@ -1,3 +1,5 @@
+[Home](../README.md)
+
 # Jupyter Lab
 JupyterLab is a web-based interactive development environment for notebooks, code, data and diagrams - [jupyter.org](https://jupyter.org)
 
@@ -17,6 +19,7 @@ There are some advantages of running your Jupyter Notebook on Azure as opposed t
 - **The familiarity of Jupyter Notebook** - Jupyter Notebook has been the de facto options for data scientists for some years
 
 ## Azure setup
+<<<<<<< HEAD
 
 
 - Login - [portal.azure.com](https://portal.azure.com)
@@ -48,3 +51,5 @@ Your Jupyter Lab server and your fist notebook is created and running
 
 ![](https://github.com/TueHellsternKea/study/raw/main/azure/image/azure_jupyter_lab_running.jpg)
 
+=======
+>>>>>>> 6d23287dd315dafcc491d4fa8b226e82a754d392
