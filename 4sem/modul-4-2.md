@@ -9,7 +9,7 @@
 
 # Teaching Sessions
 
-- [Python brushup and Docker 1](./01-Python-brushup_and_Docker_1/PythonBrushupAndDocker-1.md)
+- [Python brushup, Docker and Azure](./01-Python-brushup_and_Docker_1/PythonBrushupAndDocker-1.md)
     - 15-03-2021 - Tirsdag - DK
     - 16-03-2021 - Onsdag - INT
     - Slides
