@@ -19,7 +19,7 @@ Denne *kode* skal placeres i topen af Markdown filen
 ## Footer
 Footer teksten indsættes i nederste venstra hjørne. Det er ikk emuligt at inkludere billeder i footer
 
-Indsæte samme footer tekst, fra dette slide og frem
+Indsætter samme footer tekst, fra dette slide og frem
 
         <!-- footer: Tekst -->
 
