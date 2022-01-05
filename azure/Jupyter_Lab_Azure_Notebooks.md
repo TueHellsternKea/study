@@ -9,7 +9,7 @@ You can install Jupyter Lab on your local computer [jupyter.org/install](https:/
 
 There are also the possibility of running Jupyter Lab in your browser - [jupyter.org/try](https://jupyter.org/try)
 
-# Jupyter Lab on Azure Notebooks
+## Jupyter Lab on Azure Notebooks
 There are some advantages of running your Jupyter Notebook on Azure as opposed to your local system.
 
 - **Global access** - You can access your notebooks/repositories anywhere in the world as opposed to your local system
