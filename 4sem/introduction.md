@@ -53,6 +53,11 @@ backgroundColor: black
 color: white
 -->
 # CODING <!-- fit -->
+Coding Skills are **Not** Just for Programmers. Coding skills are of value to candidates across major job categories: 
+- Information Technology workers 
+- Data Analysts
+- Engineers
+- Scientists
 
 ----
 
