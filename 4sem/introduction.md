@@ -36,7 +36,7 @@ html: true
 
 ![bg right:30% 185%](https://github.com/TueHellsternKea/study/raw/main/images/githubpages.jpg)
 
-# GitHub Pages - website
+# GitHub Pages - 4.2 website
 
 [tuehellsternkea.github.io/study](https://tuehellsternkea.github.io/study)
 
@@ -48,8 +48,10 @@ html: true
 
 ---
 
-<!-- _backgroundColor: black -->
-<!-- _color: white -->
+<!--
+backgroundColor: black
+color: white
+-->
 # CODING <!-- fit -->
 
 ----
@@ -70,36 +72,57 @@ html: true
 
 ---
 
-<!-- _backgroundColor: black -->
-<!-- _color: white -->
-# GitHub <!-- fit -->
-## Millions of developers and companies build, ship, and maintain their software on GitHub — the largest and most advanced development platform in the world.
+![bg right:40% 138%](https://github.com/officegeek/image/raw/main/GitHub.png)
+# GitHub
+Git is the most popular distributed version control system in the world.
+
+Linus Torvalds, the creator of the Linux kernel, built this tool back in 2005.
+
+<!--footer: https://github.com-->
 
 ---
 
-<!-- _backgroundColor: black -->
-<!-- _color: white -->
-# Visual Studio Code <!-- fit -->
-## Code editing Redefined
-## Free. Built on open source. Runs everywhere
+
+![bg right:49% 160%](https://github.com/officegeek/image/raw/main/GitHubDesktop.png)
+
+# GitHub Desktop
+GitHub Desktop simplifies your development workflow
+
+<!--footer: https://desktop.github.com-->
 
 ---
 
-<!-- _backgroundColor: black -->
-<!-- _color: white -->
-# Jupyter Lab <!-- fit -->
-## JupyterLab is the latest web-based interactive development environment for notebooks, code, and data
+![bg right:40% 210%](https://github.com/officegeek/image/raw/main/VisualStudioCode.jpg)
+# Visual Studio Code
+Visual Studio Code is an open-source cross-platform code editor developed by Microsoft. 
+
+It has a built-in debugging support, embedded Git control, syntax highlighting, code completion, integrated terminal, code refactoring and snippets.
+
+<!--footer: https://code.visualstudio.com-->
+
 
 ---
 
-<!-- _backgroundColor: black -->
-<!-- _color: white -->
-# DOCKER <!-- fit -->
-## Developers Love Docker - Businesses Trust It - Build safer, share wider, run faster
+![bg right:40% 200%](https://github.com/officegeek/image/raw/main/JupyterLabLocal.jpg)
+# Jupyter Lab
+JupyterLab is the latest web-based interactive development environment for notebooks, code, and data. Its flexible interface allows users to configure and arrange workflows in data science, scientific computing, computational journalism, and machine learning.
+
+
+<!--footer: https://jupyter.org-->
 
 ---
 
-<!-- _backgroundColor: black -->
-<!-- _color: white -->
-# MySQL <!-- fit -->
-## Workbench
+![bg 60%](https://github.com/officegeek/image/raw/main/docker_logo.png)
+
+<!--footer: https://www.docker.com-->
+
+---
+
+![bg right:39% 90%](https://github.com/officegeek/image/raw/main/MySQL_logo.svg)
+
+# MySQL
+MySQL is an open-source relational database management system (*RDBMS*).
+
+Its name is a combination of *My*, the name of co-founder Michael Widenius's daughter, and *SQL*, the abbreviation for Structured Query Language. 
+
+<!--footer: https://www.mysql.com-->

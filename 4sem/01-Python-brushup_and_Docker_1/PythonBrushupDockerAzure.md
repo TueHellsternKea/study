@@ -4,13 +4,12 @@
     - 16-03-2021 - Onsdag - INT
 
 ## Beskrivelse
-Brush up on Python, MySQL and introduction to Docker.
+Brush up on Python, MySQL and introduction to Docker and Azure
 
 ## Resources & Activities
 Before this class, make sure that the following programs are installed and updated on your PC:
 
 - Microsoft Visual Studio Code (https://code.visualstudio.com/)
-- Jupyter Lab (https://jupyter.org/install)
 - MySQL and MySQL Workbench (https://dev.mysql.com/downloads/)
 - Docker (https://www.docker.com/)
 
