@@ -16,6 +16,29 @@ Denne *kode* skal placeres i topen af Markdown filen
     html: true
     ---
 
+## Background
+Du kan sætte baggrund farven på alle slide eller på et enkelt slide.
+
+Denne kode sætter baggrunds farven på dette slide og alle efterfølgende
+
+        <!-- backgroundColor: black -->
+        
+Hvis det kun er på det slide hvor koden står skal du bruge, forskelden er en **_
+**
+
+        <!-- _backgroundColor: black -->
+        
+## Tekst farve
+Du kan sætte tekst farven på alle slide eller på et enkelt slide.
+
+Denne kode sætter tekst farven på dette slide og alle efterfølgende
+
+        <!-- color: white -->
+        
+Hvis det kun er på det slide hvor koden står skal du bruge, forskelden er en **_
+**
+        <!-- _color: white -->
+
 ## Footer
 Footer teksten indsættes i nederste venstre hjørne. Det er ikke muligt at inkludere billeder i footer
 
