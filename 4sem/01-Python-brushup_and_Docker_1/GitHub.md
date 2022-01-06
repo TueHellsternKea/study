@@ -1,5 +1,5 @@
 ---
-title: GitHub - 25-08
+title: GitHub
 theme: gaia
 _class: lead
 paginate: true
@@ -7,7 +7,6 @@ marp: true
 backgroundColor: #fff
 size: 4K
 @auto-scaling true
-footer: 'Tue Hellstern - 2021'
 html: true
 ---
 
@@ -81,18 +80,18 @@ https://desktop.github.com
 <!-- _color: white -->
 # Courses GitHub repository<!-- fit -->
 
-https://github.com/officegeek/waase
+https://github.com/TueHellsternKea/github_demo
 
 ---
 
-![bg right:37% 100%](https://github.com/officegeek/image/raw/main/githubwaase.png)
-# Courses GitHub repository
+![bg right:37% 90%](https://github.com/TueHellsternKea/study/raw/main/4sem/01-Python-brushup_and_Docker_1/image/githubdemo.jpg)
+# GitHub Repository
 
-## https://github.com/officegeek/waase
+https://github.com/TueHellsternKea/github_demo
 
 - You have to clone this repository
-- Run the Python file
-- Run the SQL in MySQL Workbench
+- Run the Python file - **snowflake.py** - on your local computer
+- Run the SQL file - **northwind.sql** - in MySQL Workbench
 
 ---
 

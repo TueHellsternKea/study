@@ -13,10 +13,13 @@ html: true
 <!-- _backgroundColor: black -->
 <!-- _color: white -->
 # Module 4.2 <!-- fit -->
-
-## Introduction
+# Introduction <!-- fit -->
+### Tue Hellstern - 2022
 
 ---
+
+![bg left:50% 170%](https://github.com/TueHellsternKea/study/raw/main/images/keyboard.jpg)
+
 
 # Teaching Sessions
 
@@ -31,29 +34,32 @@ html: true
 
 ---
 
+![bg right:30% 185%](https://github.com/TueHellsternKea/study/raw/main/images/githubpages.jpg)
+
+# GitHub Pages - website
+
+[tuehellsternkea.github.io/study](https://tuehellsternkea.github.io/study)
+
+- Slides
+- Guides - text and video
+- Extra material
+- Files
+- Ekstra links
+
+---
+
 <!-- _backgroundColor: black -->
 <!-- _color: white -->
 # CODING <!-- fit -->
 
----
-
-![bg 60%](https://github.com/TueHellsternKea/study/raw/main/images/coding_jobs_1.jpg)
-
-<!-- _footer: Kilde: Oracle Academy -->
-
----
-
-![bg 62%](https://github.com/TueHellsternKea/study/raw/main/images/coding_jobs_2.jpg)
-
-<!-- _footer: Kilde: Oracle Academy -->
-
----
-
-![bg 61%](https://github.com/TueHellsternKea/study/raw/main/images/coding_jobs_3.jpg)
-
-<!-- _footer: Kilde: Oracle Academy -->
-
 ----
+
+<!-- _backgroundColor: black -->
+<!-- _color: white -->
+# CLOUD <!-- fit -->
+
+---
+
 <!-- _backgroundColor: black -->
 <!-- _color: white -->
 # AZURE <!-- fit -->
@@ -73,6 +79,14 @@ html: true
 
 <!-- _backgroundColor: black -->
 <!-- _color: white -->
+# Visual Studio Code <!-- fit -->
+## Code editing Redefined
+## Free. Built on open source. Runs everywhere
+
+---
+
+<!-- _backgroundColor: black -->
+<!-- _color: white -->
 # Jupyter Lab <!-- fit -->
 ## JupyterLab is the latest web-based interactive development environment for notebooks, code, and data
 
@@ -82,3 +96,5 @@ html: true
 <!-- _color: white -->
 # DOCKER <!-- fit -->
 ## Developers Love Docker - Businesses Trust It - Build safer, share wider, run faster
+
+---
