@@ -1,5 +1,5 @@
 # Cheat Sheet
-Her er de Markdown kommandoer jeg brugere meget
+Her er de Markdown kommandoer jeg brugere mest
 
 ## Opstart
 Denne *kode* skal placeres i topen af Markdown filen
