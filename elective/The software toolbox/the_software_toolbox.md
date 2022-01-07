@@ -51,6 +51,26 @@ After completing this elective, you will:
 
 
 # Exam
+During the course there are 3 individual mandatory assignments. The are not gradede, but they have to be approved.
+
+1. Focus on Excel
+2. Focus on Excel and Python
+3. Focus on Power BI
+
+Exam is a **group exam**, group size is between 4 and 6.
+You must create a project that includes as many as possible of the topics covered in the elective.
+
+The time for the exam is divided as follows:
+
+- Presentation 15 minutes
+- Add 15 minutes for each group member
+
+In a group of 6 students, the exam time will be:
+
+- 15 minutes
+- 6 x 10 minutes = 90
+- Total = 105 minutes (1 hour and 45 minutes)
+
 
 # Links
 - https://developer.microsoft.com/en-us/office?culture=da-dk&country=DK
