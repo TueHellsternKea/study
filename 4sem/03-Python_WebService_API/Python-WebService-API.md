@@ -16,5 +16,8 @@
 # Resources & Activities
 
 
+# Azure Translate API
+Use the Azure API translate service
+
 # MyLinks
 - https://blog.gyanendra.tech/best-api-for-your-project-7-best-api-765317e1ff21
