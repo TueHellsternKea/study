@@ -2,7 +2,7 @@
 Her er de Markdown kommandoer jeg brugere mest
 
 ## Opstart
-Denne *kode* skal placeres i topen af Markdown filen
+Denne *kode* skal placeres i toppen af Markdown filen
 
     ---
     title: Din titel
@@ -23,7 +23,7 @@ Denne kode sætter baggrunds farven på dette slide og alle efterfølgende
 
         <!-- backgroundColor: black -->
         
-Hvis det kun er på det slide hvor koden står skal du bruge, forskelden er en **_
+Hvis det kun er på det slide hvor koden står skal du bruge, forskellen er **_
 **
 
         <!-- _backgroundColor: black -->
@@ -35,7 +35,7 @@ Denne kode sætter tekst farven på dette slide og alle efterfølgende
 
         <!-- color: white -->
         
-Hvis det kun er på det slide hvor koden står skal du bruge, forskelden er en **_
+Hvis det kun er på det slide hvor koden står skal du bruge, forskellen er **_
 **
         <!-- _color: white -->
 
@@ -53,3 +53,10 @@ Brug denne kommado til at *nulstile*
 Denne footer tekst indsættes kun på dette ene slide
 
         <!-- _footer: Kun dette slide -->
+
+## Code
+Hvis du vil inkludere Python kode i din præsentation skal du bruge:
+
+        ```python
+                <code>
+        ```

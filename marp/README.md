@@ -18,3 +18,5 @@ Jeg har lavet et *Cheat Sheet* med de Markdown kommandoer jeg brugere meget.
 - https://marp.app/
 - https://github.com/marp-team/marp
 - https://github.com/marp-team/marp/discussions
+- https://marpit.marp.app/image-syntax
+- https://marpit.marp.app/directives
