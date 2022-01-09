@@ -19,6 +19,6 @@ Before this class, make sure that the following programs are installed and updat
 2. You can get help installing Docker in one of the 5 videos under Installing Docker, select your OS.
 
 # Docker demo
-The - https://github.com/TueHellsternKea/docker-demo.git
+The GitHub Repository - https://github.com/TueHellsternKea/docker-demo.git - containes different guides on Docker
 
 # Dashboard
