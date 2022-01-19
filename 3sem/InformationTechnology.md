@@ -58,6 +58,8 @@
 - [Python & MySQL](PDF/PythonMySQL.pdf)
 - [Flask](PDF/FlaskDemo.pdf)
 
+## Links
+I have collected some links that can help you in the project - [Links](./links.md)
 
 ## Skills
 The student masters skills, including choice of method and communication of solutions, related to:
