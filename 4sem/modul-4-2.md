@@ -9,6 +9,14 @@
 
 # Teaching Sessions
 
+{{<mermaid align="left">}}
+graph LR;
+    A[Hard edge] -->|Link text| B(Round edge)
+    B --> C{Decision}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
+{{< /mermaid >}}
+
 - [Python brushup, Docker and Azure](./01-Python-brushup_and_Docker_1/PythonBrushupDockerAzure.md)
     - 15-03-2021 - Tirsdag - DK
     - 16-03-2021 - Onsdag - INT
