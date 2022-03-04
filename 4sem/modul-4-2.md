@@ -9,6 +9,8 @@
 
 # Teaching Sessions
 
+![](./image/oversigt.jpg)
+
 - [Python brushup, Docker and Azure](./01-Python-brushup_and_Docker_1/README.md)
     - 15-03-2021 - Tirsdag - DK
     - 16-03-2021 - Onsdag - INT
