@@ -1,15 +1,23 @@
+# Dash demo 
+# Tue Hellstern
+# Version 2
+
+# Import
 import dash
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import dcc
+from dash import html
 import plotly.express as px
 import pandas as pd
 
+# Dash app
 app = dash.Dash()
 
+# Hent data fra GithHub - Pandas
 df = pd.read_csv(
-    "https://raw.githubusercontent.com/ThuwarakeshM/geting-started-with-plottly-dash/main/life_expectancy.csv"
+    "https://raw.githubusercontent.com/TueHellsternKea/study/main/4sem/01-Python-brushup_and_Docker_1/codefiles/life_expectancy.csv"
 )
 
+# Opret Scatter Plot - Plotly
 fig = px.scatter(
     df,
     x="GDP",
@@ -21,8 +29,9 @@ fig = px.scatter(
     size_max=60,
 )
 
+# Dash layout
 app.layout = html.Div([dcc.Graph(id="life-exp-vs-gdp", figure=fig)])
 
-
+# Run Dash server - Local - http://127.0.0.1:8050/
 if __name__ == "__main__":
     app.run_server(debug=True)
