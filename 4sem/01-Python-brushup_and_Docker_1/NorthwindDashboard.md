@@ -1,11 +1,16 @@
 # Northwind Dashboard
-This is a demo of creating a **dashboard** only using **Python**
+This is a demo of creating a **dashboard** using **Python**
+
+## Virtual Environment
+Create and activate a new virtual environment - **northwind**
+
+- python3 -m venv northwind
 
 ## Files
-You have to download thise files:
+You have to download thise files and place them, in the right folders, in the nortwind virtuel Environment 
 
-- northwind_data.xlsx
-- assets/Northwind-Logo.gif
+- **data**/northwind_data.xlsx
+- **assets**/Northwind-Logo.gif
 
 ## Modules
 You need to install the following modules, using **PIP3**

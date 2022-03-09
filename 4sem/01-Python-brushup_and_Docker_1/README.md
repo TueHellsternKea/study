@@ -20,10 +20,20 @@ Before this class, make sure that the following programs are installed and updat
 ## GitHub
 
 # Virtual Environment
+The **venv** module provides support for creating lightweight "*virtual environments*" with their own site directories, optionally isolated from system site directories.
 
-# Database MySQL
+Each virtual environment has its own Python binary (*matches the version of the binary that was used to create this environment*) and can have its own **independent set of installed Python packages** in its site directories.
+
+[Virtual Environment Guide](./Using_Virtual_Environments.md)
+
+![](./image/virtual-environment.png)
+
 
 # Dashboard
+![](./image/northwinddashboard.jpg)
+
+
+# Database MySQL
 
 # Docker
 
