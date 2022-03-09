@@ -95,3 +95,4 @@ To list installed packages
 # Links
 
 - [docs.python.org/3/library/venv.html](https://docs.python.org/3/library/venv.html)
+- [installing-using-pip-and-virtual-environments/](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
