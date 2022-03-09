@@ -1,3 +1,5 @@
+[Home](../README.md)
+
 # Northwind Dashboard
 This is a demo of creating a **dashboard** using **Python** and **Dash**
 

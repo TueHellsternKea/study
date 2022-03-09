@@ -24,8 +24,8 @@ _color: white
 
 - GitHub
 - Virtual Environment
-- MySQL
 - Dashboard - Dash - Python
+- MySQL
 
 ---
 <!--
@@ -34,6 +34,7 @@ _color: white
 -->
 
 # GitHub <!-- fit -->
+Millions of developers and companies build, ship, and maintain their software on GitHub—the largest and most advanced development platform in the world.
 
 ---
 
