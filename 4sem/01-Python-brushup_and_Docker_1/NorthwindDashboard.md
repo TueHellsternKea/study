@@ -1,5 +1,7 @@
 # Northwind Dashboard
-This is a demo of creating a **dashboard** using **Python**
+This is a demo of creating a **dashboard** using **Python** and **Dash**
+
+![](./image/northwinddashboard.jpg)
 
 ## Virtual Environment
 Create and activate a new virtual environment - **northwind**
@@ -13,7 +15,7 @@ You have to download thise files and place them, in the right folders, in the no
 - **assets**/Northwind-Logo.gif
 
 ## Modules
-You need to install the following modules, using **PIP3**
+You need to install the following modules, inside the virtual environment, using an **requirements.txt** file
 
 - dash
 - plotly
@@ -37,17 +39,17 @@ The data for this demo is located in one Excel file  - **northwind_data.xlsx**
 
 The Excel file has 4 sheets:
 
-- EmployessSale
-- CategoryeSale
-- Top5Products
-- Top5Customers
+- *EmployeesSale*
+- *CategorySale*
+- *Top5Products*
+- *Top5Customers*
 
 Each of the sheets are imported into a Pandas dataframe - using **pd.read_excel**
 
 ```python
-Excel_file = 'northwind_data.xlsx'
-EmployessSale = pd.read_excel(Excel_file, "EmployessSale")
-CategoryeSale = pd.read_excel(Excel_file, "CategoryeSale")
+Excel_file = 'data/northwind_data.xlsx'
+EmployeesSale = pd.read_excel(Excel_file, "EmployeesSale")
+CategorySale = pd.read_excel(Excel_file, "CategorySale")
 Top5Products = pd.read_excel(Excel_file, "Top5Products")
 Top5Customers = pd.read_excel(Excel_file, "Top5Customers")
 ```
@@ -57,19 +59,19 @@ For this demo we create 4 different charts, one for each dataframe.
 
 ```python
 def top5_products():
-    fig = px.bar(Top5Products, x='Products', y='Total')
+    fig = px.pie(Top5Products, values='Total', names='Products', title='Top 5 Products')
     return fig
 
 def top5_customers():
-    fig = px.bar(Top5Customers, x='Customers', y='Total')
+    fig = px.pie(Top5Customers, values='Total', names='Customers', title='Top 5 Customers')
     return fig
 
 def employesssale():
-    fig = px.bar(EmployessSale, x='Employess', y='Total')
+    fig = px.bar(EmployeesSale, x='Employees', y='Total', title='Sales by Employees')
     return fig    
 
 def categorysale():
-    fig = px.bar(CategoryeSale, x='Category', y='Total')
+    fig = px.bar(CategorySale, x='Category', y='Total', title='Category Sales')
     return fig
 ```
 
@@ -82,6 +84,9 @@ Now you have to define the Dash App and make the layout of the different charts
 ![](./image/chart_layout.jpg)
 
 ```python
+app = dash.Dash()
+
+# Flatly theme
 app = dash.Dash(external_stylesheets = [ dbc.themes.FLATLY],)
 
 body_app = dbc.Container([
@@ -90,12 +95,12 @@ body_app = dbc.Container([
         # 1 column, 1 row, covering 6 columms
         dbc.Col(
             dcc.Graph(id = 'top5products', figure = top5_products()),
-            style = {'height':'200px'},xs = 12, sm = 12, md = 6, lg = 6, xl = 6),
+            style = {'height':'400px'},xs = 12, sm = 12, md = 6, lg = 6, xl = 6),
          
         # 2 column, 1 row, coving 6 columns 
         dbc.Col(
             dcc.Graph(id = 'top5customers', figure = top5_customers()),
-            style = {'height':'200px'},xs = 12, sm = 12, md = 6, lg = 6, xl = 6),         
+            style = {'height':'400px'},xs = 12, sm = 12, md = 6, lg = 6, xl = 6),         
     ]), 
 
     dbc.Row([
@@ -110,7 +115,7 @@ body_app = dbc.Container([
             style = {'height':'400px'},xs = 12, sm = 12, md = 6, lg = 6, xl = 6),
     ]),
 
-],fluid = True)  # Using Fluid 
+],fluid = True)  # Using Fluid   
 ```
 
 ## Top bar - Logo
@@ -159,9 +164,9 @@ if __name__ == "__main__":
 You can terminate the Dash server with: **CTRL + C**
 
 # Database extension
-You have until now usede data from a Excel file (*northwind_data.xlsx*), now we change this to your local MySQL database.
+Until now you have usede data from Excel (*northwind_data.xlsx*), now we change this to your local MySQL database.
 
-You have to create the **Northwind** database. It is don using the **northwind_kea.sql** script.
+You have to create the **Northwind** database. It is done with the **northwind_kea.sql** script.
 
 The script creates the Northwind database and 11 tables with data and the relations between the different tables.
 
