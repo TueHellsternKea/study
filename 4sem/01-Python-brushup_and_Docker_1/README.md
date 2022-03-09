@@ -1,10 +1,15 @@
 [Home](modul-4-2.md)
+
 # Python brushup Docker and Azure
-    - 15-03-2021 - Tirsdag - DK - [Slide](./Slide.html)
-    - 16-03-2021 - Onsdag - INT - [Slide](./Slide.html)
+- 15-03-2021 - Tirsdag - DK
+- 16-03-2021 - Onsdag - INT
+
+# Slide
+- [html slide](./Slide.html)
+- [pdf slide](./Slide.pdf)
 
 ## Beskrivelse
-Brush up on Python, MySQL and introduction to Docker and Azure
+Brush up on different Python code, MySQL and introduction to Docker
 
 ## Resources & Activities
 Before this class, make sure that the following programs are installed and updated on your PC:
@@ -30,10 +35,17 @@ Each virtual environment has its own Python binary (*matches the version of the 
 
 
 # Dashboard
+Dash apps give a point-&-click interface to models written in Python, vastly expanding the notion of what's possible in a traditional "dashboard".
+With Dash apps, data scientists and engineers put complex Python analytics in the hands of business decision-makers and operators.
+
+[Step by Step guide](./NorthwindDashboard.md)
+
 ![](./image/northwinddashboard.jpg)
 
 
 # Database MySQL
+- [Python MySQL](Python_MySQL.md)
+- [Northwind SQL File]()
 
 # Docker
 
