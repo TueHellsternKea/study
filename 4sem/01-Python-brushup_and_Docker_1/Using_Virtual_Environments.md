@@ -90,3 +90,8 @@ To list installed packages
         - *pip3 install name*
     - requirements.txt
         - pip3 install -r requirements.txt
+
+
+# Links
+
+- [docs.python.org/3/library/venv.html](https://docs.python.org/3/library/venv.html)
