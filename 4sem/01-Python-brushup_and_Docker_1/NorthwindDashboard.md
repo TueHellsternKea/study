@@ -11,7 +11,7 @@ Create and activate a new virtual environment - **northwind**
 - python3 -m venv northwind
 
 ## Files
-You have to download thise files and place them, in the right folders, in the nortwind virtuel Environment 
+You have to download thise files and place them, in the right folders, in the **nortwind** virtuel Environment 
 
 - **data**/northwind_data.xlsx
 - **assets**/Northwind-Logo.gif
@@ -168,11 +168,68 @@ You can terminate the Dash server with: **CTRL + C**
 # Database extension
 Until now you have usede data from Excel (*northwind_data.xlsx*), now we change this to your local MySQL database.
 
-You have to create the **Northwind** database. It is done with the **northwind_kea.sql** script.
+You have to create the **Northwind** database. It is done with the **northwind_kea.sql** script - [northwind_kea.sql](./codefiles/sql/northwind_kea.sql)
 
-The script creates the Northwind database and 11 tables with data and the relations between the different tables.
+The script creates the Northwind database, 11 tables with data and the relations between the different tables.
 
 ![](./image/northwind_er.jpg)
+
+# Views
+In the Northwind database you have to create 4 view's - It can be done without the 4 view's but it is more connivent to work with the view's - [dash_views.sql](./codefiles/sql/dash_views.sql)
+
+```sql
+create view CategorySale
+as
+	select 
+		CategoryName,
+		sum(orderdetails.UnitPrice * orderdetails.Quantity) as Total
+	from categories join products
+	on categories.CategoryID = products.ProductID
+	join orderdetails
+	on products.ProductID = orderdetails.ProductID
+	group by CategoryName
+	order by total desc;
+
+# EmployeesSale
+create view EmployeesSale
+as
+	select 
+		concat(employees.FirstName, ' ', employees.LastName) as EmployeeName,
+		sum(orderdetails.UnitPrice * orderdetails.Quantity) as Total
+    from employees join orders
+    on employees.EmployeeID = orders.EmployeeID
+    join orderdetails
+    on orders.OrderID = orderdetails.OrderID
+    group by FirstName
+	order by Total desc;    
+    
+# Top5Products
+create view Top5Products
+as
+	select 
+		ProductName,
+		sum(orderdetails.UnitPrice * orderdetails.Quantity) as Total
+    from products join orderdetails
+    on products.ProductID = orderdetails.ProductID
+    group by ProductName
+    order by Total desc
+	limit 5;
+    
+# Top5Customers
+create view Top5Customers
+as
+	select
+		CompanyName,
+        sum(orderdetails.UnitPrice * orderdetails.Quantity) as Total
+	from customers join orders
+    on customers.CustomerID = orders.CustomerID
+    join orderdetails
+    on orders.OrderID = orderdetails.OrderID
+    group by CompanyName
+    order by Total desc
+    limit 5;
+
+```
 
 ## Links
 Collection of some relevant links:

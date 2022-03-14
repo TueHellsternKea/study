@@ -18,8 +18,7 @@ html: true
 
 ---
 
-![bg left:50% 170%](https://github.com/TueHellsternKea/study/raw/main/images/keyboard.jpg)
-
+![bg left:50% 100%](./image/oversigt.jpg)
 
 # Teaching Sessions
 
@@ -38,7 +37,7 @@ html: true
 
 # GitHub Pages - 4.2 website
 
-[tuehellsternkea.github.io/study](https://tuehellsternkea.github.io/study)
+[kea.officegeek.dk](https://kea.officegeek.dk)
 
 - Slides
 - Guides - text and video

@@ -40,6 +40,9 @@ Millions of developers and companies build, ship, and maintain their software on
 
 ---
 
+# GitHub
+A Programmer should also understand the basic concepts of source control like why and how and also Git fundamentals like local vs. remote commit, pushing change, pull requests, and code review.
+
 <!--
 _backgroundColor: black
 _color: white

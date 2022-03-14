@@ -1,4 +1,4 @@
-[Home](modul-4-2.md)
+[Home](../modul-4-2.md)
 
 # Python brushup Docker and Azure
 - 15-03-2021 - Tirsdag - DK
@@ -45,12 +45,12 @@ Before this class, make sure that the following programs are installed and updat
 [The Official GitHub Training Manual](https://githubtraining.github.io/training-manual/#/)
 
 ### Microsoft - Introduction to GitHub
-https://docs.microsoft.com/en-us/learn/modules/introduction-to-github/
+[https://docs.microsoft.com/en-us/learn/modules/introduction-to-github/](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github/)
 
 *1 hr 12 min*
 
 ### Microsoft - Introduction to GitHub in Visual Studio Code
-https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-studio-code/
+[https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-studio-code/](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-studio-code/)
 
 *22 min* 
 
