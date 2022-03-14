@@ -89,7 +89,7 @@ https://github.com/TueHellsternKea/github_demo
 
 https://github.com/TueHellsternKea/github_demo
 
-- You have to clone this repository
+- Clone this repository
 - Run the Python file - **snowflake.py** - on your local computer
 - Run the SQL file - **northwind.sql** - in MySQL Workbench
 
