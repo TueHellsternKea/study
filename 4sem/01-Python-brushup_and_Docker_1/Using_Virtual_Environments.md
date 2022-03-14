@@ -1,3 +1,5 @@
+[Home](./README.md)
+
 # Using Virtual Environments
 Virtual environments provide a simple solution to a lot of potential problems. In particular, they help you to:
 
@@ -71,15 +73,12 @@ To list installed packages
 ![](./image/list.jpg)
 
 ## Step by Step
-
-1. **Create directory**
-    - *mkdir*
-2. **Create a new virtual environment**
+1. **Create a new virtual environment**
     - *python3 -m venv venv-name*
-3. **Activate the virtual environment**
+2. **Activate the virtual environment**
     - macOS - *source env/bin/activate*
     - Windows - *.\Scripts\activate*
-4. **Packages**
+3. **Packages**
     - Install 
         - *pip3 install name*
     - requirements.txt
@@ -87,6 +86,5 @@ To list installed packages
 
 
 # Links
-
 - [docs.python.org/3/library/venv.html](https://docs.python.org/3/library/venv.html)
 - [installing-using-pip-and-virtual-environments/](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
