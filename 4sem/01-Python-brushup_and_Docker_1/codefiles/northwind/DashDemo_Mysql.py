@@ -10,29 +10,74 @@ import dash_bootstrap_components as dbc
 import plotly.express as px
 import pandas as pd
 
-############################## Data import #####################
-Excel_file = 'data/northwind_data.xlsx'
-EmployeesSale = pd.read_excel(Excel_file, "EmployeesSale")
-CategorySale = pd.read_excel(Excel_file, "CategorySale")
-Top5Products = pd.read_excel(Excel_file, "Top5Products")
-Top5Customers = pd.read_excel(Excel_file, "Top5Customers")
+from sqlalchemy import create_engine, exc
+import configparser
+
+############### Data import - MySQL connection #################
+def connect():
+    db_conn = None
+    try:
+        # Read config.ini file
+        config = configparser.ConfigParser()
+        config.read('config.ini')
+
+        # Connect to MySQL
+        db_connection_str = config['mysqlini']['conn_string']
+        db_conn = create_engine(db_connection_str)
+        
+        return db_conn
+
+    except exc.SQLAlchemyError as e:
+        print(e)
+
+    finally:
+        db_conn.dispose() # Close connection
+
+# EmployeesSale
+def getEmployeesSale():
+    conn = connect()
+    EmployeesSale = pd.read_sql('SELECT * FROM EmployeesSale;', conn)
+    return EmployeesSale
+
+# CategorySale
+def getCategorySale():
+    conn = connect()
+    CategorySale = pd.read_sql('SELECT * FROM CategorySale;', conn)
+    return CategorySale
+
+# Top5Products
+def getTop5Products():
+    conn = connect()
+    Top5Product = pd.read_sql('SELECT * FROM Top5Products;', conn)
+    return Top5Product
+
+# Top5Customers
+def getTop5Customers():
+    conn = connect()
+    Top5Customers = pd.read_sql('SELECT * FROM Top5Customers;', conn)
+    return Top5Customers
+
+EmployeesSale = getEmployeesSale()
+CategorySale = getCategorySale()
+Top5Products = getTop5Products()
+Top5Customers = getTop5Customers()
 ########################## End data import #####################
 
 ############################# Create charts ####################
 def top5_products():
-    fig = px.pie(Top5Products, values='Total', names='Products', title='Top 5 Products')
+    fig = px.pie(Top5Products, values='Total', names='ProductName', title='Top 5 Products')
     return fig
 
 def top5_customers():
-    fig = px.pie(Top5Customers, values='Total', names='Customers', title='Top 5 Customers')
+    fig = px.pie(Top5Customers, values='Total', names='CompanyName', title='Top 5 Customers')
     return fig
 
 def employesssale():
-    fig = px.bar(EmployeesSale, x='Employees', y='Total', title='Sales by Employees')
+    fig = px.bar(EmployeesSale, x='EmployeeName', y='Total', title='Sales by Employees')
     return fig    
 
 def categorysale():
-    fig = px.bar(CategorySale, x='Category', y='Total', title='Category Sales')
+    fig = px.bar(CategorySale, x='CategoryName', y='Total', title='Category Sales')
     return fig
 ########################### End Create charts ##################
 

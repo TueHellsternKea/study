@@ -65,12 +65,18 @@ if __name__ == '__main__':
 You can test the connection with a *simpel* select statement - **SELECT * FROM categories**
 
 ```python
-mycursor = mydb.cursor()
-mycursor.execute("SELECT * FROM categories")
-myresult = mycursor.fetchall()
+if conn.is_connected():
+    print('Connected to MySQL database')
+            
+    # SQL - SELECT * FROM categories
+    cursor = conn.cursor()
+    cursor.execute('SELECT * FROM categories')
 
-for x in myresult:
-  print(x)
+    row = cursor.fetchone()
+
+    while row is not None:
+        print(row)
+        row = cursor.fetchone()
 ```
 
 ![](./image/select.jpg)
@@ -135,11 +141,141 @@ You can test the connection parameters by running thise 2 commands in a terminal
 If you get your parameters from the config.ini file everything is fine.
 
 ### LocalMysql_2.py
-
+Create a new module **LocalMysql_2.py**  that uses the MySQLConnection object to connect to the  database.
 
 ```python
+# Import
+from mysql.connector import MySQLConnection, Error
+from python_mysql_dbconfig import read_db_config
 
+# Connect to MySQL database
+def connect():
+
+    db_config = read_db_config()
+    conn = None
+    try:
+        print('Connecting to MySQL database...')
+        conn = MySQLConnection(**db_config)
+
+        if conn.is_connected():
+            print('Connection established')
+        else:
+            print('Connection failed')
+
+    except Error as error:
+        print(error)
+
+    finally:
+        if conn is not None and conn.is_connected():
+            conn.close()
+            print('Connection closed')
+
+
+if __name__ == '__main__':
+    connect()
 ```
 
+- Import necessary objects including MySQLConnection, Error from *MySQL Connector* package and  **read_db_config** from **python_mysql_dbconfig** module
+- Read the database configuration and pass it to create a *new instance of MySQLConnection object* in the connect() function
+
+If you get thise, it is working
+
+![](./image/connection_2.jpg)
+
+# Select 
+You can test the connection with a *simpel* select statement - **SELECT * FROM categories**
+
+```python
+try:
+    print('Connecting to MySQL database...')
+    conn = MySQLConnection(**db_config) # ** defining db_config to "capture" all keywords
+
+    if conn.is_connected():
+        print('Connection established')
+            
+        # SQL - SELECT * FROM categories
+        cursor = conn.cursor()
+        cursor.execute('SELECT * FROM categories')
+
+        row = cursor.fetchone()
+
+        while row is not None:
+            print(row)
+            row = cursor.fetchone()
+
+                    else:
+            print('Connection failed')
+
+except Error as error:
+    print(error)
+
+finally:
+    if conn is not None and conn.is_connected():
+        conn.close()
+        print('Connection closed')
+```
+
+- Instantiate the MySQLCursor object from the MySQLConnection object
+- Execute a query that selects all rows from the books table
+- After that, fetch the next row in the result set by calling the **fetchone()**
+- In the  while loop block, print the contents of the row and move to the next row until all rows are fetched
+- Finally, close both cursor and connection objects by invoking the **close()** method of the corresponding object
+
+There is 2 other *fetch* metodes:
+
+- fetchall()
+- fetchmany()
+
+Use **fetchall()** if you have a *small* table and **fetchmany()** if you have a table with *many* rows
+
+# Stored Procedures
+A stored procedure is a segment of SQL statements stored inside the MySQL Server. Once you save the stored procedure, you can invoke it by using the CALL statement:
+
+    CALL StoredProcedureName
+
+The first time you invoke a stored procedure, MySQL looks up for the name in the database catalog, compiles the stored procedure’s code, place it in a memory area known as a cache, and execute the stored procedure.
+
+If you invoke the same stored procedure in the same session again, MySQL just executes the stored procedure from the cache without having to recompile it.
+
+A stored procedure can have **parameters** so you can pass values to it and get the result back. For example, you can have a stored procedure that returns customers by *country* and *city*. In this case, the *country* and *city* are parameters of the stored procedure.
+
+A stored procedure may contain control flow statements such as **IF**, **CASE**, and **LOOP** that allow you to implement the code in the procedural way.
+
+A stored procedure can call other stored procedures or stored functions, which allows you to modularize your code.
+
+### Stored procedures advantages
+- Reduce network traffic
+- Centralize business logic in the database
+- Make database more secure
+
+### Stored procedures disadvantages
+- Resource usages
+- Troubleshooting
+- Maintenances
+
+## Create Stored procedure
 
 
+```sql
+DELIMITER $$
+
+CREATE PROCEDURE EmployeesSaleByMonth(
+	month_nr int
+)
+BEGIN
+	select 
+		employees.LastName,
+		orders.OrderID,
+		month(orders.OrderDate) as 'monthnr',
+		sum(orderdetails.Quantity * orderdetails.UnitPrice) as Total
+	from employees join orders
+	on employees.EmployeeID = orders.EmployeeID
+	join orderdetails
+	on orders.OrderID = orderdetails.OrderID
+	group by employees.LastName, monthname(orders.OrderDate)
+	having monthnr = month_nr
+    order by Total desc;
+END$$
+
+DELIMITER ;
+```

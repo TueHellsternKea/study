@@ -7,13 +7,7 @@ Virtual environments provide a simple solution to a lot of potential problems. I
 - Keep your global site-packages/ directory tidy by removing the need to install packages system-wide which you might only need for one project.
 
 ## Install
-In Python 3 are the Virtual Environment pre installed from the standard library - [venv](https://docs.python.org/3/library/venv.html).
-
-## Your app directory
-Start by making a new directory to work with:
-
-    - mkdir your-python-virtual-environments
-    - cd your-python-virtual-environments
+In Python 3 the Virtual Environment are pre installed from the standard library - [venv](https://docs.python.org/3/library/venv.html).
 
 ## Create a new virtual environment
 Create a new virtual environment, **my_env**, inside the directory you just created.

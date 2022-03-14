@@ -20,19 +20,19 @@ Top5Customers = pd.read_excel(Excel_file, "Top5Customers")
 
 ############################# Create charts ####################
 def top5_products():
-    fig = px.pie(Top5Products, values='Total', names='Products', title='Top 5 Products')
+    fig = px.pie(Top5Products, values='Total', names='ProductName', title='Top 5 Products')
     return fig
 
 def top5_customers():
-    fig = px.pie(Top5Customers, values='Total', names='Customers', title='Top 5 Customers')
+    fig = px.pie(Top5Customers, values='Total', names='CompanyName', title='Top 5 Customers')
     return fig
 
 def employesssale():
-    fig = px.bar(EmployeesSale, x='Employees', y='Total', title='Sales by Employees')
+    fig = px.bar(EmployeesSale, x='EmployeesName', y='Total', title='Sales by Employees')
     return fig    
 
 def categorysale():
-    fig = px.bar(CategorySale, x='Category', y='Total', title='Category Sales')
+    fig = px.bar(CategorySale, x='CategoryName', y='Total', title='Category Sales')
     return fig
 ########################### End Create charts ##################
 

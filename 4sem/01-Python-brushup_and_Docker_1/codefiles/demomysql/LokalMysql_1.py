@@ -12,6 +12,16 @@ def connect():
                                        database='northwind')
         if conn.is_connected():
             print('Connected to MySQL database')
+            
+            # SQL - SELECT * FROM categories
+            cursor = conn.cursor()
+            cursor.execute('SELECT * FROM categories')
+
+            row = cursor.fetchone()
+
+            while row is not None:
+                print(row)
+                row = cursor.fetchone()
 
     except Error as e:
         print(e)

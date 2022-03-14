@@ -9,10 +9,21 @@ def connect():
     conn = None
     try:
         print('Connecting to MySQL database...')
-        conn = MySQLConnection(**db_config)
+        conn = MySQLConnection(**db_config) # ** defining db_config to "capture" all keywords
 
         if conn.is_connected():
             print('Connection established')
+            
+            # SQL - SELECT * FROM categories
+            cursor = conn.cursor()
+            cursor.execute('SELECT * FROM categories')
+
+            row = cursor.fetchone()
+
+            while row is not None:
+                print(row)
+                row = cursor.fetchone()
+
         else:
             print('Connection failed')
 
