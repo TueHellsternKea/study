@@ -36,6 +36,8 @@ _color: white
 # GitHub <!-- fit -->
 Millions of developers and companies build, ship, and maintain their software on GitHub—the largest and most advanced development platform in the world.
 
+*70 to 80% of programmer uses Git for version control and Github repository, both public and private, for storing their source codes*
+
 ---
 
 <!--

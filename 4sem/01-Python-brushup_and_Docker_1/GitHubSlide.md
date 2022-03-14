@@ -156,7 +156,7 @@ https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-stu
 **Interested in learning Git?**
 Well you've come to the right place! "Learn Git Branching" is the most visual and interactive way to learn Git on the web; you'll be challenged with exciting levels, given step-by-step demonstrations of powerful features, and maybe even have a bit of fun along the way.
 
-https://learngitbranching.js.org
+[https://learngitbranching.js.org](https://learngitbranching.js.org)
 
 ---
 
@@ -164,4 +164,4 @@ https://learngitbranching.js.org
 # Pro Git
 Pro Git by Scott Chacon and Ben Straub is available to read online for free.
 
-https://git-scm.com/book/en/v2
+[https://git-scm.com/book/en/v2](https://git-scm.com/book/en/v2)
