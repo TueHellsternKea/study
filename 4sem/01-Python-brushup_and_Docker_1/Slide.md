@@ -24,8 +24,8 @@ _color: white
 
 - GitHub
 - Virtual Environment
-- Dashboard - Dash - Python
 - MySQL
+- Dashboard - Dash - Python
 
 ---
 <!--
@@ -134,9 +134,5 @@ _color: white
 
 - MySQL installed as a local server
 - MySQL Workbench installed
-
----
-
-# Opgave
 
 
