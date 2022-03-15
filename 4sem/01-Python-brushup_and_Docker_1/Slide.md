@@ -135,4 +135,22 @@ _color: white
 - MySQL installed as a local server
 - MySQL Workbench installed
 
+---
 
+## Views
+A view is a **virtual table** based on the resultset of an SQL statement.
+
+A view contains rows and columns, just like a real table. The fields in a view are fields from one or more real tables in the database.
+
+You can add SQL statements and functions to a view and present the data as if the data were coming from one single table.
+
+A view is created with the **CREATE VIEW** statement. 
+
+---
+
+##  Stored Procedure
+A stored procedure is a **prepared SQL code** that you can save, so the code can be reused over and over again.
+
+You can **pass parameters** to a stored procedure, so that the stored procedure can act based on the parameter value(s) that is passed.
+
+A stored procedure is createde with the **CREATE PROCEDURE** statement.
