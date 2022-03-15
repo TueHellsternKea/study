@@ -65,6 +65,10 @@ When you have created the **requirements.txt** file, you can tell pip to install
 
     pip3 install -r requirements.txt
 
+    or
+
+    python -m pip3 install -r requirements.tx
+
 ## Listing Packages
 To list installed packages
 
