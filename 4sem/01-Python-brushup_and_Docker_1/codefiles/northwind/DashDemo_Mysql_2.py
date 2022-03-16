@@ -8,11 +8,8 @@ from dash import dcc, html, Input, Output
 import dash_bootstrap_components as dbc
 import plotly.express as px
 import pandas as pd
-
 from sqlalchemy import create_engine, exc
 import configparser
-
-
 
 ############### Data import - MySQL connection #################
 def connect():

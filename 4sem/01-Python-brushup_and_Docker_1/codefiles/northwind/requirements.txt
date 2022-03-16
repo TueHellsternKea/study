@@ -3,3 +3,5 @@ plotly
 pandas
 openpyxl
 dash_bootstrap_components
+sqlalchemy
+configparser

@@ -42,4 +42,13 @@ as
 # Top5Customers
 create view Top5Customers
 as
-	select 
+    SELECT 
+        `customers`.`CompanyName` AS `CompanyName`,
+        SUM((`orderdetails`.`UnitPrice` * `orderdetails`.`Quantity`)) AS `Total`
+    FROM
+        ((`customers`
+        JOIN `orders` ON ((`customers`.`CustomerID` = `orders`.`CustomerID`)))
+        JOIN `orderdetails` ON ((`orders`.`OrderID` = `orderdetails`.`OrderID`)))
+    GROUP BY `customers`.`CompanyName`
+    ORDER BY `Total` DESC
+    LIMIT 5
