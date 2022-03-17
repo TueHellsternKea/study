@@ -18,48 +18,10 @@ html: true
 - Introduction
 - It Infrastructures
 - Cloud
-- VirtualBox Assigment
+- Azure
 
 <!-- _footer: Tue Hellstern © 2022 -->
 
----
-
-<!-- _backgroundColor: black -->
-<!-- _color: white -->
-# It Infrastructures <!-- fit -->
-- Hardware
-- Software
-- Services
-
----
-
-![bg right:30% 340%](https://github.com/officegeek/image/raw/main/It_Infrastructures_2.jpg)
-- **Computing services**
-Provide platforms that ensure a coherent digital environment
-- **Telecommunications services**
-Determine appropriate data, voice, and video that connect employees, customers, and suppliers
-- **Data management services**
-Not just store, but manage massive amounts of corporate data and make it available for users to analyze
-- **Application software services**
-Enterprise resource planning, customer relationship management, supply chain management, and knowledge management systems
-
----
-
-![bg right:22% 510%](https://github.com/officegeek/image/raw/main/It_Infrastructures_2.jpg)
-- **Physical facilities management services**
-Physical installation of computing, telecommunications, and data management services
-- **IT management services**
-Plan and develop infrastructures, coordinate IT services among business units, account for IT expenditure, and provide project management services
-- **IT standards services**
-Develop policies that ensure interoperability of all IT infrastructure components
-- **IT education services**
-Train employees to properly use IT investments and educate managers about planning for and managing the investments
-- **IT research and development services**
-Research future IT projects and investments
-
----
-
-![bg 80%](https://github.com/officegeek/image/raw/main/CO_05_001.jpg)
 
 ---
 
@@ -117,7 +79,7 @@ Research future IT projects and investments
 - Software for the Web: *Java, HTML, and HTML5*
 - Web Services and Service-Oriented Architecture - *SOA*
 - Outsourcing and Cloud Services
-- Data Science
+- Data Science - AI and ML
 - VR and AR
 
 ---
@@ -205,7 +167,7 @@ Read it, and discuss, in groups - **The impact you think it will have on**:
 
 ![bg right:10% 125%](https://github.com/officegeek/image/raw/main/OracleLogo.png)
 # Oracle’s Top 10 Cloud Predictions
-## Module 11
+## Module 4.2
 
 - Prediction 1 & 5 - *Automated tasks*
 - Prediction 2 & 9 - **Security - Cybersecurity**
@@ -434,28 +396,7 @@ A hypervisor is a program for creating and running virtual machines.
 - [IBM Cloud](https://www.ibm.com/cloud)
 - [aws.amazon.com](https://aws.amazon.com/)
 
----
 
-<!-- _backgroundColor: black -->
-<!-- _color: white -->
-
-![bg right:30%](https://github.com/officegeek/image/raw/main/white-question-mark.png)
-# Azure Assignment  <!-- fit -->
-
----
-
-![bg right:20% 110%](https://github.com/officegeek/image/raw/main/Virtualbox_logo.png)
-# You will be using Azure for
-
-- Intro to Virtualization
-- Intro to Linux
-- PyCharm
-- Visual Studio Code
-- Jupyter Lab
-- Docker
-- AI and Machine Learning
-
----
 # LinkedIN Learning - Cloud
 
 [Learning Cloud Computing: Core Concepts](https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Flearning-cloud-computing-core-concepts-2%3Ftrk%3Dshare_ent_url%26shareId%3DgpnsdTh5TMKAVcmhOkyGag%253D%253D&account=36836804)
