@@ -7,6 +7,14 @@
 - [HTML](./Virtualization_Slides.html)
 - [PDF](./Virtualization_Slides.pdf)
 
+# Azure
+Have a look at this Microsoft Azure introduction video
+
+<iframe width="560" height="315" src="https://docs.microsoft.com/video/media/fb5e46dc-a80f-4dbb-95b0-1e52b5325999/get-started-with-azure_high.mp4" 
+frameborder="0" allow="accelerometer; autoplay=false; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Microsoft learn til Azure](https://docs.microsoft.com/da-dk/learn/azure/?WT.mc_id=home_homepage-azureportal-learn)
+
 # Virtual Machine - Azure
 We are going to set up a Azure cloud server running Ubuntu.
 
