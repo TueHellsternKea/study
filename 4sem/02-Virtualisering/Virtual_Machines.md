@@ -68,3 +68,8 @@ On mac you don't need a program when you are using shh.
     - ssh hellstern@12.13.45.255
 
 Username is the Azure username, IP adresse and the password.
+
+# Links
+- [linux-commands-handbook.pdf](./linux-commands-handbook.pdf)
+- [https://portal.azure.com/](https://portal.azure.com/)
+- [https://ubuntu.com/server/docs](https://ubuntu.com/server/docs)
