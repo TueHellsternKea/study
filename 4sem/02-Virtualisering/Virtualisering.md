@@ -38,3 +38,5 @@ You have created a Dash app on your local computer, but what if we need to conne
 You can push a local Dash app to GitHub and then deploy it to Azure. When it is on Azure it is accessible 24 - 7.
 
 [Step by Step guide](./Dash_Github_Azure.md)
+
+The files for this demo is located on the GitHub repository - [TueHellsternKea/kea_dash_fakedata](https://github.com/TueHellsternKea/kea_dash_fakedata)
