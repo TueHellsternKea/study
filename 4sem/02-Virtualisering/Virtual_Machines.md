@@ -1,11 +1,17 @@
-# Virtual Machines
+# Virtual Machine
+Azure Virtual Machines are image service instances that provide on-demand and scalable computing resources with usage-based pricing.
 
+More broadly, a virtual machine behaves like a server: It's a computer within a computer that provides the user the same experience they would have on the host operating system itself. In general, virtual machines are sandboxed from the rest of the system, meaning that the software inside a virtual machine can't escape or tamper with the underlying server itself.
 
+Each virtual machine provides its own virtual hardware including CPUs, memory, hard drives, network interfaces, and other devices.
+
+## Login Azure
 Login to: [https://portal.azure.com/](https://portal.azure.com/)
 
-- Virtual Machines
-- Create
-    - Virtual Machine
+# Create Virtual Machine
+You have to create a Virtual Machine running [Ubuntu](https://ubuntu.com/) Server.
+
+Click on **Virtual Machines** and then **Create** and the sub menu **Virtual Machine**
 
 ![](./image/vm_1.jpg)
 
@@ -26,36 +32,39 @@ Login to: [https://portal.azure.com/](https://portal.azure.com/)
 
 The Virtual Machine is now created and running
 
-## Connect
+*Check the servers public IP adresse your are going to use it. It is something like 14.54.45.255* 
 
-### Networking
+## Connect - SSH
+The **Secure Shell Protocol** (SSH) is a cryptographic network protocol for operating network services securely over an unsecured network.
 
+Its most notable applications are remote login and command-line execution.
 
-Now you have to connect from your local macine to the Virtal Machine
+SSH applications are based on a client–server architecture, connecting an SSH client instance with an SSH server.
 
-- Select **Connect** in the left menu
+## Windows - PuTTY
+On windows you can use a small program called PuTTY.
 
-![](./image/vm_4.jpg)
+Download and install it - [www.putty.org](https://www.putty.org/)
 
-- Select **RDP**
-- Download RDP File
+Now you can Open PuTTY and use it to connect to your Virtuel Machine.
 
-![](./image/vm_5.jpg)
+![](./image/putty_1.jpg)
 
-### Windows
-- Doubelt click on the RPD file
+Use the IP adresse of **your** Virtual Machine.
 
-![](./image/vm_6.jpg)
+PuTTY will open a terminal widow on your Virtual Machine.
 
-- Click: Opret forbindelse
+Use the Azure username and password to login:
 
-![](./image/vm_7.jpg)
+![](./image/putty_2.jpg)
 
-Login with the:
+## macOS
+On mac you don't need a program when you are using shh.
 
-- usernavne
-- password
+- Open a terminal
+- Type the ssh command
+    - ssh username@server_ip
+    - *like*
+    - ssh hellstern@12.13.45.255
 
-# Links
-- [Troubleshoot Remote Desktop connections to an Azure virtual machine](https://docs.microsoft.com/en-us/troubleshoot/azure/virtual-machines/troubleshoot-rdp-connection)
-
+Username is the Azure username, IP adresse and the password.
