@@ -9,11 +9,9 @@
 - SOA
 - API
 
-**Hands on:**
-- Docker
-- API programming
-
-# Resources & Activities
+# Slides
+- [HTML](./Webservices_API_Slide.html)
+- [PDF](./Webservices_API_Slide.pdf)
 
 
 # Azure Translate API
