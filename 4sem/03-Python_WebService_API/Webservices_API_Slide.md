@@ -10,12 +10,6 @@ size: 4K
 markdown.marp.enableHtml
 ---
 
-# New
-
-- https://newscatcherapi.com/
-
----
-
 ![bg right:40% 181%](https://github.com/officegeek/image/raw/main/agenda.jpg)
 # Web Services  18-03-2021
 ### Agenda
@@ -29,7 +23,7 @@ markdown.marp.enableHtml
 - Spotify API - *Code*
 - ToDo FastAPI App - *Demo*
 
-<!-- _footer: Tue Hellstern © 2021-->
+<!-- _footer: Tue Hellstern © 2022-->
 
 ---
 
@@ -189,11 +183,6 @@ For many, web services are synonymous with **SOA** (*Services Oriented Architect
 
 # Find **3** uses of web services
 
-### In groups - **Enter it in the chat**
-"*Maybe*" with a link!?
-
-15 minutes
-
 ---
 
 # Web Service example - Dollar Rent Car
@@ -351,7 +340,6 @@ https://youtu.be/bPNfu0IZhoE
 
 ![bg 100%](https://github.com/officegeek/image/raw/main/singel_soa_micro.png)
 
-<!-- _footer: Microservices - 10-05-2021 -->
 
 ---
 
@@ -396,8 +384,6 @@ https://youtu.be/bPNfu0IZhoE
 
 ![bg right:25% 180%](https://github.com/officegeek/image/raw/main/white-question-mark.png)
 # What is an API? <!-- fit -->
-
-## In groups 
 
 ### Find the best, in your opinion, **description of an API**
 ### Come up with some **examples of API's**
@@ -485,33 +471,10 @@ Yes, there's **overlap between the two**:
 - **API's are protocol agnostic**. API's can use any protocols or design styles - **Web services** use SOAP, REST, UDDI, XML-RPC
 
 ---
-
 <!-- _backgroundColor: black -->
 <!-- _color: white -->
-# API Demo code
-
----
-
-![bg right:50% 80%](https://github.com/officegeek/image/raw/main/Jupyter_logo.png)
-# JupyterLab
-## Installation - Ubuntu
-
-- [HTML](./JupyterLab.html)
-- [PDF](https://github.com/officegeek/image/raw/main/pdf/JupyterLab.pdf)
-
----
-
-![bg right:50% 90%](https://github.com/officegeek/image/raw/main/VisualStudioCode.jpg)
-# Visual Studio Code
-Install Visual Studio Code on Ubuntu
-
-- [HTML](./VisualStudioCode.html)
-- [PDF](./VisualStudioCode.pdf)
-
----
-
-# API DEMO
-![bg 40%](https://github.com/officegeek/image/raw/main/api_demo.jpg)
+# API DEMO <!-- fit -->
+![bg right 40% 148%](https://github.com/officegeek/image/raw/main/api_demo.jpg)
 
 ---
 
@@ -536,14 +499,11 @@ Spotify provides software and app developers access to some of their data about 
 
 ---
 
-# API - FastAPI - ToDo Assignment
+# New
 
-![bg right:60% 70%](https://github.com/officegeek/image/raw/main/todo_1.png)
+- https://newscatcherapi.com/
 
-- [FastApi_ToDo.pdf](https://github.com/officegeek/image/raw/main/pdf/FastApi_ToDo.pdf)
-- [main.py](https://github.com/officegeek/image/raw/main/code/main.py)
-- [todolist.html](https://github.com/officegeek/image/raw/main/code/todolist.html)
-- [database.json](https://github.com/officegeek/image/raw/main/code/database.json)
+---
 
 ---
 
