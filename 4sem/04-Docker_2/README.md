@@ -4,13 +4,25 @@
     - 25-03-2022 - Fredag - INT
 
 ## What is Docker
-Docker is an open platform for developing, shipping, and running applications
+Docker is an open platform for developing, shipping, and running applications.
+
+Docker is free software developed by Docker Inc. It was presented to the general public on March 13, 2013, and has become since that day a must in the world of IT development.
 
 Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications.
 
 By taking advantage of Docker’s methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production.
 
 [www.docker.com](https://www.docker.com/)
+
+## Is Docker a virtual machine?
+It is one of the most asked questions about Docker. The answer is: **actually, not quite**
+
+It may *look* like a virtual machine at first, but the functionality is not the same.
+
+Unlike Docker, a **virtual machine will include a complete operating system**. It will work independently and act like a computer.
+**Docker will only share the resources** of the host machine to run its environments.
+
+![](https://www.docker.com/wp-content/uploads/Blog.-Are-containers-..VM-Image-1-1024x435.png)
 
 # Docker architecture
 Docker uses a **client-server architecture**. 
