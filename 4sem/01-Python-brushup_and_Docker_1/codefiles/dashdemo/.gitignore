@@ -1,0 +1,6 @@
+# Virtuel
+venv/
+news_env/
+
+# config - API key
+config.ini 

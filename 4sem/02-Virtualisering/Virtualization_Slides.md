@@ -7,59 +7,21 @@ marp: true
 backgroundColor: #fff
 size: 4K
 @auto-scaling true
-footer: 'Tue Hellstern - 2021'
+footer: 'Tue Hellstern - 2022'
 html: true
 ---
 
 ![bg right:40% 181%](https://github.com/officegeek/image/raw/main/agenda.jpg)
-# Virtualization  18-03-2021
+# Virtualization  17/18-03-2021
 ### Agenda
 
 - Introduction
 - It Infrastructures
 - Cloud
-- VirtualBox Assigment
+- Azure
 
-<!-- _footer: Tue Hellstern © 2021 -->
+<!-- _footer: Tue Hellstern © 2022 -->
 
----
-
-<!-- _backgroundColor: black -->
-<!-- _color: white -->
-# It Infrastructures <!-- fit -->
-- Hardware
-- Software
-- Services
-
----
-
-![bg right:30% 340%](https://github.com/officegeek/image/raw/main/It_Infrastructures_2.jpg)
-- **Computing services**
-Provide platforms that ensure a coherent digital environment
-- **Telecommunications services**
-Determine appropriate data, voice, and video that connect employees, customers, and suppliers
-- **Data management services**
-Not just store, but manage massive amounts of corporate data and make it available for users to analyze
-- **Application software services**
-Enterprise resource planning, customer relationship management, supply chain management, and knowledge management systems
-
----
-
-![bg right:22% 510%](https://github.com/officegeek/image/raw/main/It_Infrastructures_2.jpg)
-- **Physical facilities management services**
-Physical installation of computing, telecommunications, and data management services
-- **IT management services**
-Plan and develop infrastructures, coordinate IT services among business units, account for IT expenditure, and provide project management services
-- **IT standards services**
-Develop policies that ensure interoperability of all IT infrastructure components
-- **IT education services**
-Train employees to properly use IT investments and educate managers about planning for and managing the investments
-- **IT research and development services**
-Research future IT projects and investments
-
----
-
-![bg 80%](https://github.com/officegeek/image/raw/main/CO_05_001.jpg)
 
 ---
 
@@ -117,7 +79,7 @@ Research future IT projects and investments
 - Software for the Web: *Java, HTML, and HTML5*
 - Web Services and Service-Oriented Architecture - *SOA*
 - Outsourcing and Cloud Services
-- Data Science
+- Data Science - AI and ML
 - VR and AR
 
 ---
@@ -205,7 +167,7 @@ Read it, and discuss, in groups - **The impact you think it will have on**:
 
 ![bg right:10% 125%](https://github.com/officegeek/image/raw/main/OracleLogo.png)
 # Oracle’s Top 10 Cloud Predictions
-## Module 11
+## Module 4.2
 
 - Prediction 1 & 5 - *Automated tasks*
 - Prediction 2 & 9 - **Security - Cybersecurity**
@@ -381,15 +343,6 @@ https://www.youtube.com/embed/4IDD8BP2EmU
 
 ---
 
-![bg right:55%](https://github.com/officegeek/image/raw/main/cloud.jpg)
-# Virtualization <!-- fit -->
-
-Tue Hellstern
-Module 11
-16-03-2021
-
----
-
 # Virtualization basics
 
 ![bg left:60% 100%](https://github.com/officegeek/image/raw/main/wm_2.png)
@@ -438,94 +391,12 @@ A hypervisor is a program for creating and running virtual machines.
 
 # Links
 
+- [azure.microsoft.com](https://azure.microsoft.com/en-us/)
 - [IBM Learn Cloud computing](https://www.ibm.com/cloud/learn/cloud-computing-gbl)
 - [IBM Cloud](https://www.ibm.com/cloud)
 - [aws.amazon.com](https://aws.amazon.com/)
-- [azure.microsoft.com](https://azure.microsoft.com/en-us/)
 
----
 
-<!-- _backgroundColor: black -->
-<!-- _color: white -->
-
-![bg right:30%](https://github.com/officegeek/image/raw/main/white-question-mark.png)
-# VirtualBox Assignment  <!-- fit -->
-
----
-
-![bg right:20% 110%](https://github.com/officegeek/image/raw/main/Virtualbox_logo.png)
-# Oracle VM VirtualBox
-Oracle VM VirtualBox (formerly Sun VirtualBox, Sun xVM VirtualBox and Innotek VirtualBox) is a free and open-source hosted hypervisor for x86 virtualization, developed by Oracle Corporation. Created by Innotek, it was acquired by Sun Microsystems in 2008, which was in turn acquired by Oracle in 2010.
-
-**It is freely available as Open Source Software** under the terms of the GNU General Public License (GPL) version 2.
-
-VirtualBox can load **multiple guest OSes** under a single host operating-system (host OS).
- 
-Each guest can be started, paused and stopped independently within its own virtual machine (VM).
-
----
-
-![bg right:20% 110%](https://github.com/officegeek/image/raw/main/Virtualbox_logo.png)
-# You will be using VirtualBox for
-
-- Intro to Virtualization
-- Intro to Linux
-- PyCharm
-- Visual Studio Code
-- Jupyter Lab
-- Docker
-- AI and Machine Learning
-
----
-
-![bg right:20% 110%](https://github.com/officegeek/image/raw/main/Virtualbox_logo.png)
-# Assignment - Part one
-1. Install VirtualBox on you computer
-    - *There are versions for Windows, Linux and OSX*
-2. Install Ubuntu desktop in your VirtualBox
-3. Start the Ubuntu VirtualBox and take a look around 
-3. Complete the Linux online course - [The Linux command line for beginners](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
-
----
-
-![bg right:40% 100%](https://github.com/officegeek/image/raw/main/pycharm_1.png)
-# Assignment - Part two
-4. Install PyCharm using graphical user interface
-    - **Find Software**
-    - Search for PyCharm
-    - Install Pro version - *It has to be Pro version*
-    - Run PyCharm and activate
-5. Fill in the Status document at - http://bit.ly/module_11_2021_status
-
----
-
-# Troubleshooting
-In case you receive the following error message during the PyCharm loading:
-
->ModuleNotFoundError: No module named 'distutils.core'
-
-you may fix this issue by installation of the **python3-distutils** package using the following command:
-
->sudo apt-get install python3-distutils
-
----
-
-![bg right:20% 110%](https://github.com/officegeek/image/raw/main/Virtualbox_logo.png)
-# Links
-- www.virtualbox.org
-- www.virtualbox.org/manual
-- www.ubuntu.com/tutorials/install-ubuntu-desktop#1-overview
-- www.ubuntu.com
-- www.oracle.com/us/technologies/virtualization/oracle-vm-virtualbox-overview-2981353.pdf
-
----
 # LinkedIN Learning - Cloud
 
 [Learning Cloud Computing: Core Concepts](https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Flearning-cloud-computing-core-concepts-2%3Ftrk%3Dshare_ent_url%26shareId%3DgpnsdTh5TMKAVcmhOkyGag%253D%253D&account=36836804)
-
-# LinkedIN Learning - VirtualBox
-VirtualBox introduction and installing course.
-
-[Learn VirtualBox](https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Flearning-virtualbox-2%3Ftrk%3Dshare_ent_url%26shareId%3DYte4jVLjR%252BmRDDiR%252FUsgnw%253D%253D&account=36836804)
-
-<!-- _footer: https://www.linkedin.com/learning/me?u=36836804-->

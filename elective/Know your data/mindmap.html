@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.2.0/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.7.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.2.7"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.2.0/dist/index.umd.min.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, data) => {
+        const {
+          Markmap
+        } = getMarkmap();
+        window.mm = Markmap.create('svg#mindmap', getOptions == null ? void 0 : getOptions(), data);
+      })(() => window.markmap,null,{"t":"root","d":0,"v":"","c":[{"t":"heading","d":1,"p":{"lines":[0,1]},"v":"Know Your Data","c":[{"t":"heading","d":2,"p":{"lines":[4,5]},"v":"ETL","c":[{"t":"heading","d":3,"p":{"lines":[6,7]},"v":"Extract","c":[{"t":"heading","d":4,"p":{"lines":[7,8]},"v":"Databaser","c":[{"t":"heading","d":5,"p":{"lines":[8,9]},"v":"MySQL"},{"t":"heading","d":5,"p":{"lines":[9,10]},"v":"Microsoft SQL Server"}]},{"t":"heading","d":4,"p":{"lines":[11,12]},"v":"API"},{"t":"heading","d":4,"p":{"lines":[13,14]},"v":"File formats","c":[{"t":"heading","d":5,"p":{"lines":[14,15]},"v":"Excel"},{"t":"heading","d":5,"p":{"lines":[15,16]},"v":"CSV"},{"t":"heading","d":5,"p":{"lines":[16,17]},"v":"JSON"}]},{"t":"heading","d":4,"p":{"lines":[18,19]},"v":"Tools","c":[{"t":"heading","d":5,"p":{"lines":[19,20]},"v":"Python"},{"t":"heading","d":5,"p":{"lines":[20,21]},"v":"Excel / Power BI"}]}]},{"t":"heading","d":3,"p":{"lines":[22,23]},"v":"Transform","c":[{"t":"heading","d":4,"p":{"lines":[24,25]},"v":"Tools","c":[{"t":"heading","d":5,"p":{"lines":[25,26]},"v":"Python"},{"t":"heading","d":5,"p":{"lines":[26,27]},"v":"Excel / Power BI"}]}]},{"t":"heading","d":3,"p":{"lines":[28,29]},"v":"Load","c":[{"t":"heading","d":4,"p":{"lines":[30,31]},"v":"Data Warehouse","c":[{"t":"heading","d":5,"p":{"lines":[32,33]},"v":"OLAP"},{"t":"heading","d":5,"p":{"lines":[33,34]},"v":"Microsoft SQL SERVER"}]},{"t":"heading","d":4,"p":{"lines":[35,36]},"v":"Tools","c":[{"t":"heading","d":5,"p":{"lines":[36,37]},"v":"Python"},{"t":"heading","d":5,"p":{"lines":[37,38]},"v":"Excel / Power BI"}]}]},{"t":"heading","d":3,"p":{"lines":[39,40]},"v":"Automate","c":[{"t":"heading","d":4,"p":{"lines":[40,41]},"v":"Python"},{"t":"heading","d":4,"p":{"lines":[41,42]},"v":"Excel / Excel VBA / Office Scripts"},{"t":"heading","d":4,"p":{"lines":[42,43]},"v":"Power Automate"}]}]},{"t":"heading","d":2,"p":{"lines":[44,45]},"v":"Economic","c":[{"t":"heading","d":3,"p":{"lines":[46,47]},"v":"What to show in a Dashboard?"},{"t":"heading","d":3,"p":{"lines":[47,48]},"v":"KPI"}]},{"t":"heading","d":2,"p":{"lines":[49,50]},"v":"AI and Machine Learning (ML) models","c":[{"t":"heading","d":3,"p":{"lines":[51,52]},"v":"Data what?"},{"t":"heading","d":3,"p":{"lines":[52,53]},"v":"Predictions"}]},{"t":"heading","d":2,"p":{"lines":[54,55]},"v":"Presentation (Dashboard)","c":[{"t":"heading","d":3,"p":{"lines":[56,57]},"v":"Azure Data Explorer"},{"t":"heading","d":3,"p":{"lines":[57,58]},"v":"Power BI","c":[{"t":"heading","d":4,"p":{"lines":[58,59]},"v":"Power Query"},{"t":"heading","d":4,"p":{"lines":[59,60]},"v":"DAX"},{"t":"heading","d":4,"p":{"lines":[60,61]},"v":"Python"}]},{"t":"heading","d":3,"p":{"lines":[62,63]},"v":"Python Dash"},{"t":"heading","d":3,"p":{"lines":[64,65]},"v":"Python Flask"},{"t":"heading","d":3,"p":{"lines":[66,67]},"v":"Jupyter Lab","c":[{"t":"heading","d":4,"p":{"lines":[67,68]},"v":"MITO"}]}]}]},{"t":"heading","d":1,"p":{"lines":[71,72]},"v":"Examen"},{"t":"heading","d":1,"p":{"lines":[73,74]},"v":"Link"}],"p":{}})</script>
+</body>
+</html>
