@@ -14,13 +14,13 @@
 - [Python brushup, Docker and Azure](./01-Python-brushup_and_Docker_1/README.md)
     - 15-03-2022 - Tirsdag - DK
     - 16-03-2022 - Onsdag - INT
-- [Virtualisering (Azure)](./02-Virtualisering/Virtualisering.md)
+- [Virtualisering (Azure)](./02-Virtualisering/README.md)
     - 17-03-2022 - Torsdag- INT
     - 18-03-2022 - Fredag - DK
-- [Python, Web Service API](./03-Python_WebService_API/Python-WebService-API.md)
+- [Python, Web Service API](./03-Python_WebService_API/README.md)
     - 22-03-2022 - Tirsdag - DK
     - 23-03-2022 - Onsdag - INT
-- [Docker 2](./04-Docker_2/Docker-2.md)
+- [Docker 2](./04-Docker_2/README.md)
     - 24-03-2022 - Torsdag - DK
     - 25-03-2022 - Fredag - INT
 - [Distribuerede systemer](./05-Distribuerede_systemer/DistribueredeSystemer.md)
