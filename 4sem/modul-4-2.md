@@ -20,7 +20,7 @@
 - [Python, Web Service API](./03-Python_WebService_API/README.md)
     - 22-03-2022 - Tirsdag - DK
     - 23-03-2022 - Onsdag - INT
-- [Docker 2](./04-Docker_2/README.md)
+- [Docker](./04-Docker_2/README.md)
     - 24-03-2022 - Torsdag - DK
     - 25-03-2022 - Fredag - INT
 - [Distribuerede systemer](./05-Distribuerede_systemer/DistribueredeSystemer.md)

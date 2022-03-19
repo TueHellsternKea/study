@@ -11,7 +11,7 @@ markdown.marp.enableHtml
 ---
 
 ![bg right:40% 181%](https://github.com/officegeek/image/raw/main/agenda.jpg)
-# Web Services  18-03-2021
+# Web Services  22/23-03-2022
 ### Agenda
 
 - Introduction
@@ -330,6 +330,16 @@ https://youtu.be/bPNfu0IZhoE
 
 <!-- _backgroundColor: black -->
 <!-- _color: white -->
+
+![bg right:40% 170%](./image/soap_python.jpg)
+
+# SOAP Python Demo <!-- fit -->
+- [Python SOAP Country code ](./SOAP_API_calls_using_Python.md)
+
+---
+
+<!-- _backgroundColor: black -->
+<!-- _color: white -->
 # SOA  <!-- fit -->
 
 ---
@@ -346,6 +356,7 @@ https://youtu.be/bPNfu0IZhoE
 ![bg 39%](https://github.com/officegeek/image/raw/main/SOA_Before.png)
 
 ---
+
 
 ![bg right:50% 100%](https://github.com/officegeek/image/raw/main/soa.png)
 # SOA - Service Oriented Architecture
@@ -499,11 +510,11 @@ Spotify provides software and app developers access to some of their data about 
 
 ---
 
-# New
+![bg right:55% 110%](./image/news.jpg)
+# Newscatcher
 
-- https://newscatcherapi.com/
-
----
+- [Demo GitHub Reporitory](https://github.com/TueHellsternKea/newsapi)
+- https://newscatcherapi.com
 
 ---
 
