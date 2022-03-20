@@ -62,7 +62,6 @@ Save the **main.py** file
 
 ![](./image/nano_python.jpg)
 
-
 ## Dockerfile
 A Dockerfile is a text document that contains all the commands a user could call on the command line to assemble an image.
 
@@ -137,11 +136,16 @@ Once the image is created, your code is ready to be launched.
 
     sudo docker run my-first-app
 
+![](./image/docker-run.jpg)
+
+**Remember**: *If you make any changes to the Python file (main.py) or the Dockerfile, you have to run the Docker build command agin*
 
 # Commands for Docker
 List your images
     
     docker image ls
+
+![](./image/docker-image-ls.jpg)
 
 Delete a specific image
 

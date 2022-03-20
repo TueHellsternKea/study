@@ -22,6 +22,7 @@ Hvorfor er data vigtigt? - **JAN**
 
 ### Transform
 
+#### Exploratory Data Analysis
 #### Tools
 ##### Python
 ##### Excel / Power BI

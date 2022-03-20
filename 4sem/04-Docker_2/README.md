@@ -3,7 +3,11 @@
     - 24-03-2022 - Torsdag - DK
     - 25-03-2022 - Fredag - INT
 
-## What is Docker
+# Topic
+- [Docker - Virtual Machine Azure](./docker_ubuntu.md)
+- [Docker - Azure](./Docker_Azure.md)
+
+# What is Docker
 Docker is an open platform for developing, shipping, and running applications.
 
 Docker is free software developed by Docker Inc. It was presented to the general public on March 13, 2013, and has become since that day a must in the world of IT development.
@@ -14,7 +18,17 @@ By taking advantage of Docker’s methodologies for shipping, testing, and deplo
 
 [www.docker.com](https://www.docker.com/)
 
-## Is Docker a virtual machine?
+# Create Docker Hub account
+Docker Hub is a hosted repository service provided by Docker for finding and sharing container images.
+
+**Create an account on Docker Hub.**
+
+![](./image/docker-hub-1.jpg)
+
+When you have created the account you can upload your own Docker images and you have access to a lot of different Docker images.
+
+
+# Is Docker a virtual machine?
 It is one of the most asked questions about Docker. The answer is: **actually, not quite**
 
 It may *look* like a virtual machine at first, but the functionality is not the same.
@@ -45,6 +59,8 @@ The Docker client (*docker*) is the primary way that many Docker users interact 
 **Docker Desktop** is an easy-to-install application for your **Mac** or **Windows** environment that enables you to build and share containerized applications and microservices. 
 
 Docker Desktop includes the Docker daemon (*dockerd*), the Docker client (*docker*), Docker Compose, Docker Content Trust, Kubernetes, and Credential Helper. 
+
+[Docker Desktop](./DockerDesktop.md)
 
 ## Docker registries
 A Docker registry stores Docker images. Docker Hub is a public registry that anyone can use, and Docker is configured to look for images on Docker Hub by default. You can even run your own private registry.
@@ -81,3 +97,4 @@ You can download the version you need her: [www.docker.com/products/docker-deskt
 - [www.docker.com](https://www.docker.com/)
 - [docs.docker.com/get-started/overview](https://docs.docker.com/get-started/overview/)
 - [Microsoft - What is Docker](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/container-docker-introduction/docker-defined)
+- [Migrate custom software to Azure App Service using a custom container](https://docs.microsoft.com/en-us/azure/app-service/tutorial-custom-container?pivots=container-linux)
