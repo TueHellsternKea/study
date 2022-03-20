@@ -6,6 +6,7 @@
 # Topic
 - [Docker - Virtual Machine Azure](./docker_ubuntu.md)
 - [Docker - Azure](./Docker_Azure.md)
+- [Docker - Visual Studio Code](./Docker_Visual_Studio_Extension.md)
 
 # What is Docker
 Docker is an open platform for developing, shipping, and running applications.
