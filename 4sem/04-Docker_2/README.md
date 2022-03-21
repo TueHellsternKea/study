@@ -3,12 +3,12 @@
     - 24-03-2022 - Torsdag - DK
     - 25-03-2022 - Fredag - INT
 
-# Topic
+# Topic - [mindmap](../mindmap.html)
 - [Docker - Virtual Machine Azure](./docker_ubuntu.md)
 - [Docker - Azure](./Docker_Azure.md)
 - [Docker - Visual Studio Code](./Docker_Visual_Studio_Extension.md)
 
-![](../mindmap.html)
+[mindmap](../mindmap.html)
 
 # What is Docker
 Docker is an open platform for developing, shipping, and running applications.
