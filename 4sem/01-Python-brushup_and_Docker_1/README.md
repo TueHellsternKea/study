@@ -8,7 +8,7 @@
 - [html slide](./Slide.html)
 - [pdf slide](./Slide.pdf)
 
-# Content
+# Content - [mindmap](../mindmap.html)
 - [GitHub](#github)
 - [Virtual Environment](#virtual-environment)
 - [Dashboard](#dashboard)

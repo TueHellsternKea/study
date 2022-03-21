@@ -5,7 +5,13 @@
 
 # Slides
 - [HTML](./Virtualization_Slides.html)
-- [PDF](./Virtualization_Slides.pdf)
+- [PDF](./Virtualization_Slides.pdf
+
+# Content - [mindmap](../mindmap.html)
+- [Virtual Machine - Azure](#virtual-machine---azure)
+- [Jupyter Lab](#jupyter-lab)
+- [MySQL on Azure](#mysql-on-azure)
+- [Dash application on Azure](#dash-application-on-azure)
 
 # Azure
 Have a look at this Microsoft Azure introduction video
