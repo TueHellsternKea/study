@@ -13,6 +13,14 @@
 - [HTML](./Webservices_API_Slide.html)
 - [PDF](./Webservices_API_Slide.pdf)
 
+# Content - [Mindmap](../mindmap.html)
+- [SOAP Python dialing code](#soap-python-dialing-code)
+- [Newscatcher API](#newscatcher-api)
+
+# API
+**What is an API?**
+
+Application Programming Interface (API) is a software middleman that allows two apps to communicate with one another. You use an API every time you use an app like Facebook, send an instant message, or check the weather on your phone.
 
 # SOAP Python dialing code
 Use SOAP in Python to get the dialing code using a country code
@@ -25,8 +33,4 @@ Use SOAP in Python to get the dialing code using a country code
  [Step by Step guide](https://github.com/TueHellsternKea/newsapi)
 
 
-# Azure Translate API
-Use the Azure API translate service
 
-# MyLinks
-- https://blog.gyanendra.tech/best-api-for-your-project-7-best-api-765317e1ff21
