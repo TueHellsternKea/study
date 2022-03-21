@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.2.0/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.7.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.2.7"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.2.0/dist/index.umd.min.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, data) => {
+        const {
+          Markmap
+        } = getMarkmap();
+        window.mm = Markmap.create('svg#mindmap', getOptions == null ? void 0 : getOptions(), data);
+      })(() => window.markmap,null,{"t":"heading","d":1,"p":{"lines":[0,1]},"v":"4. sem - TUEH","c":[{"t":"heading","d":2,"p":{"lines":[2,3]},"v":"Python brushup and Docker","c":[{"t":"heading","d":3,"p":{"lines":[3,4]},"v":"<a href=\"https://kea.officegeek.dk/4sem/01-Python-brushup_and_Docker_1/Slide.html\">Slide</a>"},{"t":"heading","d":3,"p":{"lines":[5,6]},"v":"GitHub","c":[{"t":"list_item","d":5,"p":{"lines":[6,7]},"v":"Introduktion"},{"t":"list_item","d":5,"p":{"lines":[7,8]},"v":"GitHub Desktop"},{"t":"list_item","d":5,"p":{"lines":[8,9]},"v":"<em>Ord liste</em>"}]},{"t":"heading","d":3,"p":{"lines":[10,11]},"v":"<a href=\"./01-Python-brushup_and_Docker_1/Using_Virtual_Environments.md\">Virtual Environment</a>"},{"t":"heading","d":3,"p":{"lines":[12,13]},"v":"<a href=\"./01-Python-brushup_and_Docker_1/Python_MySQL.md\">Database MySQL</a>","c":[{"t":"list_item","d":5,"p":{"lines":[13,14]},"v":"Lokal og på Azure"},{"t":"list_item","d":5,"p":{"lines":[14,15]},"v":"Connection file"},{"t":"list_item","d":5,"p":{"lines":[15,16]},"v":"Er diagram"}]},{"t":"heading","d":3,"p":{"lines":[17,18]},"v":"<a href=\"./01-Python-brushup_and_Docker_1/NorthwindDashboard.md\">Dashboard</a>","c":[{"t":"list_item","d":5,"p":{"lines":[18,19]},"v":"Dash"},{"t":"list_item","d":5,"p":{"lines":[19,20]},"v":"Data - Excel - Database"},{"t":"list_item","d":5,"p":{"lines":[20,21]},"v":"Filter"}]}]},{"t":"heading","d":2,"p":{"lines":[22,23]},"v":"Virtualisering (Azure)","c":[{"t":"heading","d":3,"p":{"lines":[23,24]},"v":"<a href=\"./02-Virtualisering/Virtualization_Slides.html\">Slide</a>"},{"t":"heading","d":3,"p":{"lines":[24,25]},"v":"Azure","c":[{"t":"list_item","d":5,"p":{"lines":[25,26]},"v":"<a href=\"./02-Virtualisering/Virtual_Machines.md\">Virtual Machine</a>"},{"t":"list_item","d":5,"p":{"lines":[26,27]},"v":"<a href=\"./02-Virtualisering/MySQL_Database_Server.md\">Virtual Database MySQL</a>"},{"t":"list_item","d":5,"p":{"lines":[27,28]},"v":"<a href=\"./02-Virtualisering/Dash_Github_Azure.md\">Dash application on Azure</a>"}]}]},{"t":"heading","d":2,"p":{"lines":[29,30]},"v":"Python, Web Service API","c":[{"t":"heading","d":3,"p":{"lines":[30,31]},"v":"<a href=\"./03-Python_WebService_API/Webservices_API_Slide.html\">Slide</a>"},{"t":"heading","d":3,"p":{"lines":[31,32]},"v":"<a href=\"./03-Python_WebService_API/SOAP_API_calls_using_Python.md\">SOAP Python dialing code</a>"},{"t":"heading","d":3,"p":{"lines":[32,33]},"v":"<a href=\"https://github.com/TueHellsternKea/newsapi\">Newscatcher API</a>"}]},{"t":"heading","d":2,"p":{"lines":[34,35]},"v":"Docker","c":[{"t":"heading","d":3,"p":{"lines":[35,36]},"v":"<a href=\"./04-Docker_2/\">Slide</a>","c":[{"t":"list_item","d":5,"p":{"lines":[36,37]},"v":"<a href=\"./04-Docker_2/docker_ubuntu.md\">Docker - Virtual Machine Azure</a>"},{"t":"list_item","d":5,"p":{"lines":[37,38]},"v":"<a href=\"./04-Docker_2/Docker_Azure.md\">Docker - Azure</a>"},{"t":"list_item","d":5,"p":{"lines":[38,39]},"v":"<a href=\"./04-Docker_2/Docker_Visual_Studio_Extension.md\">Docker - Visual Studio Code</a>"}]}]},{"t":"heading","d":2,"p":{"lines":[40,41]},"v":"Distribuerede systemer","c":[{"t":"heading","d":3,"p":{"lines":[41,42]},"v":"Slide"}]},{"t":"heading","d":2,"p":{"lines":[43,44]},"v":"Machine Learning","c":[{"t":"heading","d":3,"p":{"lines":[44,45]},"v":"Slide"}]},{"t":"heading","d":2,"p":{"lines":[46,47]},"v":"AI - (Deep Learning)","c":[{"t":"heading","d":3,"p":{"lines":[47,48]},"v":"Slide"}]},{"t":"heading","d":2,"p":{"lines":[49,50]},"v":"IT architecture &amp; Microservice","c":[{"t":"heading","d":3,"p":{"lines":[50,51]},"v":"Slide"}]},{"t":"heading","d":2,"p":{"lines":[52,53]},"v":"IT security","c":[{"t":"heading","d":3,"p":{"lines":[53,54]},"v":"Slide"}]}]})</script>
+</body>
+</html>
