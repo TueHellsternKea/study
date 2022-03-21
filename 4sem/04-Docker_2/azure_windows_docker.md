@@ -90,3 +90,11 @@ You will then need to create a user account and password for your new Linux dist
 After restart - reconnect - start Docker Desktop and go true the Start Up Guide
 
 ![](./image/win-docker-10.jpg)
+
+## Install adtional software
+We need som *extra* software, install the flowing:
+
+- Git
+- GitHub Desktop
+- Python3 - *You can use Windows store*
+- Visual Studio Code
