@@ -4,7 +4,7 @@ Project Jupyter's tools are available for installation via the Python Package In
 # Azure Virtual Machine - Ubuntu
 
 ## Python
-Let's test that Python3 is running on the Virtual Machine
+Let's **test** that Python3 is running on the Virtual Machine
 
     sudo apt update
     sudo apt -y upgrade
@@ -24,6 +24,18 @@ You have to set the security on the Virtual Machine and on Jupyter Lab in order 
     sudo ufw allow 8888
     sudo ufw allow 22
     sudo ufw status
+
+In Azure you have to **open port 8888**.
+
+- Select **Add indbound port rule**
+
+![](./image/port8888.jpg)
+
+- Open port 8888
+
+![](./image/port8888_2.jpg)
+
+
 
 Jupyter Notebook servers **can** include a password for security, to create a password, you first need to generate a config file:
 

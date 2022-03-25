@@ -18,7 +18,6 @@ markdown.marp.enableHtml
 - Web Services
 - SOA
 - API
-- Jupyter Lab
 - Restcountries API - *Code*
 - Spotify API - *Code*
 - ToDo FastAPI App - *Demo*
@@ -274,15 +273,6 @@ Extensible Markup Language (*XML*) is a **markup language** that defines a set o
 
 ---
 
-![bg right:40% 115%](https://github.com/officegeek/image/raw/main/soa_1.png)
-# Web Services evolution
-The technology of Webservices is the **most likely** connection technology of Service-Oriented Architectures (SOA). 
-
-The consumer at the right **sending a service request message** to a service provider at the left. The service provider returns a **response message** to the service consumer. 
-
-The request and subsequent response connections are **defined** in some way that is **understandable to both** the service consumer and service provider.
-
----
 
 ![bg right:35% 90%](https://github.com/officegeek/image/raw/main/rest.jpeg)
 # REST - Representational State Transfer
@@ -384,15 +374,6 @@ https://youtu.be/bPNfu0IZhoE
 
 ---
 
-![bg 80%](https://github.com/officegeek/image/raw/main/api_animation.gif)
-
-<!-- _footer: https://creatordev.io/ci20.html -->
-
----
-
-<!-- _backgroundColor: black -->
-<!-- _color: white -->
-
 ![bg right:25% 180%](https://github.com/officegeek/image/raw/main/white-question-mark.png)
 # What is an API? <!-- fit -->
 
@@ -453,13 +434,6 @@ Some companies are packaging API's as products.
     - www.e-conomic.com
 
 *When a company offers an API to their customers, it just means that they’ve built a set of dedicated URLs that return pure data responses — meaning the responses won’t contain the kind of presentational overhead that you would expect in a graphical user interface like a website.*
-
----
-
-![bg right:65% 80%](https://github.com/officegeek/image/raw/main/ibm_api_1.jpg)
-# Exposing APIs internally and externally
-
-<!-- _footer: https://developer.ibm.com/tutorials/1601_clark-trs/ -->
 
 ---
 

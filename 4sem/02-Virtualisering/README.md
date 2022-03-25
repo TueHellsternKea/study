@@ -5,9 +5,13 @@
 
 # Slides
 - [HTML](./Virtualization_Slides.html)
-- [PDF](./Virtualization_Slides.pdf
+- [PDF](./Virtualization_Slides.pdf)
 
 # Content - [mindmap](../mindmap.html)
+- [Virtualisering (Azure)](#virtualisering-azure)
+- [Slides](#slides)
+- [Content - mindmap](#content---mindmap)
+- [Azure](#azure)
 - [Virtual Machine - Azure](#virtual-machine---azure)
 - [Jupyter Lab](#jupyter-lab)
 - [MySQL on Azure](#mysql-on-azure)

@@ -23,13 +23,13 @@
 - [Docker](./04-Docker_2/README.md)
     - 24-03-2022 - Torsdag - DK
     - 25-03-2022 - Fredag - INT
-- [Distribuerede systemer](./05-Distribuerede_systemer/DistribueredeSystemer.md)
+- [Distribuerede systemer](./05-Distribuerede_systemer/README.md)
     - 21-04-2022 - Torsdag - DK
     - 22-04-2022 - Fredag - INT
-- [Machine Learning 1](./06-Machine_Learning_1/MachineLearning-1.md)
+- [Machine Learning 1](./06-Machine_Learning_1/README.md)
     - 25-04-2022 - Mandag - DK
     - 26-04-2022 - Tirsdag - INT
-- [Machine Learning 2](./07-Machine_Learning_2/MachineLearning-2.md)
+- [Machine Learning 2](./07-Machine_Learning_2/README.md)
     - 09-05-2022 - Mandag - DK
     - 10-05-2022 - Tirsdag - INT
 - [AI - (Deep Learning)](./08-AI_DeepLearning/AI-DeepLearning.md)
