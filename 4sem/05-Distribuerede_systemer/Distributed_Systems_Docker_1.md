@@ -1,5 +1,5 @@
 ---
-title: Distributed Systems & Docker 1
+title: Distributed Systems
 theme: gaia
 _class: lead
 paginate: true
@@ -11,8 +11,10 @@ markdown.marp.enableHtml
 ---
 
 ![bg right:40% 181%](https://github.com/officegeek/image/raw/main/agenda.jpg)
-# Web Distributed Systems & Docker 1  
-## 23-03-2021
+# Web Distributed Systems
+- 07-04-2022 - DK
+- 08-04-2022 - INT
+- 
 ### Agenda
 
 - Distributed Systems
@@ -21,7 +23,7 @@ markdown.marp.enableHtml
 - Design Patterns
 - Docker
 
-<!-- _footer: Tue Hellstern © 2021-->
+<!-- _footer: Tue Hellstern © 2022-->
 
 ---
 
@@ -356,9 +358,9 @@ When this happens, the program run into problems, and this can have some problem
 
 ![bg right:30%](https://github.com/officegeek/image/raw/main/white-question-mark.png)
 # Discuss <!-- fit -->
-**What happens when the assumption is *not* true ?**
+**What happens when the assumption is** *not* **true?**
 
-- Make a list of examples, to show you understand when it is <u>*not*</u> true
+- Make a list of examples, to show you understand when it is *not* true
 - Make a list of consequences, what’s the result in those situations 
 
 ---
@@ -466,17 +468,6 @@ Again, back to our Flask app, we can loop through the entries, displaying each o
 - The **controller action** associated with the route is called
 - The controller action uses the **models** to retrieve all of the necessary data from a database, places the data in an array, and loads a **view**, passing along the data structure
 - The **view** accesses the structure of data and uses it to render the requested page, which is then presented to the user in their browser
-
----
-
-# API - FastAPI - ToDo Assignment
-
-![bg right:60% 70%](https://github.com/officegeek/image/raw/main/todo_1.png)
-
-- [FastApi_ToDo.pdf](https://github.com/officegeek/image/raw/main/pdf/FastApi_ToDo.pdf)
-- [main.py](https://github.com/officegeek/image/raw/main/code/main.py)
-- [todolist.html](https://github.com/officegeek/image/raw/main/code/todolist.html)
-- [database.json](https://github.com/officegeek/image/raw/main/code/database.json)
 
 ---
 
@@ -595,4 +586,3 @@ You can use - https://sourcemaking.com/design_patterns - as a starting point.
 ---
 
 ![bg](https://github.com/officegeek/image/raw/main/what_docker.jpg)
-
