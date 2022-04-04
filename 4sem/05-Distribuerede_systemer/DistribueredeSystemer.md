@@ -26,3 +26,5 @@
     <span data-ty="progress"></span>
     <span data-ty>Successfully installed spacy</span>
 </div>
+
+<script src="termynal.js" data-termynal-container="#termynal"></script>
