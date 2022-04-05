@@ -21,3 +21,8 @@
 Ray is an open source project that makes it simple to scale any compute-intensive Python workload — *from deep learning to production model serving*
 
 [Ray](./ray.md)
+
+# Design pattens
+Because Python is so powerful and flexible, we need some rules - **patterns** - when programming. 
+
+[Pattens](./Pattens.md)

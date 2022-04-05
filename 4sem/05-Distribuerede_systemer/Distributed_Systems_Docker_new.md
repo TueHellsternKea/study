@@ -18,10 +18,9 @@ markdown.marp.enableHtml
 ### Agenda
 
 - Distributed Systems
-- Coupling
+- Asynchronous/Synchronous - Communication
 - MVC
 - Design Patterns
-- Docker
 
 <!-- _footer: Tue Hellstern © 2022-->
 
@@ -33,11 +32,23 @@ markdown.marp.enableHtml
 
 ---
 
-A **distributed system** is any system which has components **running** on **different machines** that communicate via messages and work together towards a single end. 
+# Distributed systems vs. Distributed computing
+## Distributed system
+A set of computers which are **independent** and connected with an interconnection network. Components are **running** on **different machines** that communicate via messages and work together towards a single end.
 
-A **distributed system** allows for better performance due to its simple scalability and builtin concurrency
+## Distributed computing
+A method of computer processing in which different parts of a computer program are run on two or more computers that are communicating with each other over a network. Allows for better performance due to its simple scalability and builtin concurrency. 
+It also allows for flexible and resilient application that doesn’t have a single point of failure.
 
-It also allows for **flexible** and resilient application that doesn’t have a single point of failure.
+---
+
+![bg right:37% 99%](./image/ds.png)
+# Services of distributed systems
+Services of distributed systems
+Mail Services
+Games and Multimedia
+Remote logging
+File transferring and sharing
 
 ---
 
@@ -60,65 +71,6 @@ Same concept can be applied to a plethora of problems - *machine learning, real 
 - **Messaging** - Since there are different machines processing at the same time, there is a large risk of overhead necessary to synchronize them and keep all the applications running appropriately and the data consistent across the network.
 - **Reliability** - Fault tolerance ia a benefit of distributed systems, but the network management is often a behemoth task that is tuned particularly to your application and thus can be sensitive to changes or outages in the network.
 - **Maintenance** - Running an application where the number of machines scales requires new architectural and managerial considerations. Traffic needs to be directed correctly to machines via a load balancer of some kind and every machine needs its own application and infrastructure monitoring, logging, delivery, and testing.
-
----
-
-<!-- _backgroundColor: black -->
-<!-- _color: white -->
-# Coupling and Cohesion <!-- fit -->
-
-## Connection between parts in the system
-## High and Low
-## Synchronous - Asynchronous
-
----
-
-![bg right:30% 280%](https://github.com/officegeek/image/raw/main/programming.jpeg)
-# Low Coupling
-How much do your different modules **depend on each other**?
-
-Modules should be as **independent as possible** from other modules, so that changes to module don’t heavily impact other modules.
-
----
-
-<!-- _backgroundColor: black -->
-<!-- _color: white -->
-# iPods are a good example of High Coupling
-
-## Once the battery dies you might as well buy a new iPod because the battery is soldered fixed and won’t come loose, thus making replacing very expensive. 
-
-## A **Low Coupled** player would allow effortlessly changing the battery.
-
----
-
-![bg right:30% 280%](https://github.com/officegeek/image/raw/main/programming.jpeg)
-# We aim for *Low* Coupling
-This can be obtained via encapsulation:
-- Objects
-- Layers
-- Tasks
-
-**=> As few dependencies as possible**
-**=> As easy to manage connections as possible**
-**=> As easy to maintain as possible**
-
----
-
-![bg right:30% 280%](https://github.com/officegeek/image/raw/main/programming.jpeg)
-# High Cohesion
-Cohesion often refers to how the elements of a module belong together. Related code should be close to each other to make it highly cohesive.
-
-Easy to maintain code usually has high cohesion. The elements within the module are directly related to the functionality that module is meant to provide.
-
----
-
-![bg 80%](https://github.com/officegeek/image/raw/main/coupling_cohesion.png)
-
----
-
-![bg 97%](https://github.com/officegeek/image/raw/main/python_coupling.jpg)
-
-<!-- _footer: Python Example https://github.com/officegeek/image/raw/main/code/Tight_and_Loos_Coupling.ipynb -->
 
 ---
 
@@ -395,6 +347,14 @@ Reusing design patterns helps to **prevent** subtle issues that can cause major 
 
 ---
 
+# Command Patten
+The command pattern is handy in situations when, for some reason, we need to start by preparing what will be executed and then to execute it when needed.
+
+The advantage is that encapsulating actions in such a way enables Python developers to add additional functionalities related to the executed actions, such as undo/redo, or keeping a history of actions and the like.
+
+[Code](./CommandPatten.md)
+
+---
 
 
 <!-- _backgroundColor: black -->
