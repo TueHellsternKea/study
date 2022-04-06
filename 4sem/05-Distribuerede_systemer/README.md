@@ -13,8 +13,8 @@
 - MVC
 
 # Slides
-- [HTML]()
-- [PDF]()
+- [HTML](./Distributed_Systems_Docker.html)
+- [PDF](./Distributed_Systems_Docker.pdf)
 
 
 # Ray
