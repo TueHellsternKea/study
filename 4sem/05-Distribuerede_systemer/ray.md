@@ -78,7 +78,6 @@ def run_local(sequence_size):
 ```
 
 ```python
-# Run and time it
 %%time
 run_local(100000)
 ```
@@ -91,7 +90,6 @@ def run_remote(sequence_size):
 ```
 
 ```python
-# Run and time it
 %%time
 run_remote(100000)
 ```
