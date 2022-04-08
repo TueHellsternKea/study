@@ -146,6 +146,82 @@ When this happens, the program run into problems, and this can have some problem
 
 ---
 
+![bg right:50% 170%](https://github.com/officegeek/image/raw/main/MVC_Ruby.png)
+[Understanding MVC architecture](https://youtu.be/eTdVkgF_Slo)
+
+<!-- _footer: https://youtu.be/eTdVkgF_Slo -->
+
+---
+
+<!-- _backgroundColor: black -->
+<!-- _color: white -->
+#  Design Patterns <!-- fit -->
+## Well-known solutions to well-known problems - And that is called Design Patterns <!-- fit -->
+
+---
+
+![bg left:40% 297%](https://github.com/officegeek/image/raw/main/designpatterns_words.png)
+# Design Patterns
+In software engineering, a design pattern is a **general repeatable solution** to a commonly **occurring problem** in software design. 
+
+A design pattern **isn't a finished design** that can be transformed directly into code. 
+
+It is a description or **template** for how to **solve a problem** that can be used in many different situations.
+
+<!-- _footer: https://sourcemaking.com/design_patterns -->
+
+---
+
+# Gang Of Four Design Patterns
+**Elements of Reusable Object-Oriented Software(1994)** written by *Erich Gamma, Richard Helm, Ralph Johnson*, and *John Vlissides* is a book on software engineering highlighting the capabilities and pitfalls of object-oriented programming. 
+
+They have listed **23 classic software design patterns** which are influential even in the current software development environment. 
+
+The authors are often referred to as the **Gang of Four**.
+
+---
+
+# Benefits of the design pattern
+
+- Design patterns can **speed up the development** process by providing tested, proven development paradigms.
+- Reusing the design patterns helps to **prevent** subtle issues that can cause major **problems** and it also improves code readability
+- Design pattern provides **general solutions**, documented in a format that doesn’t specifics tied to a particular problem
+- In addition to that patterns allows developers to **communicate** well-known, well-understood names for software interactions, 
+- Common design patterns can be **improved over time**, making them more robust than ad-hoc design
+- A standard solution to a common programming problem enables large scale **reuse of software**
+
+---
+
+# Types of  Design Patterns
+
+The 23 design patterns have been categorized into **3** verticals: 
+
+1. **Creational** - Deal with object creation mechanisms, trying to create objects in a manner suitable to the situation.
+2. **Structural** - Deal with easing the design by identifying a simple way to realize relationships among entities.
+3. **Behavioural** - Deal with
+
+---
+
+![bg right:71% 47%](https://github.com/officegeek/image/raw/main/Types_of_design_patterns.png)
+# Types of Design Patterns
+
+- Creational
+- Structural
+- Behavioural
+
+---
+
+# Uses of Design Patterns
+Design patterns can **speed up the development** process by providing tested, proven development paradigms. 
+
+Effective software design requires considering issues that may not become visible until later in the implementation. 
+
+Reusing design patterns helps to **prevent** subtle issues that can cause major **problems** and **improves code readability** for coders and architects familiar with the patterns.
+
+<!-- _footer: https://sourcemaking.com/design_patterns -->
+
+---
+
 <!-- _backgroundColor: black -->
 <!-- _color: white -->
 # MVC <!-- fit -->
@@ -252,19 +328,6 @@ Again, back to our Flask app, we can loop through the entries, displaying each o
 
 ---
 
-# Links - MVC
-- www.tutorialsteacher.com/mvc/mvc-architecture
-- https://www.tutorialspoint.com/mvc_framework/mvc_framework_introduction.htm - Only the Introduction rest is ASP.net
-
----
-
-![bg right:50% 170%](https://github.com/officegeek/image/raw/main/MVC_Ruby.png)
-[Understanding MVC architecture](https://youtu.be/eTdVkgF_Slo)
-
-<!-- _footer: https://youtu.be/eTdVkgF_Slo -->
-
----
-
 <!-- _backgroundColor: black -->
 <!-- _color: white -->
 
@@ -274,76 +337,6 @@ Again, back to our Flask app, we can loop through the entries, displaying each o
 **Explain in your own words**
 - What does each part do?
 - Think of the programs you have created in Python – what would you have to do to change it into MVC style?
-
-
----
-
-<!-- _backgroundColor: black -->
-<!-- _color: white -->
-#  Design Patterns <!-- fit -->
-## Well-known solutions to well-known problems - And that is called Design Patterns <!-- fit -->
-
----
-
-![bg left:40% 297%](https://github.com/officegeek/image/raw/main/designpatterns_words.png)
-# Design Patterns
-In software engineering, a design pattern is a **general repeatable solution** to a commonly **occurring problem** in software design. 
-
-A design pattern **isn't a finished design** that can be transformed directly into code. 
-
-It is a description or **template** for how to **solve a problem** that can be used in many different situations.
-
-<!-- _footer: https://sourcemaking.com/design_patterns -->
-
----
-
-# Gang Of Four Design Patterns
-**Elements of Reusable Object-Oriented Software(1994)** written by *Erich Gamma, Richard Helm, Ralph Johnson*, and *John Vlissides* is a book on software engineering highlighting the capabilities and pitfalls of object-oriented programming. 
-
-They have listed **23 classic software design patterns** which are influential even in the current software development environment. 
-
-The authors are often referred to as the **Gang of Four**.
-
----
-
-# Benefits of the design pattern
-
-- Design patterns can **speed up the development** process by providing tested, proven development paradigms.
-- Reusing the design patterns helps to **prevent** subtle issues that can cause major **problems** and it also improves code readability
-- Design pattern provides **general solutions**, documented in a format that doesn’t specifics tied to a particular problem
-- In addition to that patterns allows developers to **communicate** well-known, well-understood names for software interactions, 
-- Common design patterns can be **improved over time**, making them more robust than ad-hoc design
-- A standard solution to a common programming problem enables large scale **reuse of software**
-
----
-
-# Types of  Design Patterns
-
-The 23 design patterns have been categorized into **3** verticals: 
-
-1. **Creational** - Deal with object creation mechanisms, trying to create objects in a manner suitable to the situation.
-2. **Structural** - Deal with easing the design by identifying a simple way to realize relationships among entities.
-3. **Behavioural** - Deal with
-
----
-
-![bg right:71% 47%](https://github.com/officegeek/image/raw/main/Types_of_design_patterns.png)
-# Types of Design Patterns
-
-- Creational
-- Structural
-- Behavioural
-
----
-
-# Uses of Design Patterns
-Design patterns can **speed up the development** process by providing tested, proven development paradigms. 
-
-Effective software design requires considering issues that may not become visible until later in the implementation. 
-
-Reusing design patterns helps to **prevent** subtle issues that can cause major **problems** and **improves code readability** for coders and architects familiar with the patterns.
-
-<!-- _footer: https://sourcemaking.com/design_patterns -->
 
 ---
 
@@ -356,7 +349,6 @@ The advantage is that encapsulating actions in such a way enables Python develop
 
 ---
 
-
 <!-- _backgroundColor: black -->
 <!-- _color: white -->
 
@@ -367,4 +359,3 @@ You can use - https://sourcemaking.com/design_patterns - as a starting point.
 # Understand and debate in the group <!-- fit -->
 
 *This is not an easy assignment. - Don’t panic if you can not understand all details. Try to grab the main idea and then use your common sense.*
-
