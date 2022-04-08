@@ -146,13 +146,6 @@ When this happens, the program run into problems, and this can have some problem
 
 ---
 
-![bg right:50% 170%](https://github.com/officegeek/image/raw/main/MVC_Ruby.png)
-[Understanding MVC architecture](https://youtu.be/eTdVkgF_Slo)
-
-<!-- _footer: https://youtu.be/eTdVkgF_Slo -->
-
----
-
 <!-- _backgroundColor: black -->
 <!-- _color: white -->
 #  Design Patterns <!-- fit -->
