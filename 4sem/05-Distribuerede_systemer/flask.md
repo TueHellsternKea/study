@@ -10,8 +10,6 @@ Flask supports extensions that can add application features as if they were impl
 Flask follows the **MVC** Architecture - Design Patten.
 Flask Project is a single application where you can add countless **views** and **models**.
 
-[Flask](https://flask.palletsprojects.com/en/2.1.x/)
-
 ## Install Flask
 You have to install Flask with
 
@@ -98,3 +96,7 @@ def login():
 if __name__ == '__main__':
     app.run(debug = True)
 ```
+
+## Links
+- [Flask](https://flask.palletsprojects.com/en/2.1.x/)
+- [How to structure large Flask applications](https://www.digitalocean.com/community/tutorials/how-to-structure-large-flask-applications)
