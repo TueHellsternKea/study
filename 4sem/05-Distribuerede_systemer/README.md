@@ -17,6 +17,11 @@
 - [PDF](./Distributed_Systems_Docker.pdf)
 
 
+# Flask
+Flask is a micro web framework written in Python.
+
+[Flask](./flask.md)
+
 # Ray
 Ray is an open source project that makes it simple to scale any compute-intensive Python workload — *from deep learning to production model serving*
 
