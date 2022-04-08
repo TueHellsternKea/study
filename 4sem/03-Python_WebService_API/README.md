@@ -32,5 +32,10 @@ Use SOAP in Python to get the dialing code using a country code
 
  [Step by Step guide](https://github.com/TueHellsternKea/newsapi)
 
+ # Links
+ - https://openlibrary.org/developers/api
+ - https://newsapi.org/
+ - https://api.nasa.gov/
+
 
 

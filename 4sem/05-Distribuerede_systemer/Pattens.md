@@ -94,3 +94,8 @@ class Car(object):
 ```
 
  The Car class is a Facade.
+
+ # Links
+ - [python-patterns.guide](https://python-patterns.guide/)
+ - [refactoring.guru/design-patterns/python](https://refactoring.guru/design-patterns/python)
+ - [www.geeksforgeeks.org/python-design-patterns](https://www.geeksforgeeks.org/python-design-patterns/)
