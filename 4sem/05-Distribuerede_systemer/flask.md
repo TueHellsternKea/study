@@ -7,6 +7,9 @@ It has no database abstraction layer, form validation, or any other components w
 
 Flask supports extensions that can add application features as if they were implemented in Flask itself. Extensions exist for object-relational mappers, form validation, upload handling, various open authentication technologies and several common framework related tools.
 
+Flask follows the **MVC** Architecture - Design Patten.
+Flask Project is a single application where you can add countless **views** and **models**.
+
 [Flask](https://flask.palletsprojects.com/en/2.1.x/)
 
 ## Install Flask
@@ -16,7 +19,7 @@ You have to install Flask with
 
 *Consider using a virtual environment*
 
-## Code
+## Code - Simpel app
 A minimal Flask application, without HTML could be something like this:
 
 ```python
@@ -46,10 +49,18 @@ if __name__ == '__main__':
 	app.run()
 ```
 
+# HTML
+
 It is possible to combine a HTML page and Flask.
 
 - Start by running the Python Falsk application - **app.py**
 - When the Flask server is running open the HTML page in a browser
+
+![](./image/flask_1.jpg)
+
+![](./image/flask_2.png)
+
+## Code - HTML version
 
 This is the code for the HTML page - **login.html**
 
