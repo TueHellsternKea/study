@@ -31,3 +31,8 @@ Ray is an open source project that makes it simple to scale any compute-intensiv
 Because Python is so powerful and flexible, we need some rules - **patterns** - when programming. 
 
 [Pattens](./Pattens.md)
+
+# Jupyter Lab Online
+Use Jupyter Lab online.
+
+[Try Jupyter Lab](https://jupyter.org/try)
