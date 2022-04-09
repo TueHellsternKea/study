@@ -183,9 +183,6 @@ By leveraging data coming from thousands of houses, their features and prices, *
 
 ---
 
-
-
-
 ![bg right:60% 80%](https://github.com/officegeek/image/raw/main/Logistic_Regression.png)
 # Logistic Regression Python
 
