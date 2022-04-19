@@ -19,8 +19,16 @@ Two main principles are in the bases of the design patterns defined by the Gang 
 - Favor object composition over inheritance
 
 # Pattens
-- [Command](#command-patten)
-- [Facade](#facade-patten)
+- [Design Pattens](#design-pattens)
+- [Pattens](#pattens)
+- [MVC](#mvc)
+- [Command Patten](#command-patten)
+- [Facade Patten](#facade-patten)
+- [Links](#links)
+
+# MVC
+
+![](https://miro.medium.com/max/1400/1*e8xGpHM6bW9DVNxDaVPi8Q.png)
 
 # Command Patten
 The command pattern is handy in situations when, for some reason, we need to start by preparing what will be executed and then to execute it when needed.
