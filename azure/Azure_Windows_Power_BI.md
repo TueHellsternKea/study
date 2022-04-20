@@ -4,7 +4,12 @@ Microsoft Power BI Desktop is Windows only.
 One way of using Power BI Desk is a Windows Virtual machine.
 
 ## Content
-- [Windows Virtual Machine](#windows-virtual-machine)
+- [Windows VM - Power BI](#windows-vm---power-bi)
+  - [Content](#content)
+  - [Windows Virtual Machine](#windows-virtual-machine)
+  - [Minimum requirements System Requirements](#minimum-requirements-system-requirements)
+  - [Create VM](#create-vm)
+  - [Video](#video)
 - [Connect to VM](#connect-to-vm)
 - [Install Power BI Desktop](#install-power-bi-desktop)
 - [Links](#links)
@@ -12,10 +17,12 @@ One way of using Power BI Desk is a Windows Virtual machine.
 ## Windows Virtual Machine
 We are going to create a Azure Windows Virtual Machine for the Power Bi Desktop.
 
-## System Requirements
+## Minimum requirements System Requirements
 - Windows 10, Windows Server 2012 R2, Windows Server 2012, Windows 8, Windows 8.1, Windows Server 2016, Windows Server 2019, Windows 11
-- Microsoft Power BI Desktop requires Internet Explorer 10 or greater.
-- Microsoft Power BI Desktop is available for 32-bit (x86) and 64-bit (x64) platforms.
+- Internet Explorer 11 or greater
+- .NET 4.6.2 or later
+- At least 2 GB available memory (RAM), 4 GB or more recommended
+- Microsoft Power BI Desktop is available for 32-bit (x86) and 64-bit (x64) platforms
 
 ## Create VM
 - Login - [portal.azure.com](https://portal.azure.com/)
