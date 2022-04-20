@@ -1,12 +1,10 @@
 # Windows VM - Power BI
-Microsoft Power BI Desktop is Windows only.
-
-One way of using Power BI Desk is a Windows Virtual machine.
+Microsoft Power BI Desktop is Windows only. One way of using Power BI Desk is a Windows Virtual machine.
 
 ## Content
 - [Windows VM - Power BI](#windows-vm---power-bi)
   - [Content](#content)
-  - [Windows Virtual Machine](#windows-virtual-machine)
+- [Windows Virtual Machine](#windows-virtual-machine)
   - [Minimum requirements System Requirements](#minimum-requirements-system-requirements)
   - [Create VM](#create-vm)
   - [Video](#video)
@@ -14,7 +12,7 @@ One way of using Power BI Desk is a Windows Virtual machine.
 - [Install Power BI Desktop](#install-power-bi-desktop)
 - [Links](#links)
 
-## Windows Virtual Machine
+# Windows Virtual Machine
 We are going to create a Azure Windows Virtual Machine for the Power Bi Desktop.
 
 ## Minimum requirements System Requirements
@@ -47,15 +45,13 @@ You can now use the RDP on your Mac computer. Se more at:
 ![](../azure/image/rdp.jpg)
 
 # Install Power BI Desktop
-When you are connected to the Virtual machine you can install Microsoft Power BI Desktop.
-
-It is possible to install from the Microsoft Store
+When you are connected to the Virtual machine you can install Microsoft Power BI Desktop. It is possible to install from the Microsoft Store
 
 ![](../azure/image/store_power_desktop.jpg)
 
 *You do not have to use an Microsoft Account - Just bypass the login!*
 
-Now you can use Microsoft Power BI on the Virtual machine.
+Now you can use Microsoft Power BI on the Virtual machine, connection via RDP.
 
 # Links
 - [docs.microsoft.com/en-us/power-bi/](https://docs.microsoft.com/en-us/power-bi/)
