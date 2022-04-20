@@ -5,6 +5,7 @@
 
 ## Guides
 - [Azure](./azure/README.md)
+- [Use Microsoft Power BI on Azure](./azure/Azure_Windows_Power_BI.md)
 - [Python](./python/README.md)
 - [GitHub](./github/README.md)
 - [Docker](./docker/README.md)
