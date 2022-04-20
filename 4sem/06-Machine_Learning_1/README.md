@@ -3,8 +3,12 @@
     - 25-04-2021 - Mandag - DK
     - 26-04-2021 - Tirsdag - INT
 
-# Machine Learning?
+# Machine Learning
+Machine learning is all around us. From antilock braking systems, to autopilot systems in airplanes and cars, smart speakers, which serve as personal digital assistants, to systems that learn our movie preferences and recommend what to watch next in Netflix.
+
     Machine Learning is the process of creating models that can perform a certain task without the need for a human explicitly programming it to do something
+
+
 
 # Agenda
 
@@ -15,6 +19,8 @@
 - Numpy
 - Matplotlib
 - Docker
+
+- [Linear Regression](./Linear_Regression.md)
 
 # Definitions
 **Artificial Intelligence** (*AI*) refers to the simulation of human intelligence processes by machines, including learning, reasoning and self-correction
@@ -37,13 +43,11 @@ The area of Machine Learning where you have a set of independent variables which
 
 Whatever you want to predict is called as Dependent Variable, while variables that you use to predict are called as Independent Variables
 
-    You want to predict the age of the person 
-    based on the person’s height and weight, 
-    then height and weight will be the independent 
-    variables, while age will be the dependent variable
+    You want to predict the **age** of the person 
+    based on the person’s **height** and **weight**, 
+    then **height** and **weight** will be the **independent** variables, while **age** will be the **dependent** variable
 
-Supervised learning is the most popular paradigm for machine learning.
-It is the easiest to understand and the simplest to implement.
+Supervised learning is the most popular paradigm for machine learning. It is the easiest to understand and the simplest to implement.
 
 ## Regression
 Regression is the kind of Supervised Learning that learns from the Labelled Datasets and is then able to predict a continuous-valued output for the new data given to the algorithm.
@@ -89,8 +93,7 @@ It is the training of machine learning models to make a sequence of decisions.
 The *machine* learns to achieve a goal in an uncertain, potentially complex environment. The *machine* employs trial and error to come up with a solution to the problem.
 
 ## Reinforcement Learning - Example
-Facebook has developed an open-source reinforcement learning platform — Horizon. 
-The platform uses reinforcement learning to optimize large-scale production systems.
+Facebook has developed an open-source reinforcement learning **platform — Horizon**. The platform uses reinforcement learning to optimize large-scale production systems.
 
 **Facebook has used Horizon internally**
 
@@ -98,9 +101,9 @@ The platform uses reinforcement learning to optimize large-scale production syst
 - Deliver more meaningful notifications to users
 - Optimize video streaming quality
 
-**Read more**
-- https://engineering.fb.com/ml-applications/horizon
-- https://research.fb.com/publications/horizon-facebooks-open-source-applied-reinforcement-learning-platform
+Read more about Horizon
+- [engineering.fb.com/ml-applications/horizon](https://engineering.fb.com/ml-applications/horizon)
+- [research.fb.com/publications/horizon-facebooks-open-source-applied-reinforcement-learning-platform](https://research.fb.com/publications/horizon-facebooks-open-source-applied-reinforcement-learning-platform)
 
 
 # Links
