@@ -2,6 +2,29 @@
 # Machine Learning 1
     - 25-04-2021 - Mandag - DK
     - 26-04-2021 - Tirsdag - INT
+<!-- TOC -->
+
+- [Machine Learning 1](#machine-learning-1)
+- [content](#content)
+- [Machine Learning](#machine-learning)
+- [Steps in Machine Learning](#steps-in-machine-learning)
+- [Definitions](#definitions)
+- [Machine Learning algorithms](#machine-learning-algorithms)
+- [Supervised Learning](#supervised-learning)
+    - [Regression](#regression)
+    - [Linear Regression](#linear-regression)
+    - [Logistic Regression](#logistic-regression)
+- [Unsupervised Learning](#unsupervised-learning)
+    - [Unsupervised Learning - Examples](#unsupervised-learning---examples)
+- [Reinforcement Learning](#reinforcement-learning)
+    - [Reinforcement Learning - Example](#reinforcement-learning---example)
+- [Machine Learning modules](#machine-learning-modules)
+    - [SciPy](#scipy)
+    - [scikit-learn](#scikit-learn)
+- [Consumer Behavior](#consumer-behavior)
+- [Links](#links)
+
+<!-- /TOC -->
 
 # Machine Learning
 Machine learning is all around us. From antilock braking systems, to autopilot systems in airplanes and cars, smart speakers, which serve as personal digital assistants, to systems that learn our movie preferences and recommend what to watch next in Netflix.
@@ -9,18 +32,17 @@ Machine learning is all around us. From antilock braking systems, to autopilot s
     Machine Learning is the process of creating models that can perform a certain task without the need for a human explicitly programming it to do something
 
 
+# Steps in Machine Learning
+There are six major steps in the machine learning process.
 
-# Agenda
+1. Data Collection
+2. Data Exploration
+3. Data Preparation
+4. Modeling
+5. Evaluation
+6. Insights
 
-- Machine Learning in Python
-- Scikit-learn
-- TensorFlow
-- Pandas
-- Numpy
-- Matplotlib
-- Docker
-
-- [Linear Regression](./Linear_Regression.md)
+![](./image/ml_6_steps.jpg)
 
 # Definitions
 **Artificial Intelligence** (*AI*) refers to the simulation of human intelligence processes by machines, including learning, reasoning and self-correction
@@ -105,6 +127,42 @@ Read more about Horizon
 - [engineering.fb.com/ml-applications/horizon](https://engineering.fb.com/ml-applications/horizon)
 - [research.fb.com/publications/horizon-facebooks-open-source-applied-reinforcement-learning-platform](https://research.fb.com/publications/horizon-facebooks-open-source-applied-reinforcement-learning-platform)
 
+# Machine Learning modules
+SciPy is an ecosystem of Python libraries for mathematics, science and engineering. 
+
+It is an
+add-on to Python that you will need for machine learning. 
+
+The SciPy ecosystem is comprised of the following core modules relevant to machine learning:
+- **NumPy**: A foundation for SciPy that allows you to efficiently work with data in arrays.
+- **Matplotlib**: Allows you to create 2D charts and plots from data.
+- **Pandas**: Tools and data structures to organize and analyze your data.
+
+To be effective at machine learning in Python you must use thise modules:
+
+- We will prepare your data as **NumPy** arrays for modeling in machine learning algorithms.
+- We will use **Matplotlib** (and wrappers of Matplotlib in other frameworks) to create plots
+and charts of your data.
+- We will use **Pandas** to load, explore, and better understand your data.
+
+## SciPy
+SciPy provides algorithms for optimization, integration, interpolation, eigenvalue problems, algebraic equations, differential equations, statistics and many other classes of problems.
+
+## scikit-learn
+The scikit-learn library is how you can develop and practice machine learning in Python. It is built upon and requires the SciPy ecosystem. 
+
+The name scikit suggests that it is a SciPy plug-in or toolkit. The focus of the library is machine learning algorithms for classification, regression, clustering and more. It also provides tools for related tasks such as evaluating models, tuning parameters and pre-processing data.
+
+```python
+import scipy
+import sklearn
+```
+
+# Consumer Behavior
+Companies understand that predicting customer behavior fills the gap in the markets and identifies products that are needed and which could generate bigger revenue.
+
+[Consumer Behavior](./ConsumerBehavior.md)
 
 # Links
-- [www.tensorflow.org](https://www.tensorflow.org)
+- [tensorflow.org](https://www.tensorflow.org)
+- [scipy.org/](https://scipy.org/)
