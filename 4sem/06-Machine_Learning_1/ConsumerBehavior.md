@@ -269,8 +269,3 @@ From this plot, we can get information about the spending patterns:
 - The average spending score irrespective of age would be around 20
 - In the topmost cluster, Customers below age 40 has the highest spending scores. The cluster is less sparse.
 - Above age 40, the spending score remains consistently within the range of 30 - 60.
-
-
-```python
-
-```

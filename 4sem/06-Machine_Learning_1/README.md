@@ -2,10 +2,10 @@
 # Machine Learning 1
     - 25-04-2021 - Mandag - DK
     - 26-04-2021 - Tirsdag - INT
+
 <!-- TOC -->
 
 - [Machine Learning 1](#machine-learning-1)
-- [content](#content)
 - [Machine Learning](#machine-learning)
 - [Steps in Machine Learning](#steps-in-machine-learning)
 - [Definitions](#definitions)
@@ -29,8 +29,7 @@
 # Machine Learning
 Machine learning is all around us. From antilock braking systems, to autopilot systems in airplanes and cars, smart speakers, which serve as personal digital assistants, to systems that learn our movie preferences and recommend what to watch next in Netflix.
 
-    Machine Learning is the process of creating models that can perform a certain task without the need for a human explicitly programming it to do something
-
+*Machine Learning is the process of creating models that can perform a certain task without the need for a human explicitly programming it to do something*
 
 # Steps in Machine Learning
 There are six major steps in the machine learning process.
@@ -65,9 +64,9 @@ The area of Machine Learning where you have a set of independent variables which
 
 Whatever you want to predict is called as Dependent Variable, while variables that you use to predict are called as Independent Variables
 
-    You want to predict the **age** of the person 
-    based on the person’s **height** and **weight**, 
-    then **height** and **weight** will be the **independent** variables, while **age** will be the **dependent** variable
+You want to predict the **age** of the person 
+based on the person’s **height** and **weight**, 
+then **height** and **weight** will be the **independent** variables, while **age** will be the **dependent** variable
 
 Supervised learning is the most popular paradigm for machine learning. It is the easiest to understand and the simplest to implement.
 
@@ -165,4 +164,4 @@ Companies understand that predicting customer behavior fills the gap in the mark
 
 # Links
 - [tensorflow.org](https://www.tensorflow.org)
-- [scipy.org/](https://scipy.org/)
+- [scipy.org](https://scipy.org/)
