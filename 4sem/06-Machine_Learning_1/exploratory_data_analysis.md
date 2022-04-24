@@ -1,3 +1,5 @@
+[HOME](./README.md)
+
 # Exploratory data analysis
 In statistics, **Exploratory Data Analysis** (*EDA*) is an approach of analyzing data sets to summarize their main characteristics, often using statistical graphics and other data visualization methods.
 
@@ -231,10 +233,17 @@ plt.xticks(xdata)
 ## Question 11
 *Which day of the week has maximum sales?*
 
-![]()
+![](./data/uni15.png)
+
+Sales is highest on **Saturdays** probably because it is the weekend.
+
+**Tuesdays** is a close second. **Mondays** is the lowest in sales.
 
 ```python
 plt.figure(figsize=(8, 6))
 plt.title('Daily Sales by Day of the Week')
 sns.countplot(df['weekday'])
 ```
+
+## Question 12 
+*Which hour of the day is the busiest?*
