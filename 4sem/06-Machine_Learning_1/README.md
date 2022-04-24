@@ -113,7 +113,7 @@ It is the training of machine learning models to make a sequence of decisions.
 
 The *machine* learns to achieve a goal in an uncertain, potentially complex environment. The *machine* employs trial and error to come up with a solution to the problem.
 
-## Reinforcement Learning - Example
+## Facebook - Horizon
 Facebook has developed an open-source reinforcement learning **platform — Horizon**. The platform uses reinforcement learning to optimize large-scale production systems.
 
 **Facebook has used Horizon internally**
@@ -123,8 +123,8 @@ Facebook has developed an open-source reinforcement learning **platform — 
 - Optimize video streaming quality
 
 Read more about Horizon
-- [engineering.fb.com/ml-applications/horizon](https://engineering.fb.com/ml-applications/horizon)
-- [research.fb.com/publications/horizon-facebooks-open-source-applied-reinforcement-learning-platform](https://research.fb.com/publications/horizon-facebooks-open-source-applied-reinforcement-learning-platform)
+- [Engineering.fb.com/ml-applications/horizon](https://engineering.fb.com/ml-applications/horizon)
+- [Research.fb.com/publications/horizon-facebooks-open-source-applied-reinforcement-learning-platform](https://research.fb.com/publications/horizon-facebooks-open-source-applied-reinforcement-learning-platform)
 
 # Machine Learning modules
 SciPy is an ecosystem of Python libraries for mathematics, science and engineering. 
@@ -164,6 +164,8 @@ Exploratory data analysis using supermarket sales data
 - [Jupyter Lab File](./data/eda.ipynb)
 
 # Consumer Behavior
+**Using AI and Machine Learning to Predict Consumer Behavior**
+
 Companies understand that predicting customer behavior fills the gap in the markets and identifies products that are needed and which could generate bigger revenue.
 
 - [Consumer Behavior](./ConsumerBehavior.md)
