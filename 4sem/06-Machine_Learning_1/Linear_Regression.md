@@ -17,3 +17,22 @@ Linear regression is the most widely used regression method
 f(x) = b_{0} + b_{1}x_{1} + b_{2}x_{2} + ... b_{r}x_{r}
 
 **scikit-learn** is built on top of NumPy
+
+
+# Salary example
+We will be using salary dataset. 
+
+The dataset have 2 columns:
+
+– Years of Experience
+- Salary
+
+The dataset is in Excel format.
+
+- [Jupyter Lab Salary File](./data/linear/SalaryData.ipynb)
+- [SalaryData.xlsx](./data/linear/SalaryData.xlsx)
+
+# Webshop - Age/Spend - Assignment
+Purchases distributed on the different age groups, from a webshop.
+
+[Assignment](./data/linear/Webshop.md)
