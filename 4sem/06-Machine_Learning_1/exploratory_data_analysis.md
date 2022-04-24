@@ -16,4 +16,4 @@ The dataset consists of data from 3 cities or 3 branches in Myanmar:
 - Branch C (*Naypyitaw*)
 
 - [Supermarket](./data/eda_supermarket.md)
-- [Jupyter Lab file](./data/eda.ipynb)
+- [Jupyter Lab file](./data/eda_supermarket.ipynb)
