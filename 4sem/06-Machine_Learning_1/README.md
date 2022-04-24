@@ -62,7 +62,9 @@ In statistics, **Exploratory Data Analysis** (*EDA*) is an approach of analyzing
 - [Unsupervised Learning](#unsupervised-learning)
 - [Reinforcement Learning](#reinforcement-learning)
 
-![bg 67%](https://github.com/officegeek/image/raw/main/Types_of_ML.png)
+![](https://github.com/officegeek/image/raw/main/Types_of_ML.png)
+
+![](./image/supervised-vs-unsupervised-learning.png)
 
 # Supervised Learning
 The area of Machine Learning where you have a set of independent variables which helps you to analyse the dependent variable and the relation between them
