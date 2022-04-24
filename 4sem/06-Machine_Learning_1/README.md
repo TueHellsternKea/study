@@ -43,6 +43,11 @@ There are six major steps in the machine learning process.
 
 ![](./image/ml_6_steps.jpg)
 
+# Exploratory data analysis - EDA
+In statistics, **Exploratory Data Analysis** (*EDA*) is an approach of analyzing data sets to summarize their main characteristics, often using statistical graphics and other data visualization methods.
+
+[EDA](./exploratory_data_analysis.md)
+
 # Definitions
 **Artificial Intelligence** (*AI*) refers to the simulation of human intelligence processes by machines, including learning, reasoning and self-correction
 
@@ -156,11 +161,6 @@ The name scikit suggests that it is a SciPy plug-in or toolkit. The focus of the
 import scipy
 import sklearn
 ```
-
-# Exploratory data analysis - EDA
-In statistics, **Exploratory Data Analysis** (*EDA*) is an approach of analyzing data sets to summarize their main characteristics, often using statistical graphics and other data visualization methods.
-
-[EDA](./exploratory_data_analysis.md)
 
 # Consumer Behavior
 **Using AI and Machine Learning to Predict Consumer Behavior**
