@@ -158,10 +158,9 @@ import sklearn
 ```
 
 # Exploratory data analysis - EDA
-Exploratory data analysis using supermarket sales data
+In statistics, **Exploratory Data Analysis** (*EDA*) is an approach of analyzing data sets to summarize their main characteristics, often using statistical graphics and other data visualization methods.
 
-- [EDA](./data/eda.html)
-- [Jupyter Lab File](./data/eda.ipynb)
+[EDA](./exploratory_data_analysis.md)
 
 # Consumer Behavior
 **Using AI and Machine Learning to Predict Consumer Behavior**
