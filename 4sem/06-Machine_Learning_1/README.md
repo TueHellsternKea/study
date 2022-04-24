@@ -160,13 +160,14 @@ import sklearn
 # Exploratory data analysis - EDA
 Exploratory data analysis using supermarket sales data
 
-- [EDA](./data/eda/eda.md)
+- [EDA](./data/eda.html)
 - [Jupyter Lab File](./data/eda.ipynb)
 
 # Consumer Behavior
 Companies understand that predicting customer behavior fills the gap in the markets and identifies products that are needed and which could generate bigger revenue.
 
-[Consumer Behavior](./ConsumerBehavior.md)
+- [Consumer Behavior](./ConsumerBehavior.md)
+- [Consumer Behavior - Jupyter Lab file](./data/Customers.ipynb)
 
 # Links
 - [tensorflow.org](https://www.tensorflow.org)
