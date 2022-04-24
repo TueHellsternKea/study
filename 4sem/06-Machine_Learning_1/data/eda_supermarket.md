@@ -1,7 +1,3 @@
-
-
-https://towardsdatascience.com/exploratory-data-analysis-using-spermarket-sales-data-in-python-e99d329a07fc
-
 # Data - Supermarket sales
 We are using a data set from [www.kaggle.com](https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales) with historical record of sales data in 3 different supermarkets.
 
@@ -235,3 +231,63 @@ sns.countplot(df['weekday'])
 
 ## Question 12 
 *Which hour of the day is the busiest?*
+
+![](./data/uni16.png)
+
+```python
+df['Time'] = pd.to_datetime(df['Time'])
+df['Hour'] = (df['Time']).dt.hour
+
+df.groupby(['Hour']).size().plot(kind = "bar")
+```
+
+## Question 13
+*Which product line should the supermarket focus on?*
+
+### Rating of products
+
+![](./data/uni17.png)
+
+```python
+xdata = [0,1,2,3,4,5,6,7,8,9,10]
+plt.figure(figsize = (12,6))
+sns.barplot(y = df['Product line'], x = df['Rating'])
+plt.xticks(xdata)
+```
+
+### Quantity purchased by product
+
+![](./data/uni18.png)
+
+Though the rating for 'fashion accessories' and 'food and beverages' is high but quantity purchased is low. Hence, supply for these products need to be increased.
+
+```python
+sns.boxenplot(y='Product line', x='Quantity', data=df )
+```
+
+## Question 14
+*Which city should be chosen for expansion and which products should it focus on?*
+
+![](./data/uni19.png)
+
+Naypyitaw is the most profitable city, hence the expansion plan should be based on this city.
+
+```python
+plt.figure(figsize=(20,7))
+sns.barplot(x=df['City'], y=df['gross income'], palette='Set1')
+plt.xlabel('City name', fontsize='16')
+plt.xticks(fontsize='16')
+plt.ylabel('Gross income', fontsize='16')
+plt.yticks(fontsize='16')
+```
+
+![](./data/uni19.png)
+
+Fashion accessories and food and beverages are the most sold product in Naypyitaw and these products should be focused on for expansion along with electronic accessories.
+
+```python
+plt.figure(dpi=125)
+sns.countplot(y='Product line', hue = "City", data = df) 
+plt.xlabel('Count')
+plt.show()
+```
