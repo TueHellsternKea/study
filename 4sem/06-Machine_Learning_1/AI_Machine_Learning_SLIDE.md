@@ -11,7 +11,7 @@ markdown.marp.enableHtml
 ---
 
 ![bg right:30% 245%](https://github.com/officegeek/image/raw/main/agenda.jpg)
-# AI & Machine Learning  27-04-2021
+# AI & Machine Learning  25-04-2022
 ### Agenda
 
 - Unsupervised Learning
