@@ -29,6 +29,9 @@
 - [Machine Learning 1](./06-Machine_Learning_1/README.md)
     - 25-04-2022 - Mandag - DK
     - 26-04-2022 - Tirsdag - INT
+  - [Programming]()
+    - 28-04-2022 - Torsdag - DK
+    - 29-04-2022 - Fredag - INT
 - [Machine Learning 2](./07-Machine_Learning_2/README.md)
     - 09-05-2022 - Mandag - DK
     - 10-05-2022 - Tirsdag - INT
