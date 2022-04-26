@@ -10,12 +10,13 @@ size: 4K
 markdown.marp.enableHtml
 ---
 
-# Machine Learning  - Jupyter Lab
+# Machine Learning - Jupyter Lab
 - Azure - VM
+  - ssh username@ip
+  - Putty 
 - Start Jupyter lab
   - jupyter lab --no-browser --ip "*"
   - jupyter server password
-
 
 ---
 
