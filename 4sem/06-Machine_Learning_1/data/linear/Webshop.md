@@ -14,6 +14,13 @@ It is your task to make the following:
 ### Spend pr. group
 You have to create a "Table" with the mean spend pr. Age group.
 
+Group by:
+
+```python
+group_age_spend = df[['Age', 'Spend']].groupby(['Age'], as_index=False).mean().sort_values(by='Age')
+group_age_spend
+```
+
 ![](./image/spend_2.jpg)
 
 ![](./image/spend_3.jpg)

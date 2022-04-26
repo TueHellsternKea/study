@@ -1,5 +1,5 @@
 ---
-title: AI & Machine Learning
+title: Machine Learning
 theme: gaia
 _class: lead
 paginate: true
@@ -10,8 +10,17 @@ size: 4K
 markdown.marp.enableHtml
 ---
 
+# Machine Learning  - Jupyter Lab
+- Azure - VM
+- Start Jupyter lab
+  - jupyter lab --no-browser --ip "*"
+  - jupyter server password
+
+
+---
+
 ![bg right:30% 245%](https://github.com/officegeek/image/raw/main/agenda.jpg)
-# AI & Machine Learning  25-04-2022
+# Machine Learning  26-04-2022
 ### Agenda
 
 - Unsupervised Learning
@@ -20,8 +29,6 @@ markdown.marp.enableHtml
   - Hierarchical clustering
   - t-SNE clustering
   - DBSCAN clustering
-
-<!-- _footer: Tue Hellstern © 2021-->
 
 ---
 ![bg right:72% 66%](https://github.com/officegeek/image/raw/main/TheBrain.png)

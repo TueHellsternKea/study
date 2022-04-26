@@ -17,3 +17,35 @@ The dataset consists of data from 3 cities or 3 branches in Myanmar:
 
 - [Supermarket](./data/eda_supermarket.md)
 - [Jupyter Lab file](./data/eda_supermarket.ipynb)
+
+# # Webshop - Assignment
+Purchases distributed on the different age groups, from a webshop
+
+## Data
+Data are in a Excel file: spend_age.xlsx
+
+[Download - spend_age.xlsx](../06-Machine_Learning_1/data/linear/spend_age.xlsx)
+
+![](../06-Machine_Learning_1/data/linear/image/spend_1.jpg)
+
+## Tasks
+It is your task to make the following:
+
+### Spend pr. group
+You have to create a "Table" with the mean spend pr. Age group.
+
+Group by:
+
+```python
+group_age_spend = df[['Age', 'Spend']].groupby(['Age'], as_index=False).mean().sort_values(by='Age')
+group_age_spend
+```
+
+![](../06-Machine_Learning_1/data/linear/image/spend_2.jpg)
+
+![](../06-Machine_Learning_1/data/linear/image/spend_3.jpg)
+
+### Linear regression
+![](../06-Machine_Learning_1/data/linear/image/spend_4.jpg)
+
+![](../06-Machine_Learning_1/data/linear/image/spend_5.jpg)
