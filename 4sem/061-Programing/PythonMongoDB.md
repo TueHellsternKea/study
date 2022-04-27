@@ -20,9 +20,9 @@ How to use the local installed MongoDB server.
 
 
 # Using MongoDB in the Cloud
-How to use a MongoDB hostede in the Cloud - 
+How to use a MongoDB hostede in the Cloud.
 
-
+[MongoDB Cloud](./MongoDb_Cloud.md)
 
 # Links
 - [www.mongodb.com](https://www.mongodb.com)
