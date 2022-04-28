@@ -30,4 +30,4 @@ x = mycol.delete_many({})
 print(x.deleted_count, " documents deleted.")
 
 # Delete/Drop collection
-#mycol.drop()
+mycol.drop()
