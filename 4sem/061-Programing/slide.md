@@ -33,7 +33,7 @@ markdown.marp.enableHtml
 
 - Create a MongoDB database using the data
 
-|Company|Sales|Year|
+|**Company**|**Sales**|**Year**|
 |---|---|---|
 |Colgate|120000|2021|
 |Apple|130000|2021|
