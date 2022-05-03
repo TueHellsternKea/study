@@ -3,8 +3,7 @@ import pymongo
 
 # Connection
 #myclient = pymongo.MongoClient("mongodb://localhost:27017/")
-
-myclient = pymongo.MongoClient("mongodb+srv://hellstern:XXXXXX@cluster0.huvwp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+#myclient = pymongo.MongoClient("mongodb+srv://hellstern:XXXXXX@cluster0.huvwp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
 mydb = myclient["mydatabase"]
 mycol = mydb["customers"]
