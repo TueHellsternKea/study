@@ -1,5 +1,29 @@
 # Opgave
 
+Create a MongoDB database using the data
+
+|**Company**|**Sales**|**Year**|
+|---|---|---|
+|Colgate|120000|2021|
+|Apple|130000|2021|
+|Tesla|140000|2021|
+
+- Create GitHub repository
+- Create Dash application with the data
+- Push the application to GitHub
+- Show the Dash application on Azure
+
+## MongoDB
+```python
+mylist = [
+    {"Firma": "Colgate", "omsætning": 10000, "år": 2021},
+    {"Firma": "Apple", "omsætning": 15000, "år": 2021},
+    {"Firma": "Tesla", "omsætning": 20000, "år": 2021}
+]
+x = mycol.insert_many(mylist)
+```
+
+## Dash
 ```python
 import pymongo
 import pandas as pd
@@ -10,16 +34,9 @@ import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 
-myclient = pymongo.MongoClient("mongodb+srv://hellstern:xxxxx@cluster0.huvwp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+myclient = pymongo.MongoClient("mongodb+srv://hellstern:XXXXX@cluster0.huvwp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 mydb = myclient["mydatabase"]
 mycol = mydb["virksomhedsomsætninger"]
-
-mylist = [
-    {"Firma": "Colgate", "omsætning": 10000, "år": 2021},
-    {"Firma": "Apple", "omsætning": 15000, "år": 2021},
-    {"Firma": "Tesla", "omsætning": 20000, "år": 2021}
-]
-x = mycol.insert_many(mylist)
 
 data = pd.DataFrame(list(mycol.find()))
 

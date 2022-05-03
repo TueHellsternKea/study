@@ -15,7 +15,7 @@ WebSockets enable a **bidirectional**, **full-duplex** communications channel th
 
 # Opgave
 
-[Opgave](./Opgave.md)
+[Opgave]()
 
 
 
