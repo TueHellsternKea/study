@@ -6,11 +6,12 @@
 ## Bernoulli
 Bernoulli Naive Bayes is one of the variants of the Naive Bayes algorithm in machine learning. It is very useful to be used when the dataset is in a binary distribution where the output label is either present or absent (*0 or 1*).
 
-# Stress
-Is it possible to detect stress from text string on the internet - *In a chat for example* - with machine Learning?
+- Is it possible to detect stress from text string on the internet - *In a chat for example* - with machine Learning?
+- It it possible to detect hatefully language on Twitter?
+- Can you use ML to detect spam?
 
 ## Example Stress
-Stress detection with machine learning from text strings. The dataset for this task contains data posted on subreddits related to mental health. 
+Stress detection with machine learning from text strings. The dataset for this task contains data posted on subreddit's related to mental health. 
 
 This dataset contains various mental health problems shared by people about their life. This dataset is labelled as 0 and 1, where 0 indicates no stress and 1 indicates stress.
 
@@ -31,7 +32,7 @@ The text is labeled in the colum class with:
 - ham = Not spam
 - spam = Spam
 
-This is a test of the algorithm 
+### Test of the algorithm 
 
 ```python
 import pandas as pd
@@ -71,5 +72,3 @@ You can get the Curvex data
 The Curvex data is located in different csv files in different folders.
 
 Create Python code there can combine the different csv files.
-
-
