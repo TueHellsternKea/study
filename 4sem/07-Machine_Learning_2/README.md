@@ -3,12 +3,11 @@
 - 09-05-2021 - Mandag - DK
 - 10-05-2021 - Tirsdag - INT
 
-# Stress
-Is it possible to detect stress from text string on the internet - *In a chat for example* - with machine Learning?
-
 ## Bernoulli
 Bernoulli Naive Bayes is one of the variants of the Naive Bayes algorithm in machine learning. It is very useful to be used when the dataset is in a binary distribution where the output label is either present or absent (*0 or 1*).
 
+# Stress
+Is it possible to detect stress from text string on the internet - *In a chat for example* - with machine Learning?
 
 ## Example Stress
 Stress detection with machine learning from text strings. The dataset for this task contains data posted on subreddits related to mental health. 
@@ -21,7 +20,7 @@ I have used Jupyter Lab for this - [DetectStress.ipynb](./code/DetectStress.ipyn
 
 
 ## Example Twitter
-Detection of the language on Twitter - [twitter_language.ipynb](./code/twitter_language.ipynb)
+Use the Bernoulli algorithm for detection of the language on Twitter - [twitter_language.ipynb](./code/twitter_language.ipynb)
 
 
 ## Example Spam
@@ -56,10 +55,16 @@ model.fit(xtrain, ytrain)
 print(model.score(xtest, ytest))
 ```
 
-# Curvex data
+# Curvex
+The Curvex case.
+
+## Test device
+I have the device if you would like to test it
+
+## Data
 You can get the Curvex data on Fronter.
 
-# Use Python for data import
+## Use Python for data import
 The Curvex data is located in different csv files in different folders.
 
 Create Python code there can combine the different csv files.
