@@ -62,7 +62,10 @@ The Curvex case.
 I have the device if you would like to test it
 
 ## Data
-You can get the Curvex data on Fronter.
+You can get the Curvex data
+- On Fronter
+- Download link: [Curvex data zip](https://bit.ly/curvexdata)
+
 
 ## Use Python for data import
 The Curvex data is located in different csv files in different folders.
