@@ -24,7 +24,9 @@ The data is: [stress_csv.csv](./code/stress_csv.csv)
 I have used Jupyter Lab for this - [DetectStress.ipynb](./code/DetectStress.ipynb)
 
 ## Example Twitter
-Use the Bernoulli algorithm for detection of the language on Twitter - [twitter_language.ipynb](./code/twitter_language.ipynb)
+Use the Bernoulli algorithm for detection of the language on Twitter.
+
+Data is in [twitter.csv](../07-Machine_Learning_2/code/twitter.csv)
 
 ## Example Spam
 This example look's at the text in the csv file: [spam.csv](./spam.csv)
@@ -65,9 +67,7 @@ The Curvex case.
 I have the device if you would like to test it
 
 ## Data
-You can get the Curvex data
-- On Fronter
-- Download link: [Curvex data zip](https://bit.ly/curvexdata)
+You can get the Curvex data on Fronter as a zip file.
 
 
 ## Use Python for data import
