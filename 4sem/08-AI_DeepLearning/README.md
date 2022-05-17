@@ -27,10 +27,9 @@ Each example is a 28x28 grayscale image, associated with a label from 10 classes
 
 ![](https://tensorflow.org/images/fashion-mnist-sprite.png)
 
-## JupyterLab file
-[classification.ipynb](./code/classification.ipynb)
-
+## JupyterLab file [classification.ipynb](./code/classification.ipynb)
 </br>
+
 # Example 2 - Data Center
  The use case to solve relates to root cause analysis of problems found in a data center. 
  
