@@ -44,7 +44,8 @@ Each example is a 28x28 grayscale image, associated with a label from 10 classes
  **The problem statement is as follows**: using data about *CPU loads, memory load, network delays, and three types of errors observed*, build a deep learning model to predict the root cause of the error. 
  
  A data set is available that has one record for each of these incident, indicating if any of the load issues or errors were noticed when the problem happened. 
- The data set is available in the **root_cause_analysis.csv** file.
+ 
+ The data set is available in the [root_cause_analysis.csv](./code/root_cause_analysis.csv) file.
 
  ![](./image/data.jpg)
  
