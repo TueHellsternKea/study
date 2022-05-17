@@ -35,13 +35,13 @@
 - [Machine Learning 2](./07-Machine_Learning_2/README.md)
     - 09-05-2022 - Mandag - DK
     - 10-05-2022 - Tirsdag - INT
-- [AI - (Deep Learning)](./08-AI_DeepLearning/AI-DeepLearning.md)
+- [AI - (Deep Learning)](./08-AI_DeepLearning/README.md)
     - 17-05-2022 - Tirsdag - DK
     - 18-05-2022 - Onsdag - INT
-- [IT architecture & Microservice](./09-IT_architecture_Microservice/IT-architecture-Microservices.md)
+- [IT architecture & Microservice](./09-IT_architecture_Microservice/README.md)
     - 23-05-2022 - Mandag - DK
     - 24-05-2022 - Tirsdag - INT
-- [IT security](./10-IT_security/IT-security.md)
+- [IT security](./10-IT_security/README.md)
     - 31-05-2022 - Tirsdag - DK
     - 01-06-2022 - Onsdag - INT
 - [Delivery 1 - 28-03-2022](./11-Delivery/Delivery_1.md)
