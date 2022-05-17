@@ -13,6 +13,33 @@ TensorFlow is an end-to-end open source platform for machine learning. It has a 
 ## TensorFlow 2.0 and Keras
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wGI_VtE9CJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+----
+
+# Simpel Demo
+Consider the following sets of **numbers**. **Can you see the relationship between them?**
+
+| X: | -1 | 0 | 1 | 2 | 3  | 4  |
+|----|----|---|---|---|----|----|
+| Y: | -2 | 1 | 4 | 7 | 10 | 13 |
+
+
+As you look at them, you might notice that the value of **X** is **increasing** by **1** as you read left to right and the corresponding value of **Y** is **increasing** by **3**.
+
+You probably think that Y equals 3X plus or minus something. 
+
+Look at the **0** on **X** and see that **Y** is **1**, and you'd come up with the relationship
+
+**Y=3X+1**
+
+*How would you train a neural network to do the equivalent task?*
+
+*By feeding it with a set of X's and a set of Y's, it should be able to figure out the relationship between them.*
+
+## Jupyter Lab file
+[Simpel_ML.ipynb](./code/Simpel_ML.ipynb)
+
+----
+
 # Example 1 - Predict Churn
 
 ## Customer base churn
@@ -36,6 +63,7 @@ Use the data [Churn.csv](./code/Churn.csv)
 ## Jupyter Lab file
 Get the Jupyter Lab file her - [TensorflowDemo.ipynb](./code/TensorflowDemo.ipynb)
 
+----
 
 # Example 2 - Images
 This guide trains a neural network model to classify images of clothing, like sneakers and shirts. It's okay if you don't understand all the details; this is a fast-paced overview of a complete TensorFlow program with the details explained as you go.
@@ -51,6 +79,7 @@ Each example is a 28x28 grayscale image, associated with a label from 10 classes
 ## JupyterLab file
 [classification.ipynb](./code/classification.ipynb)
 
+----
 
 # Example 3 - Data Center
  The use case to solve relates to root cause analysis of problems found in a data center. 
