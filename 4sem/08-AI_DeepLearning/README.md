@@ -13,8 +13,16 @@ TensorFlow is an end-to-end open source platform for machine learning. It has a 
 ## TensorFlow 2.0 and Keras
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wGI_VtE9CJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+# Example 1
+1. Build a simple Tensorflow model to predict Churn
+2. Training the model and make predictions on test data with Pandas
+3. Save your model to disc and reload it to a Jupyter Notebook for reuse
 
-# Example 1 - Images
+Use the data 
+## Video
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6_2hzRopPbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# Example 2 - Images
 This guide trains a neural network model to classify images of clothing, like sneakers and shirts. It's okay if you don't understand all the details; this is a fast-paced overview of a complete TensorFlow program with the details explained as you go.
 
 Example from TensorFlow - [www.tensorflow.org/tutorials/keras/classification](https://www.tensorflow.org/tutorials/keras/classification)
@@ -29,9 +37,7 @@ Each example is a 28x28 grayscale image, associated with a label from 10 classes
 [classification.ipynb](./code/classification.ipynb)
 
 
-
-
-# Example 2 - Data Center
+# Example 3 - Data Center
  The use case to solve relates to root cause analysis of problems found in a data center. 
  
  We have a data center that runs a number of software services. Service failures do happen from time to time, and the data center team needs to quickly troubleshoot and identify the root cause. 
