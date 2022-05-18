@@ -116,3 +116,5 @@ It has three possible values:
 - DATABASE_ISSUE
 
 We want to build a model to **predict the root cause** based on the other values provided.
+
+[IncidentRootCauseAnalysis.ipynb](./code/IncidentRootCauseAnalysis.ipynb)
