@@ -3,7 +3,14 @@
     - 23-05-2021 - Mandag - DK
     - 24-05-2021 - Tirsdag - INT
 
-# Beskrivelse
+# Slides
+
+- [It_Architecture_Slides.html](./It_Architecture_Slides.html)
+- [It_Architecture_Slides.pdf](./It_Architecture_Slides.pdf)
+
+# IT Architecture
 
 
-# Resources & Activities
+# Microservice
+
+
