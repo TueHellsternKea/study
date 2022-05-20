@@ -40,7 +40,7 @@ Look at the **0** on **X** and see that **Y** is **1**, and you'd come up with t
 
 ----
 
-# Example 1 - Predict Churn
+# Predict Churn
 
 ## Customer base churn
 Churn rate, when applied to a customer base, refers to the proportion of contractual customers or subscribers who leave a supplier during a given time period.
@@ -65,7 +65,7 @@ Get the Jupyter Lab file her - [TensorflowDemo.ipynb](./code/TensorflowDemo.ipyn
 
 ----
 
-# Example 2 - Images
+# Detect Images from Zalando
 This guide trains a neural network model to classify images of clothing, like sneakers and shirts. It's okay if you don't understand all the details; this is a fast-paced overview of a complete TensorFlow program with the details explained as you go.
 
 Example from TensorFlow - [www.tensorflow.org/tutorials/keras/classification](https://www.tensorflow.org/tutorials/keras/classification)
@@ -81,7 +81,7 @@ Each example is a 28x28 grayscale image, associated with a label from 10 classes
 
 ----
 
-# Example 3 - Data Center
+# Data Center - Cause analysis of problems
  The use case to solve relates to root cause analysis of problems found in a data center. 
  
  We have a data center that runs a number of software services. Service failures do happen from time to time, and the data center team needs to quickly troubleshoot and identify the root cause. 
@@ -116,3 +116,5 @@ It has three possible values:
 - DATABASE_ISSUE
 
 We want to build a model to **predict the root cause** based on the other values provided.
+
+[IncidentRootCauseAnalysis.ipynb](./code/IncidentRootCauseAnalysis.ipynb)
