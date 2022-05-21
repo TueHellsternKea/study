@@ -91,14 +91,6 @@ It functions as a blueprint for the system and the developing project, laying ou
 
 ---
 
-![bg right:53% 90%](https://github.com/officegeek/image/raw/main/Are_you_a_software_architect.png)
-# Are You a Software Architect?
-
-
-https://www.infoq.com/articles/brown-are-you-a-software-architect/
-
----
-
 <!-- _backgroundColor: black -->
 <!-- _color: white -->
 # 4+1 Model <!-- fit -->
@@ -183,15 +175,6 @@ UML diagrams used to represent the physical view include the **Deployment diagra
 - Process - *Blue*
 - Development - *Orange*
 - Physical - *Brown*
-
----
-
-# Viewpoints and Perspectives
-## Nick Rozanski & Eoin Woods
-
-
-- https://www.viewpoints-and-perspectives.info/
-- https://github.com/officegeek/image/raw/main/pdf/VPandV_WhitePaper.pdf
 
 ---
 

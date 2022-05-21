@@ -3,13 +3,16 @@
     - 23-05-2021 - Mandag - DK
     - 24-05-2021 - Tirsdag - INT
 
-# Slides
+# IT Architecture
+- It Architecture
+- 4+1 Model
+- ISO/IEC/IEEE 42010
+- Design Steps
+- Quality Attributes - Non Functions Requirements
 
+## Slides
 - [It_Architecture_Slides.html](./It_Architecture_Slides.html)
 - [It_Architecture_Slides.pdf](./It_Architecture_Slides.pdf)
-
-# IT Architecture
-
 
 # Microservice
 A microservice architecture – A variant of the service-oriented architecture (**SOA**) – arranges an application as a collection of loosely-coupled services.
