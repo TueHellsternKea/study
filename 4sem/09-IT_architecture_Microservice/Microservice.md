@@ -87,14 +87,6 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0', port=80)
 ```
 
-
-
-# Cinema example
-This is an Python example of microservice for a movie theater.
-
-[CinemaExample](CinemaExample.md)
-
-
 ## Resources
 - Martin Fowler's [microservices article](http://martinfowler.com/articles/microservices.html)
 - [microservices.io](https://microservices.io)
