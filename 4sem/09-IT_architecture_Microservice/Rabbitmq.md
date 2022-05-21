@@ -103,7 +103,7 @@ The **send.py** program send.py will send a single message to the queue *hello*
 
 ![](https://www.rabbitmq.com/img/tutorials/sending.png)
 
-```Python
+```python
 import pika
 
 connection = pika.BlockingConnection(
@@ -124,7 +124,7 @@ Your second program **receive.py** will receive messages from the queue and prin
 
 ![](https://www.rabbitmq.com/img/tutorials/receiving.png)
 
-```Python
+```python
 import pika, sys, os
 
 def main():
@@ -176,6 +176,3 @@ As you might have noticed, the **receive.py** program doesn't exit. It will stay
 
 ## RabbitMQ PDF
 You can get an good introduction of RabbitMQ in this PDF - [Getting_Started_with_RabbitMQ_and_CloudAMQP.pdf](Getting_Started_with_RabbitMQ_and_CloudAMQP.pdf) from [CloudAMQO](https://www.cloudamqp.com)
-
-
-
