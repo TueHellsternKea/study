@@ -15,6 +15,8 @@ RabbitMQ is the most widely deployed open source message broker - [RabbitMQ](htt
 
 *In this analogy, RabbitMQ is a post box, a post office, and a letter carrier.*
 
+![](https://dzfweb.gitbooks.io/microsoft-microservices-book/content/multi-container-microservice-net-applications/media/image22.png)
+
 ## Install RabbitMQ
 You need to install RabbitMQ. Installations guides:
 

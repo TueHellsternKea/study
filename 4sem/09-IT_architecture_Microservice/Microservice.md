@@ -7,7 +7,11 @@ The goal is that teams can bring their services to life independent of others. *
 
 The microservice architecture brings the idea of **decoupling functional parts of software applications into lightweight, deployable solutions, each having its own goal in the general ecosystem**.
 
-![](./image/Microservices.jpg)
+---
+
+![](https://microservices.io/i/Microservice_Architecture.png)
+
+----
 
 Microservices build in Python is considered to have an edge over other languages. Microservices in Python use a RESTful API approach. With this technology, it becomes easier to monitor the application since it is now broken into components.
 
