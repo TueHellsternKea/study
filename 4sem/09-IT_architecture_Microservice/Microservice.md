@@ -11,7 +11,7 @@ The microservice architecture brings the idea of **decoupling functional parts o
 
 Microservices build in Python is considered to have an edge over other languages. Microservices in Python use a RESTful API approach. With this technology, it becomes easier to monitor the application since it is now broken into components.
 
-There is a broad range of Python microservices frameworks to choose from for your web application development. One of the most popular is Flask.
+There is a broad range of Python Microservices frameworks to choose from for your web application development. One of the most popular is Flask.
 
 ### Multiple components
 - Each service is a standalone component of its own
