@@ -58,7 +58,7 @@ Social media companies like Facebook and Twitter, retailers like Amazon, media p
 ## Flask demo
 You can build a Microservice architecture with Flask.
 
-```Python
+```python
 # Import
 from flask import Flask
 import platform

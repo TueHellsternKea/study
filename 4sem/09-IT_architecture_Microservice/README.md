@@ -10,7 +10,7 @@
 - Design Steps
 - Quality Attributes - Non Functions Requirements
 
-## Slides
+## Slides IT Architecture
 - [It_Architecture_Slides.html](./It_Architecture_Slides.html)
 - [It_Architecture_Slides.pdf](./It_Architecture_Slides.pdf)
 
