@@ -7,7 +7,7 @@ marp: true
 backgroundColor: #fff
 size: 4K
 @auto-scaling true
-footer: 'Tue Hellstern - 2021'
+footer: 'Tue Hellstern - 2022'
 html: true
 ---
 
@@ -16,10 +16,9 @@ html: true
 - 4+1 Model
 - ISO/IEC/IEEE 42010
 - Design Steps
-- Enterprise Architecture Frameworks
 - Quality Attributes - Non Functions Requirements
 
-<!-- _footer: Tue Hellstern © 2021 -->
+<!-- _footer: Tue Hellstern © 2022 -->
 
 ---
 
@@ -312,7 +311,6 @@ An architecture framework establishes a common practice for creating, interpreti
 **As Architects You must**
 - Identify what IT components are actively participating in the scenario above.
 - Decide: **Where in the system do you decide to store the stock-count?**
-
 
 ---
 
