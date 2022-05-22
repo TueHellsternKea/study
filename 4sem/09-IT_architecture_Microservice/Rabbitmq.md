@@ -173,6 +173,5 @@ You were able to send our first message through RabbitMQ.
 As you might have noticed, the **receive.py** program doesn't exit. It will stay ready to receive further messages, and may be interrupted with **Ctrl-C**.
 
 
-
 ## RabbitMQ PDF
 You can get an good introduction of RabbitMQ in this PDF - [Getting_Started_with_RabbitMQ_and_CloudAMQP.pdf](Getting_Started_with_RabbitMQ_and_CloudAMQP.pdf) from [CloudAMQO](https://www.cloudamqp.com)
