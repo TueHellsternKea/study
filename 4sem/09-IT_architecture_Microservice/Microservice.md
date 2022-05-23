@@ -1,7 +1,10 @@
 # Microservice
 A microservice architecture – A variant of the service-oriented architecture (**SOA**) – arranges an application as a collection of loosely-coupled services.
 
-In a microservice architecture, services are **fine-grained and the protocols are lightweight**. 
+In a microservice architecture, services are **fine-grained and the protocols are lightweight**.
+
+### Monolit - Microservice
+![](./image/mono_micro.png)
 
 The goal is that teams can bring their services to life independent of others. **Loose coupling reduces all types of dependencies** and the complexities around it, as service developers do not need to care about the users of the service, they do not force their changes onto users of the service.
 
