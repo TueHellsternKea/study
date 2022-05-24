@@ -120,7 +120,7 @@ When you have installede fastspai and uvicorn, its time to start the uvicorn ser
 
 ![](./image/fastapi_1.jpg)
 
-It is running on your localhost and port 8000 - http://127.0.0.1:8000
+It is running on your localhost and port 8000 - [127.0.0.1:8000](http://127.0.0.1:8000)
 
 Very simple Python code - main.py
 
@@ -145,7 +145,7 @@ async def root():
 ![](./image/fastapi_2.jpg)
 
 ### Interactive API Documentation
-Now open http://127.0.0.1:8000/docs in your browser.
+Now open [127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) in your browser.
 
 You will see the automatic interactive API documentation provided by Swagger UI:
 
@@ -153,7 +153,7 @@ You will see the automatic interactive API documentation provided by Swagger UI:
 
 Or you can check the Alternative Interactive API Documentation.
 
-Open http://127.0.0.1:8000/redoc in your browser.
+Open [127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc) in your browser.
 
 ![](./image/fastapi_4.jpg)
 
