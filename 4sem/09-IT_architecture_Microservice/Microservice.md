@@ -132,9 +132,34 @@ app = FastAPI()
 @app.get("/")
 async def root():
     return {"message": "Hello Kea"}
+
+@app.get("/nosqldata")
+async def root():
+    return {"message": "NoSql Data"}
+
+@app.get("/mysqldata")
+async def root():
+    return {"message": "MySql Data"}
 ```
 
 ![](./image/fastapi_2.jpg)
+
+### Interactive API Documentation
+Now open http://127.0.0.1:8000/docs in your browser.
+
+You will see the automatic interactive API documentation provided by Swagger UI:
+
+![](./image/fastapi_3.jpg)
+
+Or you can check the Alternative Interactive API Documentation.
+
+Open http://127.0.0.1:8000/redoc in your browser.
+
+![](./image/fastapi_4.jpg)
+
+
+
+
 
 
 
