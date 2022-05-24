@@ -157,14 +157,12 @@ Open http://127.0.0.1:8000/redoc in your browser.
 
 ![](./image/fastapi_4.jpg)
 
-
-
-
-
-
+[main.py](./code/fastapidemo/main.py)
 
 ## Resources
 - Martin Fowler's [microservices article](http://martinfowler.com/articles/microservices.html)
 - [microservices.io](https://microservices.io)
+- [fastapi.tiangolo.com](https://fastapi.tiangolo.com)
+- [Flask](https://flask.palletsprojects.com/en/2.1.x/)
 
 
