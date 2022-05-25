@@ -40,8 +40,6 @@ markdown.marp.enableHtml
 
 ---
 
----
-
 <!-- _color: white -->
 <!-- _backgroundColor: black -->
 # Antivirus <!-- fit -->
@@ -233,8 +231,6 @@ Two-factor authentication—and the similar two-step authentication, which is so
 # Links
 - https://www.restapitutorial.com/httpstatuscodes.html#
 - http://testphp.vulnweb.com/disclaimer.php
-
-
 - https://github.com/tanc7/hacking-books/blob/master/Violent%20Python%20-%20A%20Cookbook%20for%20Hackers%2C%20Forensic%20Analysts%2C%20Penetration%20Testers%20and%20Security%20Engineers.pdf
 - https://github.com/mehransab101/Black_Hat_Python/blob/master/Black%20Hat%20Python_Python_hacking_for_programmers_and_pentesters.pdf
 - https://github.com/l34n/CySecBooks/blob/master/Gray%20Hat%20Python%20-%20Python%20Programming%20for%20Hackers%20and%20Reverse%20Engineers%20(2009).pdf

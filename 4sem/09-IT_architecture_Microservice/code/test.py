@@ -4,7 +4,7 @@ from pymongo import MongoClient
 
 # Connection
 # Connection string
-connstring = "mongodb+srv://hellstern:2Naimo6868/?@cluster0.huvwp.mongodb.net/?retryWrites=true&w=majority"
+connstring = "mongodb+srv://hellstern:<PASSWORD>@xxxx.yyyy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 cluster = MongoClient(connstring)
 
 # Create database - company
