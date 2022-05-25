@@ -1,7 +1,10 @@
 # Microservice
 A microservice architecture – A variant of the service-oriented architecture (**SOA**) – arranges an application as a collection of loosely-coupled services.
 
-In a microservice architecture, services are **fine-grained and the protocols are lightweight**. 
+In a microservice architecture, services are **fine-grained and the protocols are lightweight**.
+
+### Monolit - Microservice
+![](./image/mono_micro.png)
 
 The goal is that teams can bring their services to life independent of others. **Loose coupling reduces all types of dependencies** and the complexities around it, as service developers do not need to care about the users of the service, they do not force their changes onto users of the service.
 
@@ -91,8 +94,75 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0', port=80)
 ```
 
+## FastAPI Demo
+FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
+
+The key features are:
+- **Fast**: Very high performance, on par with NodeJS and Go (*thanks to Starlette and Pydantic*). One of the fastest Python frameworks available.
+- **Fast to code**: Increase the speed to develop features by about 200% to 300%. *
+- F**ewer bugs**: Reduce about 40% of human (*developer*) induced errors. *
+- **Intuitive**: Great editor support. Completion everywhere. Less time debugging.
+- **Easy**: Designed to be easy to use and learn. Less time reading docs.
+- **Short**: Minimize code duplication. Multiple features from each parameter declaration. Fewer bugs.
+- **Robust**: Get production-ready code. With automatic interactive documentation.
+- *Standards-based*: Based on (*and fully compatible with*) the open standards for APIs: OpenAPI and JSON Schema.
+
+[fastapi.tiangolo.com](https://fastapi.tiangolo.com)
+
+### Install
+You have to install FastAPI and Uvicorn using pip:
+
+    python -m pip install fastapi uvicorn[standard]
+
+When you have installede fastspai and uvicorn, its time to start the uvicorn server
+
+    uvicorn main:app --reload
+
+![](./image/fastapi_1.jpg)
+
+It is running on your localhost and port 8000 - [127.0.0.1:8000](http://127.0.0.1:8000)
+
+Very simple Python code - main.py
+
+```python
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+async def root():
+    return {"message": "Hello Kea"}
+
+@app.get("/nosqldata")
+async def root():
+    return {"message": "NoSql Data"}
+
+@app.get("/mysqldata")
+async def root():
+    return {"message": "MySql Data"}
+```
+
+![](./image/fastapi_2.jpg)
+
+### Interactive API Documentation
+Now open [127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) in your browser.
+
+You will see the automatic interactive API documentation provided by Swagger UI:
+
+![](./image/fastapi_3.jpg)
+
+Or you can check the Alternative Interactive API Documentation.
+
+Open [127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc) in your browser.
+
+![](./image/fastapi_4.jpg)
+
+[main.py](./code/fastapidemo/main.py)
+
 ## Resources
 - Martin Fowler's [microservices article](http://martinfowler.com/articles/microservices.html)
 - [microservices.io](https://microservices.io)
+- [fastapi.tiangolo.com](https://fastapi.tiangolo.com)
+- [Flask](https://flask.palletsprojects.com/en/2.1.x/)
 
 
