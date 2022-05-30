@@ -78,6 +78,8 @@ They may claim there’s a problem with payment information or that they’ve no
 
 ---
 
+![bg right:40% 95%](./image/antivirus.jpg)
+
 ## How does antivirus work?
 Antivirus software begins operating by checking your computer programs and files against a database of known types of malware. 
 
@@ -101,6 +103,8 @@ When the antivirus program finds a file that contains a virus, it will usually q
 
 ---
 
+![bg right:20% 90%](./image/http-httrps.png)
+
 # HTTPS
 Hypertext Transfer Protocol Secure (*HTTPS*) is an extension of the Hypertext Transfer Protocol (*HTTP*). 
 
@@ -110,6 +114,8 @@ In HTTPS, the communication protocol is **encrypted** using Transport Layer Secu
 
 ---
 
+![bg right:20% 90%](./image/http-httrps.png)
+
 # HTTP
 When you connect to a website with regular **HTTP**, your browser looks up the IP address that corresponds to the website, connects to that IP address, and assumes it’s connected to the correct web server. 
 
@@ -118,6 +124,8 @@ Data is sent over the connection in clear text. An eavesdropper on a Wi-Fi netwo
 *There’s no way to verify you’re connected to the correct website. You think you accessed your bank’s website, but you’re on a compromised network that’s redirecting you to an impostor website. Passwords and credit card numbers should never be sent over an HTTP connection, or an eavesdropper could easily steal them.*
 
 ---
+
+![bg right:20% 90%](./image/http-httrps.png)
 
 # HTTPS
 When you connect to an **HTTPS**-secured server—secure sites like your bank’s will automatically redirect you to HTTPS—your web browser checks the website’s security certificate and verifies it was issued by a legitimate certificate authority. 
@@ -129,6 +137,8 @@ The company that issued the security certificate vouches for them.
 When you send sensitive information over an HTTPS connection, **no one can eavesdrop on it in transit**. HTTPS is what makes **secure** online banking and shopping possible.
 
 ---
+
+![bg right:20% 90%](./image/http-httrps.png)
 
 ## The presence of HTTPS itself isn’t a guarantee a site is legitimate.
 
@@ -146,6 +156,7 @@ In this case, you’re using an **HTTPS** connection, but you’re really connec
 
 ---
 
+![bg right:20% 80%](./image/wifi.png)
 # Open Wi-Fi
 It's not safe to connect to an unknown open wireless network, particularly when transferring sensitive data, such as an online banking password. 
 
@@ -161,6 +172,7 @@ It's not safe to connect to an unknown open wireless network, particularly when 
 
 ---
 
+![bg right:20% 150%](./image/vpn.jpg)
 # VPN
 A **Virtual Private Network** (*VPN*) connects to the internet privately by hiding your *real IP address* and routing your internet traffic and data through a private and securely encrypted tunnel over public networks.
 
@@ -199,6 +211,8 @@ Pwned Passwords are 613,584,246 real world passwords previously exposed in data 
 https://haveibeenpwned.com/Passwords
 
 ---
+
+![bg right:40% 150%](./image/bruteforce.png)
 
 # Brute-Force attack
 Brute-force attacks (just trying out all possible combinations) have become computationally easy =>  its simpler to just try out all combinations than to guess something clever.
