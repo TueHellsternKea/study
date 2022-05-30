@@ -42,6 +42,6 @@
     - 23-05-2022 - Mandag - DK
     - 24-05-2022 - Tirsdag - INT
 - [IT security](./10-IT_security/README.md)
+    - 30-05-2022 - Mandag - INT
     - 31-05-2022 - Tirsdag - DK
-    - 01-06-2022 - Onsdag - INT
 - [Delivery 1 - 28-03-2022](./11-Delivery/Delivery_1.md)
