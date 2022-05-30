@@ -12,8 +12,8 @@
 - Mobile security
 
 # Slides
-[HTML](./IT_Security_Slide.html)
-[PDF](./IT_Security_Slide.pdf)
+- [HTML](./IT_Security_Slide.html)
+- [PDF](./IT_Security_Slide.pdf)
 
 # Jupyter Lab
 [Bruteforce_Password.ipynb](./code/Bruteforce_Password.ipynb)
