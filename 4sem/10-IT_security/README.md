@@ -15,6 +15,9 @@
 [HTML](./IT_Security_Slide.html)
 [PDF](./IT_Security_Slide.pdf)
 
+# Jupyter Lab
+[Bruteforce_Password.ipynb](./code/Bruteforce_Password.ipynb)
+
 
 # Links
 - [Ethical Hacking Tutorials](https://www.thepythoncode.com/topic/ethical-hacking)
