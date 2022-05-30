@@ -20,14 +20,14 @@ markdown.marp.enableHtml
 
 ![bg right:50% 146%](https://github.com/officegeek/image/raw/main/agenda.jpg)
 # Stay Secure
-* Firewall - **ON**
-* Antivirus - **ON**
-* HTTPS websites - **ONLY**
-* Open Wi-Fi - **NO**
-* VPN - **USE**
-* Use secure passwords - **USE**
-* Password Manager - **USE**
-* Two-Factor Authentication - **USE**
+- Firewall - **ON**
+- Antivirus - **ON**
+- HTTPS websites - **ONLY**
+- Open Wi-Fi - **NO**
+- VPN - **USE**
+- Use secure passwords - **USE**
+- Password Manager - **USE**
+- Two-Factor Authentication - **USE**
 
 ---
 <!-- _color: white -->
@@ -37,8 +37,6 @@ markdown.marp.enableHtml
 ---
 
 ![bg 70%](https://github.com/officegeek/image/raw/main/firewall_1.jpg)
-
----
 
 ---
 
@@ -59,6 +57,10 @@ Malware, short for *malicious software*, is a blanket term that refers to a wide
 Malware can slow down or crash your device or delete files.
 
 Criminals often use malware to send spam, obtain personal and financial information and even steal your identity.
+
+---
+
+![bg 80%](./image/Types_of_Malware-A1_EN.webp)
 
 ---
 
@@ -124,11 +126,11 @@ This helps you ensure that, if you see *https://bank.com* in your web browser’
 
 The company that issued the security certificate vouches for them. 
 
-When you send sensitive information over an HTTPS connection, no one can eavesdrop on it in transit. HTTPS is what makes **secure** online banking and shopping possible.
+When you send sensitive information over an HTTPS connection, **no one can eavesdrop on it in transit**. HTTPS is what makes **secure** online banking and shopping possible.
 
 ---
 
-The presence of HTTPS itself isn’t a guarantee a site is legitimate.
+## The presence of HTTPS itself isn’t a guarantee a site is legitimate.
 
 Clever phishers have realized that people look for the **HTTPS** indicator and lock icon, and may go out of their way to disguise their websites.
 
@@ -155,7 +157,7 @@ It's not safe to connect to an unknown open wireless network, particularly when 
 
 <!-- _color: white -->
 <!-- _backgroundColor: black -->
-# VPN <!-- fit -->
+# VPN<!-- fit -->
 
 ---
 
@@ -165,6 +167,10 @@ A **Virtual Private Network** (*VPN*) connects to the internet privately by hidi
 VPN gives you a way to browse the internet without giving away your *identity*, *location*, or *data*. 
 
 When data is encrypted inside the VPN tunnel, ISPs, search engines, marketers, hackers, and others can't see or track your activities on the web.
+
+---
+
+![bg 90%](https://www.yellowstonecomputing.net/uploads/2/2/1/6/22165724/how-a-vpn-works-infographic-730x484_orig.png)
 
 ---
 
@@ -199,6 +205,16 @@ Brute-force attacks (just trying out all possible combinations) have become comp
 
 ---
 
+![bg right:40% 150%](https://github.githubassets.com/images/modules/site/home/astro-mona.svg)
+
+# GitHub
+
+Avoid revealing your passwords on GitHub
+
+- Always keep your password in a **separate file** - *config.ini*
+- Use **.gitignore** so you do not sync that file to GitHub
+
+---
 
 # Python code
 
@@ -233,8 +249,6 @@ Two-factor authentication—and the similar two-step authentication, which is so
 # Links
 - https://www.restapitutorial.com/httpstatuscodes.html#
 - http://testphp.vulnweb.com/disclaimer.php
-
-
 - https://github.com/tanc7/hacking-books/blob/master/Violent%20Python%20-%20A%20Cookbook%20for%20Hackers%2C%20Forensic%20Analysts%2C%20Penetration%20Testers%20and%20Security%20Engineers.pdf
 - https://github.com/mehransab101/Black_Hat_Python/blob/master/Black%20Hat%20Python_Python_hacking_for_programmers_and_pentesters.pdf
 - https://github.com/l34n/CySecBooks/blob/master/Gray%20Hat%20Python%20-%20Python%20Programming%20for%20Hackers%20and%20Reverse%20Engineers%20(2009).pdf
