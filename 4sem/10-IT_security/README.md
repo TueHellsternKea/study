@@ -1,6 +1,6 @@
 [Home](modul-4-2.md)
 # IT security
-    - mandag den 30-05-2022 - INT
+    - 30-05-2022 - Mandag - INT
     - 31-05-2021 - Tirsdag - DK
 
 # Beskrivelse
@@ -11,7 +11,9 @@
 - System security
 - Mobile security
 
-# Resources & Activities
+# Slides
+[HTML](./IT_Security_Slide.html)
+[PDF](./IT_Security_Slide.pdf)
 
 
 # Links
