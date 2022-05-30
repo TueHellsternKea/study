@@ -215,7 +215,7 @@ https://haveibeenpwned.com/Passwords
 ![bg right:40% 150%](./image/bruteforce.png)
 
 # Brute-Force attack
-Brute-force attacks (just trying out all possible combinations) have become computationally easy =>  its simpler to just try out all combinations than to guess something clever.
+Brute-Force attacks (*just trying out all possible combinations*) have become computationally easy =>  **its simpler to just try out all combinations than to guess something clever**
 
 ---
 
@@ -225,8 +225,8 @@ Brute-force attacks (just trying out all possible combinations) have become comp
 
 Avoid revealing your passwords on GitHub
 
-- Always keep your password in a **separate file** - *config.ini*
-- Use **.gitignore** so you do not sync that file to GitHub
+- Always keep your password and login information in a **separate file** - *config.ini*
+- Use **.gitignore** so you do not sync that files with password and login information to GitHub
 
 ---
 
@@ -244,6 +244,8 @@ Avoid revealing your passwords on GitHub
 # Two-Factor Authentication  <!-- fit -->
 
 ---
+
+![bg right:20% 90%](./image/twofactor.png)
 
 # Two-Factor Authentication
 Logging into your accounts with an email address and password is fine, up to a point, but these details can get lost, stolen, guessed, or teased out of you with some clever social engineering.
