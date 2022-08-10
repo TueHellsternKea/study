@@ -72,4 +72,3 @@ To train a clustering model we will execute Python script in Power Query Editor
 ### Microsoft Power BI - Chart
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/d333649e105449acba5421bdc1156cb6" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
