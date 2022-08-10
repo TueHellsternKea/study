@@ -15,9 +15,20 @@ PyCaret is an open-source, low-code machine learning library in Python that auto
 
 It is an end-to-end machine learning and model management tool that speeds up the experiment cycle exponentially and makes you more productive.
 
+### Create a Virtual Environment and install PyCaret
+Create a Virtual Environment and install PyCaret into that.
+
+    python3 -m venv my_bi_env
+
+Activate the virtual environment
+
+    source bin/activate # Mac
+    .\Scripts\activate  # Windows
+
 To install the PyCaret library in Python using pip
 
     pip install pycaret
+
 
 
 ## Clustering Analysis in Microsoft Power BI
@@ -42,11 +53,13 @@ You can get it her: https://raw.githubusercontent.com/pycaret/pycaret/master/dat
 
 Importing the csv file in Power BI Desktop is very simple.
 
+1. Select Import data - Web
 ![](./files/powerbi-import-web.jpg)
 
-![](./files/powerbi-import-web-1.jpg)
-
+2. 
 ![](./files/powerbi-import-web-2.jpg)
+
+![](./files/powerbi-import-web-3.jpg)
 
 
 ### K-Means Clustering
@@ -55,4 +68,8 @@ To train a clustering model we will execute Python script in Power Query Editor
     Power Query Editor → Transform → Run python script
 
 
+
+### Microsoft Power BI - Chart
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/d333649e105449acba5421bdc1156cb6" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
