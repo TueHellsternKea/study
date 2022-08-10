@@ -47,7 +47,7 @@ It is an exploratory data mining activity, and a common technique for statistica
 Source: [Scikit-Learn](https://scikit-learn.org)
 
 ### Dataset
-We are using one of the PyCaret demo dataset - jewellery
+We are using one of the PyCaret demo dataset - jewellery.csv
 
 You can get it her: https://raw.githubusercontent.com/pycaret/pycaret/master/datasets/jewellery.csv
 
@@ -61,12 +61,19 @@ Importing the csv file in Power BI Desktop is very simple.
 
 ![](./files/powerbi-import-web-3.jpg)
 
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/e822f50267634787916efd88a8a4c700" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 
 ### K-Means Clustering
 To train a clustering model we will execute Python script in Power Query Editor 
 
     Power Query Editor → Transform → Run python script
 
+
+    from pycaret.clustering import *
+    dataset = get_clusters(data = dataset)
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/dba53bdc6a444aaea1c6bf45611a18ec" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 
 ### Microsoft Power BI - Chart
