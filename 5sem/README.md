@@ -1,12 +1,19 @@
 [Home](../README.md)
 # Know Your Data
 
+## Tools
+
+- Microsoft Excel - Windows version
+- Microsoft Power BI - Primarily Desktop version - only Windows
+- Microsoft Power Platform
+- Azure
+
 ## Sessions
 
 ![](./image/oversigt.jpg)
 
 - [Introduction](./README.md)
-    - 25-08-2022 - Wednesday (*TUHE, JAIA and* **Hans Keiding**)
+    - 24-08-2022 - Wednesday (*TUHE, JAIA and* **Hans Keiding**)
 - [ETL](./etl/README.md)
     - 31-08-2022 - Wednesday (*TUHE*)
     - 07-09-2022 - Wednesday (*TUHE*)
