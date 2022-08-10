@@ -79,3 +79,15 @@ To train a clustering model we will execute Python script in Power Query Editor
 ### Microsoft Power BI - Chart
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/d333649e105449acba5421bdc1156cb6" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+By default, with the **get_clusters** function, K-Means model with **4 clusters** is trained. 
+
+To change the type of model you can simply pass the model parameter. Number of clusters can also be defined in the **num_clusters** parameter.
+
+    from pycaret.clustering import *
+    dataset = get_clusters(dataset, model = 'kmodes', num_clusters = 6)
+
+## Read more about K-Means
+This article from Stanford about K-Means i very good
+
+[K Means - Written by Chris Piech](https://stanford.edu/~cpiech/cs221/handouts/kmeans.html)
