@@ -12,7 +12,7 @@
 
 ![](./image/oversigt.jpg)
 
-- [Introduction](./README.md)
+- [Introduction](./introduction/README.md)
     - 24-08-2022 - Wednesday (*TUHE, JAIA and* **Hans Keiding**)
 - [ETL](./etl/README.md)
     - 31-08-2022 - Wednesday (*TUHE*)
