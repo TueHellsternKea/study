@@ -3,10 +3,21 @@
 
 ## Tools
 
-- Microsoft Excel - Windows version
-- Microsoft Power BI - Primarily Desktop version - only Windows
+- Excel (*Windows version*)
+    - Get and transform
+    - Power Query Editor (*DAX*)
+    - VBA
+    - Office Script
+- Python
+- MySQL
 - Microsoft Power Platform
+    - Power BI (*Desktop*)
+    - Power Apps
+    - Power Automate
+    - Power Virtual Agents
 - Azure
+
+---
 
 ## Sessions
 
@@ -14,7 +25,9 @@
 
 - [Introduction](./README.md)
     - 24-08-2022 - Wednesday (*TUHE, JAIA and* **Hans Keiding**)
+    - [Slide](introduction.html)
 - [ETL](./etl/README.md)
+    - [Slide](./etl/ETL-slide.html)
     - 31-08-2022 - Wednesday (*TUHE*)
     - 07-09-2022 - Wednesday (*TUHE*)
     - 13-09-2022 - Tuesday (*TUHE*)
