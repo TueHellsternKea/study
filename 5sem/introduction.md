@@ -126,7 +126,7 @@ conclusion.</h3>
     - Power Query Editor (*DAX*)
     - VBA
     - Office Script
-- Python
+- Python - Jupyter Lab - Mito
 - MySQL
 - Microsoft Power Platform
     - Power BI (*Desktop*)
@@ -142,3 +142,14 @@ conclusion.</h3>
 # Hans Keiding<!-- fit -->
 
 ## Professor at University of Copenhagen, Department of Economics
+
+---
+
+# 31-08-2022
+
+- Python
+- Jupyter Lab
+- Mito - [www.trymito.io](https://www.trymito.io)
+- Windows???
+    - Excel
+    - Microsoft Power BI
