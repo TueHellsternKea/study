@@ -21,13 +21,13 @@ html: true
 <!-- _backgroundColor: black -->
 <!-- _color: white -->
 
-<h1 align="center">The goal is turn data into information and information into insight</h1>
+The goal is turn data into information and information into insight
 
 # Data = Knowledge<!-- fit -->
 
-<h3 align="center">Good data provides indisputable evidence, while anecdotal evidence, assumptions,
+Good data provides indisputable evidence, while anecdotal evidence, assumptions,
 or abstract observation might lead to wasted resources due to taking action based on an incorrect 
-conclusion.</h3>
+conclusion.
 
 ---
 
@@ -48,9 +48,9 @@ conclusion.</h3>
 
 <!-- _color: white -->
 ![bg 100%](./image/hero_desktop.jpg)
-<h1 align="center">A recent survey by Mckinsey Global Institute has shown that data-driven organizations are 23 times more likely to get customers when compared to the ones still following the old ways.</h1>
+A recent survey by Mckinsey Global Institute has shown that data-driven organizations are 23 times more likely to get customers when compared to the ones still following the old ways.
 
-<h1 align="center">Certainly not a number you can ignore.</h1>
+Certainly not a number you can ignore.
 
 ---
 
