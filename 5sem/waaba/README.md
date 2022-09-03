@@ -7,6 +7,7 @@
 - [Your assignment day 1](#your-assignment-day-1)
 - [Your assignment day 2](#your-assignment-day-2)
 - [Files](#files)
+- [Videos](#videos)
 
 ## Dates
 - 21-09-2022 - Wednesday
@@ -35,10 +36,7 @@ The managers and the director of KEA Retail Consult would like to have a better 
 
 The employees are frustrated because they have no way of knowing how far in the approval process their request is, so they must call or email their manager or the accounting department to get the information. 
 
-## Files
-The Excel file that “KEA Retail Consult” is using right now:
-
-[expence_data.xlsx](./files/expence_data.xlsx)
+The Excel file that “KEA Retail Consult” is using right now: [expence_data.xlsx](./files/expence_data.xlsx)
 
 ## Your assignment Day 1:
 Make a requirement spec for a new system to support the process. It has to be based on the data in the spreadsheet, but you are more than welcome to suggest improvements. 
@@ -51,4 +49,11 @@ Describe the users and context and the scope:
 - Create an SQL file for creating the database and inserting data into the database
 
 ## Your assignment Day 2:
-Implement based on Requirement spec and database from other group – make an application that can handle the needs of both consultants and managers
+Implement based on Requirement spec and database from other group – make an application that can handle the needs of both consultants and managers.
+
+## Files
+The Excel file that “KEA Retail Consult” is using right now:
+
+- [expence_data.xlsx](./files/expence_data.xlsx)
+
+## Videos
