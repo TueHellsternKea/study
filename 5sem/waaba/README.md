@@ -1,6 +1,13 @@
 [Home](../README.md)
 # Together with "Working as a Business Analyst"
 
+# Content
+- [Date](#dates)
+- [Case description](#case-description)
+- [Your assignment day 1](#your-assignment-day-1)
+- [Your assignment day 2](#your-assignment-day-2)
+- [Files](#files)
+
 ## Dates
 - 21-09-2022 - Wednesday
 - 30-11-2022 - Wednesday
