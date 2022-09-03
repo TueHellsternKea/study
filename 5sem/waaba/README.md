@@ -6,6 +6,7 @@
 - [Case description](#case-description)
 - [Your assignment day 1](#your-assignment-day-1)
 - [Your assignment day 2](#your-assignment-day-2)
+- [Groups](#groups)
 - [Files](#files)
 - [Videos](#videos)
 
@@ -51,9 +52,17 @@ Describe the users and context and the scope:
 ## Your assignment Day 2:
 Implement based on Requirement spec and database from other group – make an application that can handle the needs of both consultants and managers.
 
+## Groups
+We have created the groups for the 2 days
+
+
+
 ## Files
 The Excel file that “KEA Retail Consult” is using right now:
 
 - [expence_data.xlsx](./files/expence_data.xlsx)
 
 ## Videos
+
+### Ekstra
+- [Real-World Examples of Microsoft Power Automate in Action - 55 minutter](https://videos.microsoft.com/cloud/watch/b3RqhL5q11xD7EBQTqLrpg?)
