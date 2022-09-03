@@ -53,16 +53,25 @@ Describe the users and context and the scope:
 Implement based on Requirement spec and database from other group – make an application that can handle the needs of both consultants and managers.
 
 ## Groups
-We have created the groups for the 2 days
-
-
+We have created the groups for the 2 days:
+- [Groups](./files/KNY-WaaB.pdf)
 
 ## Files
 The Excel file that “KEA Retail Consult” is using right now:
-
 - [expence_data.xlsx](./files/expence_data.xlsx)
 
 ## Videos
 
 ### Ekstra
 - [Real-World Examples of Microsoft Power Automate in Action - 55 minutter](https://videos.microsoft.com/cloud/watch/b3RqhL5q11xD7EBQTqLrpg?)
+
+
+## Guides
+
+### Import from Excel into MySQL
+First you have to svare the Excel files as CSV.
+
+<div style="position: relative; padding-bottom: 71.23287671232877%; height: 0;"><iframe src="https://www.loom.com/embed/ad9bf3a19b6c4b2c868e1b692f08cfea" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+Then you have to import the CSV file in MySQL
+
