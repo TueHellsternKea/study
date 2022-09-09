@@ -99,6 +99,8 @@ Some videos there give you and understanding of the Microsoft Power Platform. Ma
 
 2. Then you have to import the CSV file into MySQL
 
+Video
+
 ## Links
 
 - [powerplatform.microsoft.com/en-us](https://powerplatform.microsoft.com/en-us/)
