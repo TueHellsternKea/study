@@ -11,10 +11,15 @@
 - [Groups](#groups)
 - [Files](#files)
 - [Videos](#videos)
+- [Links](#links)
 
 ## Dates
 - 21-09-2022 - Wednesday
 - 30-11-2022 - Wednesday
+
+
+
+<iframe width="560" height="315" src="https://www.microsoft.com/en-us/videoplayer/embed/RE4Jq7h?jsapi=true&postJsllMsg=true" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Case description
 The company “KEA Retail Consult” sells software to supermarkets in Europe. The software is installed at the cash registers in the supermarkets. KEA Consult has more than 30 consultants employed visiting supermarkets all over Europe. Their job is to install or update the software.   
@@ -75,6 +80,12 @@ The Excel file that “KEA Retail Consult” is using right now:
 
 ## Videos
 
+
+https://powerplatform.microsoft.com/en-us/what-is-power-platform/
+
+### Overview vide from 365.Training
+<iframe width="560" height="315" src="https://www.youtube.com/embed/p3B4JRexdRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Ekstra
 - [Real-World Examples of Microsoft Power Automate in Action - 55 minutter](https://videos.microsoft.com/cloud/watch/b3RqhL5q11xD7EBQTqLrpg?)
 
@@ -88,3 +99,4 @@ First you have to svare the Excel files as CSV.
 
 Then you have to import the CSV file in MySQL
 
+## Links
