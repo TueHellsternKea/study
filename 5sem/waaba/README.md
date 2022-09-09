@@ -21,6 +21,9 @@
 <iframe width="560" height="315" src="https://www.microsoft.com/en-us/videoplayer/embed/RE4Jq7h?jsapi=true&postJsllMsg=true" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Case description
+<details>
+  <summary>Click to see case description</summary>
+
 The company “KEA Retail Consult” sells software to supermarkets in Europe. The software is installed at the cash registers in the supermarkets. KEA Consult has more than 30 consultants employed visiting supermarkets all over Europe. Their job is to install or update the software.   
 
 Each consultant must pay for his own food, travel and accommodation when she is on the road. The expenses are reimbursed afterwards.  
@@ -44,6 +47,8 @@ The employees are frustrated because they have no way of knowing how far in the 
 The managers and the director of KEA Retail Consult would like to have a better overview of the expenses on a monthly basis, so they can keep track of the different expenses. They would also like to keep an eye on how many requests that are awaiting approval or payment.  
 
 The Excel file that “KEA Retail Consult” is using right now: [expence_data.xlsx](./files/expence_data.xlsx)
+
+</details>
 
 ## Your assignment Day 1:
 Based on the description about the current processes and the data in the spreadsheet, make a requirement specification for a new system to support the reimbursement process in KEA Retail consult.  
