@@ -11,13 +11,12 @@
 - [Groups](#groups)
 - [Files](#files)
 - [Videos](#videos)
+- [Guides](#guides)
 - [Links](#links)
 
 ## Dates
 - 21-09-2022 - Wednesday
 - 30-11-2022 - Wednesday
-
-
 
 <iframe width="560" height="315" src="https://www.microsoft.com/en-us/videoplayer/embed/RE4Jq7h?jsapi=true&postJsllMsg=true" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -68,7 +67,7 @@ You also need to create a database in MySQL based on your E/R diagram and impo
 Your SQL file, that can be used to create the database and insert data into the database, and the requirement specification must be handed in as a group assignment on Fronter. **If you are not done by the end of today's lectures, hand it in at the latest on October 5th**.  
 
 ## Your assignment Day 2:
-Implement based on Requirement spec and database from other group – make an application that can handle the needs of both consultants and managers.
+To come
 
 ## Groups
 We have created the groups for the 2 days:
@@ -79,24 +78,32 @@ The Excel file that “KEA Retail Consult” is using right now:
 - [expence_data.xlsx](./files/expence_data.xlsx)
 
 ## Videos
+Some videos there give you and understanding of the Microsoft Power Platform. Make sure that you have seen them before day one.
 
+### Microsoft introduction video
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/OwOWDXteakM" title="Microsoft Power Apps overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-https://powerplatform.microsoft.com/en-us/what-is-power-platform/
-
-### Overview vide from 365.Training
+### Overview video from 365.Training
 <iframe width="560" height="315" src="https://www.youtube.com/embed/p3B4JRexdRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Ekstra
+### Ekstra video from Microsoft - 55 min!
 - [Real-World Examples of Microsoft Power Automate in Action - 55 minutter](https://videos.microsoft.com/cloud/watch/b3RqhL5q11xD7EBQTqLrpg?)
 
 
 ## Guides
 
-### Import from Excel into MySQL
-First you have to svare the Excel files as CSV.
+### MySQL - Import from Excel
+First you have to save the Excel file as CSV files.
 
 <div style="position: relative; padding-bottom: 71.23287671232877%; height: 0;"><iframe src="https://www.loom.com/embed/ad9bf3a19b6c4b2c868e1b692f08cfea" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-Then you have to import the CSV file in MySQL
+Then you have to import the CSV file into MySQL
 
 ## Links
+
+- [powerplatform.microsoft.com/en-us](https://powerplatform.microsoft.com/en-us/)
+- [powerplatform.microsoft.com/en-us/what-is-power-platform](https://powerplatform.microsoft.com/en-us/what-is-power-platform/)
+- [Microsoft Power Platform documentation](https://docs.microsoft.com/en-us/power-platform/)
+- [YouTube MS Power Platform](https://www.youtube.com/c/mspowerplatform)
+- [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/home)
+- [Microsoft Power Platform Stories](https://powerapps.microsoft.com/en-us/blog/power-platform-stories/)
