@@ -81,7 +81,7 @@ The Excel file that “KEA Retail Consult” is using right now:
 Some videos there give you and understanding of the Microsoft Power Platform. Make sure that you have seen them before day one.
 
 ### Microsoft introduction video
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/OwOWDXteakM" title="Microsoft Power Apps overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OwOWDXteakM" title="Microsoft Power Apps overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Overview video from 365.Training
 <iframe width="560" height="315" src="https://www.youtube.com/embed/p3B4JRexdRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
