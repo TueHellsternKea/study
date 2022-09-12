@@ -24,63 +24,50 @@
 <details>
   <summary>Click to see case description</summary>
 
-The company “KEA Retail Consult” sells software to supermarkets in Europe. The software is installed at the cash registers in the supermarkets. KEA Consult has more than 30 consultants employed visiting supermarkets all over Europe. Their job is to install or update the software.
-   
+    **Reimbursement at KEA Retail Consult **</br> 
 
-Each consultant must pay for his own food, travel and accommodation when she is on the road. The expenses are reimbursed afterwards.  
+    The company “KEA Retail Consult” sells software to supermarkets in Europe. The software is installed at the cash registers in the supermarkets. KEA Consult has more than 30 consultants employed visiting supermarkets all over Europe. Their job is to install or update the software.</br>  
 
+    Each consultant must pay for his own food, travel and accommodation when she is on the road. The expenses are reimbursed afterwards.</br> 
 
-For KEA Retail Consult to reimburse expenses each consultant must register her expenses and attach a receipt as proof. There are typically three types of expenses: meals (breakfast, lunch and dinner), accommodation (hotel, b&b, etc) and transport (flight, car, train, bus).   
+    For KEA Retail Consult to reimburse expenses each consultant must register her expenses and attach a receipt as proof. There are typically three types of expenses: meals (breakfast, lunch and dinner), accommodation (hotel, b&b, etc) and transport (**flight, car, train, bus**). </br> 
 
+    It is a very slow and not very streamlined approval process. Sometimes it takes months before the consultants are reimbursed and the money is put into their account.  With 10-20 travelling days a month it sometimes creates liquidity problems for the consultants.</br> 
 
-It is a very slow and not very streamlined approval process. Sometimes it takes months before the consultants are reimbursed and the money is put into their account.  With 10-20 travelling days a month it sometimes creates liquidity problems for the consultants.  
+    When a consultant has registered his expenses in their common spreadsheet, it must be approved by his manager. The consultant therefor sends a mail to his manager asking him to approve.</br> 
 
+    The manager will make sure that the expenses were held at a time where she was travelling and that the type of expense and the amount is reasonable. If not or receipts are missing the manager will email the employee and ask him to update or change his registration.</br> 
 
-When a consultant has registered his expenses in their common spreadsheet, it must be approved by his manager. The consultant therefor sends a mail to his manager asking him to approve.  
+    Once the expense has been approved the manager will forward the mail to the accounting department and ask them to transfer the money to the consultant’s bank account.</br> 
 
+    The accounting department contacts the consultant before transferring the money to make sure that the bank account they have registered is correct.</br>
 
-The manager will make sure that the expenses were held at a time where she was travelling and that the type of expense and the amount is reasonable. If not or receipts are missing the manager will email the employee and ask him to update or change his registration.  
+    Both the managers and the accounting department must state in the spreadsheet, when they have approved and paid out the amount, but they quite often forget to do so.</br> 
 
+    The employees are frustrated because they have no way of knowing how far in the approval process their request is, so they must call or email their manager or the accounting department to get the information.</br> 
 
-Once the expense has been approved the manager will forward the mail to the accounting department and ask them to transfer the money to the consultant’s bank account.   
+    The managers and the director of KEA Retail Consult would like to have a better overview of the expenses on a monthly basis, so they can keep track of the different expenses. They would also like to keep an eye on how many requests that are awaiting approval or payment.</br> 
 
-
-The accounting department contacts the consultant before transferring the money to make sure that the bank account they have registered is correct.   
-
-
-Both the managers and the accounting department must state in the spreadsheet, when they have approved and paid out the amount, but they quite often forget to do so.  
-
-
-The employees are frustrated because they have no way of knowing how far in the approval process their request is, so they must call or email their manager or the accounting department to get the information.  
-
-
-The managers and the director of KEA Retail Consult would like to have a better overview of the expenses on a monthly basis, so they can keep track of the different expenses. They would also like to keep an eye on how many requests that are awaiting approval or payment.  
-
-
-The Excel file that “KEA Retail Consult” is using right now: [expence_data.xlsx](./files/expence_data.xlsx)
+    Attached is a spreadsheet with data from the current, manually based system: [expence_data.xlsx](./files/expence_data.xlsx)
 
 </details>
 
 ## Your assignment Day 1:
 Based on the description about the current processes and the data in the spreadsheet, make a requirement specification for a new system to support the reimbursement process in KEA Retail consult.  
 
-Your specification should include the following:     
+**Your specification should include the following:**
 
-- System scope
-- Business needs  
-- The identified users  
-- Relevant user stories  
-- Identified problems and gaps in the current processes (as-is)  
-- Identified business rules/decisions  
-- Illustration of the to-be process  
-- Data required in the system  
-- Flow of data in the system  
-- How data should be structured when at rest (E/R diagram)  
-- List functional requirements
+-Description of the Scope of the project, the as-is situation and the business needs and the user needs 
+-Description of the user and business requirements (*Functional requirements, user stories and acceptance criteria*) 
+    - Relevant models/diagrams to support the understanding of the requirements (*For example: processes, decision diagrams, E/R diagrams, dataflow diagrams, prototypes*) 
 
-You also need to create a database in MySQL based on your E/R diagram and import data from the spreadsheet.
+You also need to create a database in MySQL based on your E/R diagram and import data from the spreadsheet  
 
-Your SQL file, that can be used to create the database and insert data into the database, and the requirement specification must be handed in as a group assignment on Fronter. **If you are not done by the end of today's lectures, hand it in at the latest on October 5th**.  
+Your SQL file, that can be used to create the database and insert data into the database, and the requirement specification must be handed in as a group assignment on Fronter. 
+
+If you are not done by the end of today's lectures, **hand it in at the latest on October 5th.**
+
+[Hand in folder](https://studkea.sharepoint.com/:f:/s/BE-ITA20common/EnD6eepyduZFkmbLAoNbAGwBI5-qoN1FyndeW1s6DkN_yA?e=nxoFWg)  
 
 ## Your assignment Day 2:
 To come
@@ -116,6 +103,13 @@ Some videos there give you and understanding of the Microsoft Power Platform. Ma
 2. Then you have to import the CSV file into MySQL
 
 Video
+
+### Power Automate
+Microsoft guides installing Power Automate on your computer:
+
+- [DK version](https://docs.microsoft.com/da-dk/power-automate/desktop-flows/
+install)
+- [UK version](https://docs.microsoft.com/en-us/power-automate/desktop-flows/install)
 
 ## Links
 
