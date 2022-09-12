@@ -30,7 +30,7 @@
     - [Slide](./etl/ETL-slide.html)
     - 31-08-2022 - Wednesday (*TUHE*)
     - 07-09-2022 - Wednesday (*TUHE*)
-    - 13-09-2022 - Tuesday (*TUHE*)
+    - [13-09-2022](./etl/13092022.md) - Tuesday (*TUHE*)
 - [Together with "Working as a Business Analyst"](./waaba/README.md)
     - 21-09-2022 - Wednesday (*Together with WaaBA*)
 - [ETL](./etl/README.md)    
