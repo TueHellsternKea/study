@@ -1,18 +1,29 @@
 # Automate MS Excel data processing using Python, Pandas, and Openpyxl
 
+## Files
+
+**Excel**
+- [sales_data.xlsx](./jupyterlab/sales_data.xlsx)
+
+**Jupyter Lab**
+- [Real_world_example.ipynb](../etl/jupyterlab/Real_world_example.ipynb)
+- [demo.ipynb](../etl/jupyterlab/demo.ipynb)
+- [openpyxl-chart-notebook.ipynb](../etl/jupyterlab/openpyxl-chart-notebook.ipynb)
+- [openpyxl-tutorial.ipynb](../etl/jupyterlab/openpyxl-tutorial.ipynb)
+
 ## Introduction 
 This is all about automating Microsoft Excel using python and two different libraries. 
 
-The first library is Pandas. This library is used to process dataframes at high speed. Pandas is used all over the world of data analysis, data science, and data engineering. A basic workflow is pandas is to load and excel file into a dataframe, apply all sorts of complex processing wit few lines of code, then save the results into excel. 
+The first library is **Pandas**. This library is used to process dataframes at high speed. **Pandas** is used all over the world of data analysis, data science, and data engineering. A basic workflow is **Pandas** is to load and excel file into a dataframe, apply all sorts of complex processing wit few lines of code, then save the results into Excel. 
 
-The second library we will be using is Openpyxl.  This library provides a more familiar automation of excel. Meaning it all us to replicate the exact steps we would use manually in excel using few lines of python code, and with that, automating those steps. Openpyxl provides all sorts of supported excel options, from charts, to formulas, to styling…etc. 
+The second library we will be using is **Openpyxl**. This library provides a more familiar automation of excel. Meaning it all us to replicate the exact steps we would use manually in excel using few lines of python code, and with that, automating those steps. **Openpyxl** provides all sorts of supported excel options, from charts, to formulas, to styling…etc. 
 
 # WORKING WITH PANDAS 
 
 ## Introduction  
 We live in the age of automation where more and more tasks are getting automated by algorithms, so that we can focus more on our core work and not waste valuable time on second degree tasks. 
 
-In this beginner’s friendly post, we will explore how to automate certain MS Excel tasks related to data processing using the Python programming language and the famous Pandas library. 
+In this beginner’s friendly post, we will explore how to automate certain Excel tasks related to data processing using the Python programming language and the famous Pandas library. 
 
 This article is a tutorial-based walkthrough where we explain concepts and share code snippets of each step of the process to facilitate for beginners to grasp concepts better. 
 
@@ -28,7 +39,7 @@ Python is extremely popular nowadays and it’s used in almost every computer sc
 
 The popularity of Python is due to many factors like the ease of use, the numerous open-source packages it has, and the ever-growing community that is supporting it. 
 
-One of the domains where Python really shines is Automation, and in this article, we will demonstrate how we can use it to automate MS Excel data processing. 
+One of the domains where Python really shines is Automation, and in this article, we will demonstrate how we can use it to automate Excel data processing. 
 
 ## Why using Pandas 
 Pandas is one of the most used python libraries, especially in the world of data science, data analysis, data engineering, and machine learning. It uses the concepts of dataframes where it reads and then loads data in memory in the format of tabular data. Meaning rows and columns, similar to a database table. 
@@ -72,15 +83,15 @@ The data that we will be working with is this:
 
 The first step is always to read the file where the data is located, so that we can extract it, process it, and then save it in an Excel friendly format. 
 
-In this example we read data from either an Excel (xlsx) or CSV file. Since those are the two most used formats in MS Excel. 
+In this example we read data from either an Excel (xlsx) or CSV file. Since those are the two most used formats in Excel. 
 
-To read data from CSV we use the read_csv method and give it the path of our csv file as follows: 
+To read data from CSV we use the **read_csv** method and give it the path of our csv file as follows: 
 
 ```python
 df = pd.read_csv(path)
 ```
 
-To read data from Excel we use the read_excel method and give it the path of our csv file as follows: 
+To read data from Excel we use the **read_excel** method and give it the path of our csv file as follows: 
 
 ```python
 df = pd.read_excel(path)
@@ -126,7 +137,7 @@ To create a dataframe out of the previous one or just assign a column to another
 df['column 2'] = df['column 1']
 ```
 
-Basically, in the above example we created a new column named “column 2” which is a copy of the previously existing “column 1”.
+Basically, in the above example we created a new column named "column 2" which is a copy of the previously existing "column 1".
 
 Creating a dataframe from two previous columns:
 
@@ -159,7 +170,7 @@ First_row = df.loc['row_cell_value']
  
 Notice how the row gets printed in Jupyter. That’s one of the advantages of using it. 
 
-Same as with columns, to delete a row in pandas we use the drop method. The only difference is that we set axis=0:
+Same as with columns, to delete a row in pandas we use the **drop** method. The only difference is that we set **axis=0**:
 
 ```python
 df.drop(7, axis=0, inplace=True)
@@ -179,7 +190,7 @@ df.drop([2,3,6], axis=0, inplace=True)
  
 In the above example we deleted rows **2, 3, and 6**. You can verify that that’s true by checking the index column. We have all indexes from 0 to 10 except for 2, 3, and 6. 
 
-We can concatenate two dataframes together using Pandas. The equivalent of that would be concatenating two tables or even two spreadsheets in MS Excel. 
+We can concatenate two dataframes together using Pandas. The equivalent of that would be concatenating two tables or even two spreadsheets in Excel. 
 
 To concatenate let’s say df1 and df2 into df3, we use the following code:
 
@@ -309,7 +320,7 @@ Deep dive into Python, Pandas and other libraries to open the full potential of 
 ![](./image/openpyxl.jpg)
 
 ## Introduction on openpyxl
-Openpyxl is an open-source python library used to read and write data from Excel 2010+ xlsx/xlsm files. The library is power and allows us to automate excel file at the cell level. We basically can achieve anything we can manually do in excel using this library and lines of python code. 
+**Openpyxl** is an open-source python library used to read and write data from Excel 2010+ xlsx/xlsm files. The library is power and allows us to automate excel file at the cell level. We basically can achieve anything we can manually do in excel using this library and lines of Python code. 
 
 
 ## Getting started 
@@ -320,7 +331,7 @@ pip install openpyxl
 ```
 
 ## Working with workbooks 
-Now that we have the library installed, we can either use it to load and existing MS Excel workbook or create an empty one first:
+Now that we have the library installed, we can either use it to load and existing Excel workbook or create an empty one first:
 
 ### Load existing workbook
 
@@ -411,7 +422,7 @@ ws.title = 'Sheet2'
 ## Working with Cells, Rows, Columns, and Ranges   
 Getting and setting cells values
 
-Using openpyxl, we can go as deep as getting and setting data as the cells level, which is the same level of control we have on excel. Not only getting and setting data, but also, we van add style, Formulas, and charts. 
+Using **openpyxl**, we can go as deep as getting and setting data as the cells level, which is the same level of control we have on excel. Not only getting and setting data, but also, we van add style, **Formulas**, and **Charts**. 
 
 To get the value of a specific cell, we use the following syntax:
 
@@ -507,7 +518,7 @@ To delete columns, empty or not, we use the **delete_cols** method which takes t
 ws.delete_cols(2)
 ```
 
-In the coming example we will add 4 filled columns and 5 filled rows, then add an empty column at position 2 and one empty row at position 3:
+In the coming example we will **add 4 filled columns and 5 filled rows**, then add an **empty column** at position 2 and one **empty row** at position 3:
 
 ```python
 ws = wb.active
@@ -595,7 +606,7 @@ As you can see, we have **SUM** of the prices on cell **C9**, and when clicking 
 
 
 ## Working with Charts
-We can create all sorts of excel supported chart using openpyxl easily. The process will always be the same for all types of charts. 
+We can create all sorts of excel supported chart using **openpyxl** easily. The process will always be the same for all types of charts. 
 - We import the specific chart class desired as well as the Reference class from the openpyxl 
 - We instantiate the Reference object by passing the data as a range 
 - We instantiate the chart object 
@@ -617,7 +628,7 @@ The documentation also provides code snippets and examples.
 
 We instantiate a new workbook, and get the active worksheet. 
 
-**Secondly**, we define the data as a list of lists, and named the variable rows. This makes easy to iterate over it as well as modify it later. We then loop over the rows and append them to the excel sheet using the append method.
+**Secondly**, we define the data as a list of lists, and named the variable rows. This makes easy to iterate over it as well as modify it later. We then loop over the rows and append them to the Excel sheet using the append method.
 
 ```python
 from openpyxl import Workbook
@@ -642,7 +653,7 @@ for row in rows:
     ws.append(row)
 ```
 
-**Thirdly**, we instantiate the LineChart object, then setup up some properties like the title, the style, and the axis titles of the Chart.
+**Thirdly**, we instantiate the **LineChart object**, then setup up some properties like the title, the style, and the axis titles of the Chart.
 
 ```python
 # Setup the Chart    
@@ -665,11 +676,11 @@ data = Reference(ws, min_col=2, min_row=1, max_col=4, max_row=7)
 c1.add_data(data, titles_from_data=True)
 ```
 
-Now we style our lines. In this examples data we have 3 columns (Batch 1, Batch2, and Batch3) that we want to visualize as time goes on. 
+Now we style our lines. In this examples data we have 3 columns (*Batch 1, Batch2, and Batch3*) that we want to visualize as time goes on. 
 
-We use series to get each column of data (line). series[0] is for line 1, series[1] is for line 2, and series[2] is for line 3. 
+We use series to get each column of data (*line*). series[0] is for line 1, series[1] is for line 2, and series[2] is for line 3. 
 
-After getting each line we can set the color, the symbols, the with and so on, same as using excel. To see the full list of the properties, check out the official documentation of openpyxl. 
+After getting each line we can set the color, the symbols, the with and so on, same as using excel. To see the full list of the properties, check out the official documentation of **openpyxl**. 
 
 ```python
 # Style Line 1
@@ -704,31 +715,61 @@ We finally save the workbook.
 wb.save('chart-file.xlsx')
 ```
 
-Here’s the resulted file. From the left we can see the data we added, and on the right, starting from cell F1 we can see our Chart. 
- 
+Here’s the resulted file. From the left we can see the data we added, and on the right, starting from cell F1 we can see our Chart.
+
+![](./image/finaly_chart.jpg)
+
 
 ## Using Lookups in openpyxl
 
-Example 
- 
+**Example**
 
- 
- 
+# Lookup using both pure python as well as using a formula
+```python
+from openpyxl import Workbook
 
- 
+wb = Workbook()
+ws = wb.active
 
- 
+rows = [
+    ['Id', 'Quantity', 'Price', 'Solde'],
+    ['id-001', 27, 129.99, 24],
+    ['id-002', 144, 24.99, 30],
+    ['id-003', 57, 35.99, 45],
+    ['id-004', 67, 15.99, 40],
+    ['id-005', 44, 30.99, 30],
+    ['id-006', 17, 25.99, 35],
+]
 
- 
+for row in rows:
+    ws.append(row)
 
-Results 
+```python
+ws['F1'].value = 'Id'
+ws['G1'].value = 'Price'
+```
 
+```python
+ws['F2'].value = 'id-004'
+```
 
- 
+```python
+for row in ws.rows:
+    if row[0].value == ws['F2'].value:
+        ws['G2'] = row[2].value
+```
 
-Saved formula 
+```python
+ws['G4'] = '=LOOKUP(F2, A1:A7,C1:C7)'   
+```
 
+```python
+wb.save('lookup-file.xlsx') 
+```
+
+**Results**
+
+![](./image/lookup.jpg)
 
 ## Conclusion 
-**Openpyxl** provides powerful methods to automate excel at the cell level. We basically have the full control of any workbook w either create or load. This library is very extensive, and have a lot of details to it, that’s why one should always refer back to the documentation, 
-
+**Openpyxl** provides powerful methods to automate excel at the cell level. We basically have the full control of any workbook either create or load. This library is very extensive, and have a lot of details to it, that’s why one should always refer back to the documentation.
