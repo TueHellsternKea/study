@@ -96,7 +96,7 @@ Some videos there give you and understanding of the Microsoft Power Platform. Ma
 
 2. Then you have to import the CSV file into MySQL
 
-Video
+
 
 ### Power Automate
 Microsoft guides installing Power Automate on your computer:
