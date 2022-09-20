@@ -20,37 +20,31 @@
 
 <iframe width="560" height="315" src="https://www.microsoft.com/en-us/videoplayer/embed/RE4Jq7h?jsapi=true&postJsllMsg=true" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Case description
-<details>
-  <summary>Click to see case description</summary>
+## Case description - Reimbursement at KEA Retail Consult
+The company “KEA Retail Consult” sells software to supermarkets in Europe. The software is installed at the cash registers in the supermarkets. KEA Consult has more than 30 consultants employed visiting supermarkets all over Europe. Their job is to install or update the software.
 
-    **Reimbursement at KEA Retail Consult **</br> 
+Each consultant must pay for his own food, travel and accommodation when she is on the road. The expenses are reimbursed afterwards.
 
-    The company “KEA Retail Consult” sells software to supermarkets in Europe. The software is installed at the cash registers in the supermarkets. KEA Consult has more than 30 consultants employed visiting supermarkets all over Europe. Their job is to install or update the software.</br>  
+For KEA Retail Consult to reimburse expenses each consultant must register her expenses and attach a receipt as proof. There are typically three types of expenses: meals (breakfast, lunch and dinner), accommodation (hotel, b&b, etc) and transport (**flight, car, train, bus**).
 
-    Each consultant must pay for his own food, travel and accommodation when she is on the road. The expenses are reimbursed afterwards.</br> 
+It is a very slow and not very streamlined approval process. Sometimes it takes months before the consultants are reimbursed and the money is put into their account.  With 10-20 travelling days a month it sometimes creates liquidity problems for the consultants.
 
-    For KEA Retail Consult to reimburse expenses each consultant must register her expenses and attach a receipt as proof. There are typically three types of expenses: meals (breakfast, lunch and dinner), accommodation (hotel, b&b, etc) and transport (**flight, car, train, bus**). </br> 
+When a consultant has registered his expenses in their common spreadsheet, it must be approved by his manager. The consultant therefor sends a mail to his manager asking him to approve.
 
-    It is a very slow and not very streamlined approval process. Sometimes it takes months before the consultants are reimbursed and the money is put into their account.  With 10-20 travelling days a month it sometimes creates liquidity problems for the consultants.</br> 
+The manager will make sure that the expenses were held at a time where she was travelling and that the type of expense and the amount is reasonable. If not or receipts are missing the manager will email the employee and ask him to update or change his registration.
 
-    When a consultant has registered his expenses in their common spreadsheet, it must be approved by his manager. The consultant therefor sends a mail to his manager asking him to approve.</br> 
+Once the expense has been approved the manager will forward the mail to the accounting department and ask them to transfer the money to the consultant’s bank account.
 
-    The manager will make sure that the expenses were held at a time where she was travelling and that the type of expense and the amount is reasonable. If not or receipts are missing the manager will email the employee and ask him to update or change his registration.</br> 
+The accounting department contacts the consultant before transferring the money to make sure that the bank account they have registered is correct.
 
-    Once the expense has been approved the manager will forward the mail to the accounting department and ask them to transfer the money to the consultant’s bank account.</br> 
+Both the managers and the accounting department must state in the spreadsheet, when they have approved and paid out the amount, but they quite often forget to do so.
 
-    The accounting department contacts the consultant before transferring the money to make sure that the bank account they have registered is correct.</br>
+The employees are frustrated because they have no way of knowing how far in the approval process their request is, so they must call or email their manager or the accounting department to get the information.
 
-    Both the managers and the accounting department must state in the spreadsheet, when they have approved and paid out the amount, but they quite often forget to do so.</br> 
+The managers and the director of KEA Retail Consult would like to have a better overview of the expenses on a monthly basis, so they can keep track of the different expenses. They would also like to keep an eye on how many requests that are awaiting approval or payment.
 
-    The employees are frustrated because they have no way of knowing how far in the approval process their request is, so they must call or email their manager or the accounting department to get the information.</br> 
+Attached is a spreadsheet with data from the current, manually based system: [expence_data.xlsx](./files/expence_data.xlsx)
 
-    The managers and the director of KEA Retail Consult would like to have a better overview of the expenses on a monthly basis, so they can keep track of the different expenses. They would also like to keep an eye on how many requests that are awaiting approval or payment.</br> 
-
-    Attached is a spreadsheet with data from the current, manually based system: [expence_data.xlsx](./files/expence_data.xlsx)
-
-</details>
 
 ## Your assignment Day 1:
 Based on the description about the current processes and the data in the spreadsheet, make a requirement specification for a new system to support the reimbursement process in KEA Retail consult.  
