@@ -1,7 +1,7 @@
 [Home](../README.md)
 # Together with "Working as a Business Analyst"
 
-![](./kea_retail_consult.png)
+![](./image/kea_retail_consult.png)
 
 # Content
 - [Date](#dates)
@@ -87,16 +87,93 @@ Some videos there give you and understanding of the Microsoft Power Platform. Ma
 - [Real-World Examples of Microsoft Power Automate in Action - 55 minutter](https://videos.microsoft.com/cloud/watch/b3RqhL5q11xD7EBQTqLrpg?)
 
 
-## Guides
+# Guides
 
-### MySQL - Import from Excel
-1. First you have to save the Excel file as CSV files.
+## MySQL - Import from Excel
+### 1. First you have to save the Excel file as CSV files.**
+When you import data into MySQL, you have to use the CSV format.
 
 <div style="position: relative; padding-bottom: 71.23287671232877%; height: 0;"><iframe src="https://www.loom.com/embed/ad9bf3a19b6c4b2c868e1b692f08cfea" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-2. Then you have to import the CSV file into MySQL
+### 2. Then you have to import your CSV file(s) into MySQL
+You have to import the current Data into your MySQL file. It might be one CSV file or multiply CSV files.
+
+Because there are over 300.000 rows this import will take "*some time*", if you use the "wrong" method.
+
+The Import guide in MySQL is very slow and the import of 300.000 rows will tage a verrrry log time.
+
+You have to use a litte bit of SQL kode to get it done.
+
+Use the this SQL in Workbench:
+```sql
+LOAD DATA INFILE 'name-of-file.csv' 
+INTO TABLE name-of-table
+FIELDS TERMINATED BY ';' 
+ENCLOSED BY ''
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+```
+Could be something like this:
+```sql
+LOAD DATA INFILE 'expence_data2.csv' 
+INTO TABLE expence_data2
+FIELDS TERMINATED BY ';' 
+ENCLOSED BY ''
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+```
+
+![](./image/aql-import.jpg)
+
+**Location of CSV file**
+
+Make sure that your CSV is located in the folder: 
+
+**C:\ProgramData\MySQL\MySQL Server 8.0\Data\demo**
+
+Where **demo** is the name of the Database
+
+### error code 1290 secure-file-priv
+You might get an error - **error code 1290 secure-file-priv**
+
+This is in fact a security setting in MySQL.
+
+**The solution is:**
+
+- Find the MySQL file: my,ini
+  - In Windows it is located in the folder: *C:\ProgramData\MySQL\MySQL Server 8.0*
+
+![](./image/my-ini.jpg)
+
+- Open the as Administrator - *It is a protected file*
+- Find the line: **secure-file-priv="......"** and change it to:
+  - **secure-file-priv=""**
+- Save the my.ini file
+- Restart the MySQL server - *Can be done from Workbench* - **Server >Startup/Shutdown**
+- Run the SQL import code
 
 
+### 3. Export
+You have to create a file with both the Database **Struktur** and the **Data**.
+
+With this SQL file you could be able to create the database struktur and the data on a new (*another*) MySQL server.
+
+**Create a "backup" using MySQL Workbench**
+- Connect to your MySQL database
+- Click Server on the main tool bar
+- Select Data Export
+- Select the database you want to "backup"
+- Under Export Options, select where you want your dump saved
+- Click Start Export
+
+<div style="position: relative; padding-bottom: NaN%; height: 0;"><iframe src="https://www.loom.com/embed/6dd451522d5a45048b63ecf44471bed2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+**This file must be handed in at the latest on October 5th.**
+
+### 4. Import
+When you have the file, cerated in step 3 and wants to use it on a new server.
+
+<div style="position: relative; padding-bottom: NaN%; height: 0;"><iframe src="https://www.loom.com/embed/8a9599c30477485a96d53f5b8a1fbd5b" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ### Power Automate
 Microsoft guides installing Power Automate on your computer:
@@ -107,6 +184,7 @@ install)
 
 ## Links
 
+- [SQL Data Export and Import Wizard](https://dev.mysql.com/doc/workbench/en/wb-admin-export-import-management.html)
 - [powerplatform.microsoft.com/en-us](https://powerplatform.microsoft.com/en-us/)
 - [powerplatform.microsoft.com/en-us/what-is-power-platform](https://powerplatform.microsoft.com/en-us/what-is-power-platform/)
 - [Microsoft Power Platform documentation](https://docs.microsoft.com/en-us/power-platform/)
