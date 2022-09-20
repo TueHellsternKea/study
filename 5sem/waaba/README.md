@@ -95,7 +95,7 @@ When you import data into MySQL, you have to use the CSV format.
 
 <div style="position: relative; padding-bottom: 71.23287671232877%; height: 0;"><iframe src="https://www.loom.com/embed/ad9bf3a19b6c4b2c868e1b692f08cfea" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-</br>
+
 ### 2. Then you have to import your CSV file(s) into MySQL
 You have to import the current Data into your MySQL file. It might be one CSV file or multiply CSV files.
 
