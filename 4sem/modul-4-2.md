@@ -14,18 +14,18 @@
 - [Python brushup, Docker and Azure](./01-Python-brushup_and_Docker_1/README.md)
     - 04-10-2022 - Tirsdag
 - [Virtualisering (Azure)](./02-Virtualisering/README.md)
-    - 07-10-2022 - Fredag - DK
+    - 07-10-2022 - Fredag
 - [Python, Web Service API](./03-Python_WebService_API/README.md)
     - 13-10-2022 - Torsdag
-- [Docker](./04-Docker_2/README.md)
+- [Docker](./04-Docker/README.md)
     - 24-10-2022 - Mandag
 - [Distribuerede systemer](./05-Distribuerede_systemer/README.md)
     - 01-10-2022 - Tirsdag
 - [Power BI](./06-Power_BI/README.md)
     - 01-10-2022 - Fredag
-- [Machine Learning 1](./08-Machine_Learning_1/README.md)
+- [Machine Learning 1](./07-Machine_Learning/README.md)
     - 08-10-2022 - Tirsdag
-- [Machine Learning 2](./08-Machine_Learning_2/README.md)
+- [Machine Learning 2](./07-Machine_Learning/README.md)
     - 11-10-2022 - Fredag
 - [Power BI](./06-Power_BI/README.md)
     - 14-10-2022 - Mandag
