@@ -1,7 +1,6 @@
 [Home](../modul-4-2.md)
 # Machine Learning 1
-    - 25-04-2021 - Mandag - DK
-    - 26-04-2021 - Tirsdag - INT
+    - 08-10-2022 - Tirsdag
 
 <!-- TOC -->
 

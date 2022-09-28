@@ -1,7 +1,6 @@
 [Home](../modul-4-2.md)
 # Docker
-    - 24-03-2022 - Torsdag - DK
-    - 25-03-2022 - Fredag - INT
+    - 24-10-2022 - Mandag
 
 # Topic - [mindmap](../mindmap.html)
 - [Docker - Virtual Machine Azure](./docker_ubuntu.md)
