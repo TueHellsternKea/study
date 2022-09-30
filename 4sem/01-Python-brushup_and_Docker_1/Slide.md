@@ -15,7 +15,7 @@ _backgroundColor: black
 _color: white
 -->
 
-# Python brushup Docker and Azure
+# Python brushup and Azure
 ### 2022 - Tue Hellstern
 
 ---
@@ -47,6 +47,8 @@ A Programmer should also understand the basic concepts of source control like wh
 _backgroundColor: black
 _color: white
 -->
+
+---
 
 # Virtual Environment <!-- fit -->
 [Using Virtual Environment](./Using_Virtual_Environments.md)
@@ -153,4 +155,4 @@ A stored procedure is a **prepared SQL code** that you can save, so the code can
 
 You can **pass parameters** to a stored procedure, so that the stored procedure can act based on the parameter value(s) that is passed.
 
-A stored procedure is createde with the **CREATE PROCEDURE** statement.
+A stored procedure is created with the **CREATE PROCEDURE** statement.
