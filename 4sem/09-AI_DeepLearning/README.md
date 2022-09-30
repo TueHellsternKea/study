@@ -1,7 +1,6 @@
 [Home](../modul-4-2.md)
 # AI - (Deep Learning)
-    - 17-05-2021 - Tirsdag - DK
-    - 18-05-2021 - Onsdag - INT
+    - 25-10-2022 - Fredag
 
 # TensorFlow
 TensorFlow is an end-to-end open source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries and community resources that lets researchers push the state-of-the-art in ML and developers easily build and deploy ML powered applications.

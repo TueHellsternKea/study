@@ -1,7 +1,6 @@
 [Home](modul-4-2.md)
 # Machine Learning 2
-- 09-05-2021 - Mandag - DK
-- 10-05-2021 - Tirsdag - INT
+- 11-10-2022 - Fredag
 
 # Agenda
 - Bernoulli

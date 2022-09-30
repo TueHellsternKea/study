@@ -1,7 +1,6 @@
 [Home](../modul-4-2.md)
 # Docker
-    - 24-03-2022 - Torsdag - DK
-    - 25-03-2022 - Fredag - INT
+    - 24-10-2022 - Mandag
 
 # Topic - [mindmap](../mindmap.html)
 - [Docker - Virtual Machine Azure](./docker_ubuntu.md)
@@ -90,7 +89,8 @@ You can download the version you need her: [www.docker.com/products/docker-deskt
 - [Install Docker Desktop on **Windows**](https://docs.docker.com/desktop/windows/install/)
 - [Install Docker Desktop on **Mac**](https://docs.docker.com/desktop/mac/install/)
 
-
+## Docker demo
+The GitHub Repository - [https://github.com/TueHellsternKea/docker-demo.git](https://github.com/TueHellsternKea/docker-demo.git) - containes different guides on Docker
 
 # Links
 - [www.docker.com](https://www.docker.com/)

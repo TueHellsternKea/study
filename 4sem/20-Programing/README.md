@@ -1,4 +1,7 @@
+[Home](../modul-4-2.md)
+
 # Programing
+    - 22-10-2022 - Tirsdag
 
 # Python MongoDB
 One of the most popular NoSQL database is MongoDB. MongoDB stores data in JSON-like documents, which makes the database very flexible and scalable.

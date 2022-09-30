@@ -1,7 +1,6 @@
 [Home](../modul-4-2.md)
 # Python, Web Service API
-    - 22-03-2022 - Tirsdag - DK
-    - 23-03-2022 - Onsdag - INT
+    - 13-10-2022 - Torsdag
 
 # Beskrivelse
 **Introduction to:**
