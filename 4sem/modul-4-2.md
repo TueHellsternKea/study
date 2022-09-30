@@ -21,13 +21,13 @@
     - 24-10-2022 - Mandag
 - [Distribuerede systemer](./05-Distribuerede_systemer/README.md)
     - 01-10-2022 - Tirsdag
-- [Power BI](./06-Power_BI/README.md)
-    - 01-10-2022 - Fredag
+- [Power BI - 1](./06-Power_BI/README.md)
+    - 04-10-2022 - Fredag
 - [Machine Learning 1](./07-Machine_Learning/README.md)
     - 08-10-2022 - Tirsdag
 - [Machine Learning 2](./07-Machine_Learning/README.md)
     - 11-10-2022 - Fredag
-- [Power BI](./06-Power_BI/README.md)
+- [Power BI - 2](./06-Power_BI/README.md)
     - 14-10-2022 - Mandag
 - [Programming](./20-Programing/README.md)
     - 22-10-2022 - Tirsdag

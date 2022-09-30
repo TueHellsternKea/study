@@ -12,17 +12,15 @@
 - [Virtual Environment](#virtual-environment)
 - [Dashboard](#dashboard)
 - [Database MySQL](#database-mysql)
-- [Docker demo](#docker-demo)
 
 ## Beskrivelse
-Brush up on different Python code, MySQL and introduction to Docker
+Brush up on different Python code, MySQL introduction to GitHub and Virtual Environment
 
 ## Resources & Activities
 Before this class, make sure that the following programs are installed and updated on your PC:
 
 - Microsoft Visual Studio Code [code.visualstudio.com](https://code.visualstudio.com)
 - MySQL and MySQL Workbench [dev.mysql.com/downloads](https://dev.mysql.com/downloads)
-- Docker [www.docker.com](https://www.docker.com)
 - plotly Dash [dash.plotly.com/](https://dash.plotly.com/)
 - Azure Portal [portal.azure.com/](https://portal.azure.com/)
 
@@ -109,8 +107,3 @@ With Dash apps, data scientists and engineers put complex Python analytics in th
 # Database MySQL
 - [Python MySQL](Python_MySQL.md)
 - [Northwind SQL File](./codefiles/sql/northwind_kea.sql)
-
-# Docker
-
-## Docker demo
-The GitHub Repository - [https://github.com/TueHellsternKea/docker-demo.git](https://github.com/TueHellsternKea/docker-demo.git) - containes different guides on Docker
