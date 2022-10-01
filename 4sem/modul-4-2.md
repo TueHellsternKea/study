@@ -11,7 +11,7 @@
 
 ![](./image/oversigt.jpg)
 
-- [Python brushup, Docker and Azure](./01-Python-brushup_and_Docker_1/README.md)
+- [Python brushup, MySQL, Dash and Azure](./01-Python-brushup_and_Docker_1/README.md)
     - 04-10-2022 - Tirsdag
 - [Virtualisering (Azure)](./02-Virtualisering/README.md)
     - 07-10-2022 - Fredag
