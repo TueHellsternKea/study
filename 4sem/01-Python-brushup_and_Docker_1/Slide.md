@@ -15,7 +15,7 @@ _backgroundColor: black
 _color: white
 -->
 
-# Python brushup and Azure
+# Python brushup and Azure <!-- fit -->
 ### 2022 - Tue Hellstern
 
 ---

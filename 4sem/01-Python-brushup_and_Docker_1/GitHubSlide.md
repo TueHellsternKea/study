@@ -63,6 +63,7 @@ It has been a subsidiary of Microsoft since 2018.
 <!-- _backgroundColor: black -->
 <!-- _color: white -->
 # GitHub Desktop <!-- fit -->
+Tueh - 2022
 
 ---
 
