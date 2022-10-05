@@ -27,10 +27,15 @@ html: true
 ---
 
 
-![bg left:45% 222%](./image/Ramboll-Headoffice.jpg)
+![bg left:40% 250%](./image/Ramboll-Headoffice.jpg)
 <!-- _backgroundColor: black -->
 <!-- _color: white -->
-The obvious opportunity and business case of making **Business Intelligence data** a valuable asset by establishing and building a new strategic Business Intelligence and Applications department to accommodate this, had many positive perspectives and payoffs for Rambøll
+The ways that Rambøll internal stakeholders, management and their clients use
+data have changed significantly.
+
+Timely and predictive business data driven analysis is a key part of both the strategy and execution internally and with clients.
+
+The demand for working with these data is increasing fast and becoming an extremely valuable asset for growing the Rambøll business in an effective way
 
 ---
 
@@ -40,13 +45,24 @@ The obvious opportunity and business case of making **Business Intelligence data
 
 ---
 
+![bg right:50% 100%](./image/northouse.jpg)
+
+# NortHouse PDF <!-- fit -->
+- Fronter
+- [https://bit.ly/ramboll_case](https://bit.ly/ramboll_case)
+
+# Anual report PDF <!-- fit -->
+- Fronter
+- [https://bit.ly/ramboll_report](https://bit.ly/ramboll_report)
+
+----
+
+
 ![bg right:45% 230%](./image/Nyexad-ingenjor-Ramboll.jpg)
 
-# Plan for the day
+# Plan for the case <!-- fit -->
 
 - Read the PDF in groups
 - Back at 10:00 
     - Questions/Presentation in groups
 - Solutions
-
----
