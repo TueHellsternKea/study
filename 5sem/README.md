@@ -38,7 +38,7 @@
 - [Delivery 1](./delivery/README.md)
     - **03-10-2022 - Monday**
 - [Economics](./economics/README.md)
-    - 06-10-2022 - Thursday (*TUHE, JAIA and* **Michael Spenner IBM**)
+    - 06-10-2022 - Thursday (*TUHE, JAIA)
     - 14-10-2022 - Friday (*JAIA*)
 - [Machine Learning](./machinelearning/README.md)
     - 26-10-2022 - Wednesday (*TUHE, JAIA and* **SimCorp**)
