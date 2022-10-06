@@ -62,7 +62,9 @@ The demand for working with these data is increasing fast and becoming an extrem
 
 # Plan for the case <!-- fit -->
 
-- Read the PDF in groups
+- Read the Northhouse PDF in groups
 - Back at 10:00 
-    - Questions/Presentation in groups
-- Solutions
+    - Look at the case as "**Northouse**"
+    - Questions/Presentation in groups 10 to 15 min.
+    - Economics/Data
+
