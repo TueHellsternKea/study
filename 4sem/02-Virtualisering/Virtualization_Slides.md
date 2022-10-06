@@ -12,7 +12,7 @@ html: true
 ---
 
 ![bg right:40% 181%](https://github.com/officegeek/image/raw/main/agenda.jpg)
-# Virtualization  17/18-03-2021
+# Virtualization  07-10-2022
 ### Agenda
 
 - Introduction
@@ -25,34 +25,7 @@ html: true
 
 ---
 
-![bg right:25% 510%](https://github.com/officegeek/image/raw/main/It_Infrastructures_2.jpg)
-# Evolution of IT Infrastructure
-
-- General-purpose mainframe and minicomputer - *1959 >>*
-- Personal computer - *1981 >>*
-- Client/server era - *1983 >>*
-- Enterprise computing - *1992 >>*
-- Cloud and mobile computing - *2000 >>*)
-- IoT - *1999 >>*
-
-<!-- _footer: https://www.sutori.com/story/evolution-of-it-infrastructure--mipARdfNtNK4nRqJKTPwkNHf-->
-
----
-
 ![bg 30%](https://github.com/officegeek/image/raw/main/FG_05_002.jpg)
-
----
-
-![bg right:40% 97%](https://github.com/officegeek/image/raw/main/FG_05_004.jpg)
-# Technology drivers <!-- fit -->
-
-- Moore’s Law and Microprocessing Power
-- Law of mass digital storage
-- Matcalfe's Law
-- Communications cost
-- Technology standards
-- Serverless computing
-- Security
 
 ---
 
@@ -83,12 +56,6 @@ html: true
 - VR and AR
 
 ---
-
-![bg right:60% 97%](https://github.com/officegeek/image/raw/main/FG_05_008.jpg)
-# Seven Major components modern IT infrastructure
-
----
-
 
 <!-- _backgroundColor: black -->
 <!-- _color: white -->
@@ -293,10 +260,6 @@ https://www.youtube.com/embed/KgL3BfAc9Cs
 
 [E-conomic Developer](http://www.e-conomic.com)
 [E-conomic DK](http://www.e-conomic.dk)
-
----
-
-![bg](https://github.com/officegeek/image/raw/main/oracle_cx.jpg)
 
 ---
 
