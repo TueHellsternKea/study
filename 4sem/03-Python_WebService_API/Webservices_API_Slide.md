@@ -11,7 +11,7 @@ markdown.marp.enableHtml
 ---
 
 ![bg right:40% 181%](https://github.com/officegeek/image/raw/main/agenda.jpg)
-# Web Services  22/23-03-2022
+# Web Services  13-10-2022
 ### Agenda
 
 - Introduction
@@ -330,7 +330,7 @@ https://youtu.be/bPNfu0IZhoE
 
 <!-- _backgroundColor: black -->
 <!-- _color: white -->
-# SOA  <!-- fit -->
+# SOA<!-- fit -->
 
 ---
 
