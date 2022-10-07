@@ -57,7 +57,7 @@ Jupyter Notebook servers **can** include a password for security, to create a pa
 
 Running this command creates a configuration file at the following location:
 
-    ~/.jupyter/jupyter_server_config.py
+- ~/.jupyter/jupyter_server_config.py
 
 Then enter the following command to create a server password:
 
@@ -67,7 +67,7 @@ Then enter the following command to create a server password:
 
 After you enter a password a hashed version will be written to:
 
-    ~/.jupyter/jupyter_server_config.json
+- ~/.jupyter/jupyter_server_config.json
     
 Now JupyterLab is secure and you will be able to log in with a password.
 
@@ -84,11 +84,11 @@ The jupyter lab command has a couple of important flags attached to it:
 # Access Jupyter Lab
 Open a browser on your local computer and go to:
 
-    <ip adresse for your VM>:8888
+- <ip adresse for your VM>:8888
 
     like
 
-    27.28.30.255:8888
+- 27.28.30.255:8888
 
 ![](./image/jupyterlab_1.jpg)
 
@@ -103,6 +103,11 @@ Now you can start using your cloud Jupyter Lab server
 - Write som markdown and Python code
 
 ![](./image/jupyterlab_3.jpg)
+
+# Stop Virtuel Machine
+Remember to shut down the server when you no longer need it!
+
+![](./image/stopserver.jpg)
 
 # Video
 - [What is Jupyter Notebook? | Jupyter Notebook Tutorial in Python](https://www.youtube.com/embed/q_BzsPxwLOE)
