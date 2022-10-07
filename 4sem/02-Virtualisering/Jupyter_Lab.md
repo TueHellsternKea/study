@@ -84,7 +84,11 @@ The jupyter lab command has a couple of important flags attached to it:
 # Access Jupyter Lab
 Open a browser on your local computer and go to:
 
-- <ip adresse for your VM>:8888 *like* 27.28.30.255:8888
+- ip_adresse_for_your_VM:8888
+
+![](./image/accessjupyterlab.jpg)
+
+Now you have access to Jupyter Lab running on your Ubuntu Virtuel Machine in the Azure Cloud.
 
 ![](./image/jupyterlab_1.jpg)
 
@@ -99,6 +103,9 @@ Now you can start using your cloud Jupyter Lab server
 - Write som markdown and Python code
 
 ![](./image/jupyterlab_3.jpg)
+
+# Stop Jupyter Lab
+Use Control-C, in the ssh terminal on the server, to stop Jupyter Lab
 
 # Stop Virtuel Machine
 Remember to shut down the server when you no longer need it!
