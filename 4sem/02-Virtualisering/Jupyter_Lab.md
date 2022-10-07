@@ -10,15 +10,30 @@ Let's **test** that Python3 is running on the Virtual Machine
     sudo apt -y upgrade
     python3 -V
 
+The last command returns the version of Python, could be **Python 3.8.10**
+
+# Installing pip for Python
+Ubuntu ships with Python 3, as the default Python installation. Complete the following steps to install pip3:
+
+    sudo apt install python3-pip
+
+Thise command will install all the dependencies required for building Python modules.
+
+Once the installation is complete, verify the installation by checking the pip version:
+
+    pip3 --version
+
 # Install Jupyter Lab
 You have to install Jupyter Lab on the Virtual Machine.
 
+    sudo pip3 install markupsafe==2.0.1
     sudo pip3 install jupyterlab
 
 # JupyterLab Security
 You have to set the security on the Virtual Machine and on Jupyter Lab in order to access remote.
 
 **Firewall setup**
+
     sudo ufw enable
     sudo ufw allow 8888
     sudo ufw allow 22
