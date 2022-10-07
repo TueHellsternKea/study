@@ -9,7 +9,6 @@ Let's **test** that Python3 is running on the Virtual Machine
     sudo apt update
     sudo apt -y upgrade
     python3 -V
-    nano test.py
 
 # Install Jupyter Lab
 You have to install Jupyter Lab on the Virtual Machine.

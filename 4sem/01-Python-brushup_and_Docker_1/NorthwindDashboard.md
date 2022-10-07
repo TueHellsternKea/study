@@ -13,8 +13,8 @@ Create and activate a new virtual environment - **northwind**
 ## Files
 You have to download thise files and place them, in the right folders, in the **nortwind** virtuel Environment 
 
-- **data**/northwind_data.xlsx
-- **assets**/Northwind-Logo.gif
+- **data**/[northwind_data.xlsx](./codefiles/dashdemo/northwind_data.xlsx)
+- **assets**/[Northwind-Logo.gif](./codefiles/northwind/assets/Northwind-Logo.gif)
 
 ## Modules
 You need to install the following modules, inside the virtual environment, using an **requirements.txt** file
