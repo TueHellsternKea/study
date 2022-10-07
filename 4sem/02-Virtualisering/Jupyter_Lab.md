@@ -84,11 +84,7 @@ The jupyter lab command has a couple of important flags attached to it:
 # Access Jupyter Lab
 Open a browser on your local computer and go to:
 
-- <ip adresse for your VM>:8888
-
-    like
-
-- 27.28.30.255:8888
+- <ip adresse for your VM>:8888 *like* 27.28.30.255:8888
 
 ![](./image/jupyterlab_1.jpg)
 
