@@ -273,7 +273,6 @@ Extensible Markup Language (*XML*) is a **markup language** that defines a set o
 
 ---
 
-
 ![bg right:35% 90%](https://github.com/officegeek/image/raw/main/rest.jpeg)
 # REST - Representational State Transfer
 In 2000 Roy Thomas Fielding defines **REST** (**RE**presentational **S**tate **T**ransfer), which is the software architectural style of WWW.
@@ -315,7 +314,6 @@ REST can be described as Set of **formal** and **informal** guides to creating a
 
 https://youtu.be/bPNfu0IZhoE
 
-
 ---
 
 <!-- _backgroundColor: black -->
@@ -340,13 +338,11 @@ https://youtu.be/bPNfu0IZhoE
 
 ![bg 100%](https://github.com/officegeek/image/raw/main/singel_soa_micro.png)
 
-
 ---
 
 ![bg 39%](https://github.com/officegeek/image/raw/main/SOA_Before.png)
 
 ---
-
 
 ![bg right:50% 100%](https://github.com/officegeek/image/raw/main/soa.png)
 # SOA - Service Oriented Architecture
@@ -370,7 +366,7 @@ https://youtu.be/bPNfu0IZhoE
 
 <!-- _backgroundColor: black -->
 <!-- _color: white -->
- # API <!-- fit -->
+# API<!-- fit -->
 
 ---
 
@@ -500,7 +496,6 @@ Spotify provides software and app developers access to some of their data about 
 ---
 
 # Links
-
 - https://martinfowler.com/microservices
 - https://www.ibm.com/cloud/learn/soa
 - https://morioh.com/p/422b616d71a2
