@@ -433,6 +433,15 @@ Some companies are packaging API's as products.
 
 ---
 
+![bg right:50% 90%](./image/OpenAPI_Logo.png)
+
+## OpenAPI
+There is the **OpenAPI Specification** (*OAS*), a technical specification that describes certain APIs, and there is the **OpenAPI Initiative** (*OAI*), an organization that enables specifications like OAS to thrive.
+
+[www.openapis.org](https://www.openapis.org)
+
+---
+
 ![bg right:62% 80%](https://github.com/officegeek/image/raw/main/ibm_Microservices_SOA_API.jpg)
 # Microservices, SOA, and API's combined
 
