@@ -435,10 +435,16 @@ Some companies are packaging API's as products.
 
 ![bg right:50% 90%](./image/OpenAPI_Logo.png)
 
-## OpenAPI
+# OpenAPI
 There is the **OpenAPI Specification** (*OAS*), a technical specification that describes certain APIs, and there is the **OpenAPI Initiative** (*OAI*), an organization that enables specifications like OAS to thrive.
 
 [www.openapis.org](https://www.openapis.org)
+
+---
+
+![bg right:50% 90%](./image/fastapi.png)
+# FastAPI
+FastAPI is a modern, **fast** (*high-performance*), **web framework** for **building APIs** with Python 3.7+ based on standard Python type hints.
 
 ---
 
