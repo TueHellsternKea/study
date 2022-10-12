@@ -75,7 +75,62 @@ VALUES(
 );
 ```
 
+![](./image/keacustomers.jpg)
+
 You can download the SQL file: [keacustomers.sql](./codefiles/keacustomers.sql)
+
+## Python files
+For this demo project you need to create 5 Python files:
+
+- **database.py** - Connecting to MySQL
+- **models.py** - Define class object models for FastAPI
+- **schemas.py** - Define schemas for working with the specific API request/response
+- **crud.py** - Define method (read,write) to MySQL
+- **main.py** - Main file for build FastAPI service
+
+### database.py
+- Database name is : keacustomers
+- Username for database : root
+- Password for database : cuong1990
+
+```python
+from sqlalchemy import create_engine
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import sessionmaker
+
+SQLALCHEMY_DATABASE_URL = "mysql+mysqlconnector://root:Tue6868/?@localhost:3306/keacustomers"
+
+engine = create_engine(
+    SQLALCHEMY_DATABASE_URL,
+)
+SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+
+Base = declarative_base()
+```
+
+### models.py
+Define the class/object model for **keacustomers** to interact with table **customers**
+
+```python
+from sqlalchemy import Column, Integer, String
+from sql_app.database import Base
+
+class UserInfo(Base):
+    __tablename__ = "customers"
+
+    cust_id = Column(Integer, primary_key=True, index=True)
+    cust_name = Column(String)
+    cust_email = Column(String)
+    cust_email = Column(String)
+```
+
+### schemas.py
+
+
+### crud.py
+
+
+### main.py
 
 
 # Opgave til den 24-10-2022

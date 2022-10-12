@@ -3,6 +3,7 @@ from pydantic import BaseModel
 
 
 class CustomerInfoBase(BaseModel):
+    customerid: int
     customername: str
     customeremail: str
     customermobil: str
