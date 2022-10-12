@@ -89,9 +89,10 @@ FastAPI is a modern, fast (high-performance), web framework for building APIs wi
  [Step by Step guide](https://github.com/TueHellsternKea/newsapi)
 
 # Links
- - https://openlibrary.org/developers/api
- - https://newsapi.org/
- - https://api.nasa.gov/
+ - [openlibrary.org/developers/api](https://openlibrary.org/developers/api)
+ - [newsapi.org](https://newsapi.org)
+ - [api.nasa.gov/](https://api.nasa.gov/)
+ - [github.com/public-apis/public-apis](https://github.com/public-apis/public-apis)
 
 
 
