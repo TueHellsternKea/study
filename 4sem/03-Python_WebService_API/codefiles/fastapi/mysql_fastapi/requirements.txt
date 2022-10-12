@@ -1,7 +1,0 @@
-fastapi
-uvicorn
-sqlalchemy
-mysql-connector-python
-bcrypt
-pytest
-pyjwt
