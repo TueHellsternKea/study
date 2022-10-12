@@ -1,5 +1,3 @@
-
-
 [Home](README.md)
 
 # FastAPI ToDo - Demo
