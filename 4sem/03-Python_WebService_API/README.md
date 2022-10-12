@@ -40,7 +40,7 @@ In order to work with APIs in Python, you need tools that will make those reques
 
 In Python, the most common library for making requests and working with APIs is the requests library. 
 
-The requests library isn’t part of the standard Python library, so you’ll need to install it to get started.
+You must install the requests library.
 
     pip3 install requests
 
