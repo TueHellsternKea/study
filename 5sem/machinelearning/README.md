@@ -40,13 +40,15 @@ A deep artificial neural network is like a set of algorithms that have set new r
 
 Deep is a technical term. This refers to the number of layers in a neural network. The shallow network has one called hidden layer and the deep network has more than one. Multiple hidden layers allow a deep neural network to study data features in what is called a feature hierarchy, as simple features (e.g. two pixels) recombine from one layer to the next, to form more complex features (e.g. a line). Nets with multiple layers pass input data (features) through more mathematical operations than nets with fewer layers, and are therefore more computationally intensive to train. Computational intensity is one of the hallmarks of deep learning, and it’s one of the reasons why new types of chip-calling GPUs are needed to train deep learning models.
 
-# Demo
+# Demo Python
 
 - [Predicting Bank Customer Churn](https://github.com/TueHellsternKea/5_semester_code/tree/main/bank-churn)
 - [Employee Attrition](https://github.com/TueHellsternKea/5_semester_code/tree/main/employee-attrition-prediction)
 
 
-# Set Python Directory in Power BI
+# PowerBI
+
+## Set Python Directory in Power BI
 Your virtual environment must be linked with Power BI. This can be done using Global Settings in Power BI Desktop
 
     File → Options → Global → Python scripting
