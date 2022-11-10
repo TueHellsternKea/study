@@ -3,6 +3,11 @@
     - 08-10-2022 - Tirsdag
     - 11-10-2022 - Fredag
 
+## Links
+- [ML in Power BI](./ML_PowerBIPyC.md)
+- [PyCaret](./PyCaret.md)
+- [Using Jupyter Lab in a Virtual Environment](./Using_Jupyter_Lab_in_Virtual_Environme.md)
+
 <!-- TOC -->
 
 - [Machine Learning 1](#machine-learning-1)
