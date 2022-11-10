@@ -15,7 +15,6 @@ Now you have our virtual environment, activate it.
 
     venv\Scripts\activate
 
-
 ## Install jupyter kernel
 Install jupyter kernel for the virtual environment using the following command
 

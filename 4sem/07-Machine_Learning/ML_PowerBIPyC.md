@@ -136,7 +136,57 @@ The first step is importing the dataset into Power BI Desktop. You can load the 
 
     Power BI Desktop → Get Data → From Web
 
+Link to SCV file: https://github.com/pycaret/powerbi-clustering/blob/master/clustering.csv
 
+Run the following code as a Python script
+
+# Model Training
+Train a clustering model in Power BI we will have to execute a Python script in Power Query Editor.
+
+    Power Query Editor → Transform → Run python script
+
+```python
+from pycaret.clustering import *
+dataset = get_clusters(dataset, num_clusters=5, ignore_features=['Country'])
+```
+
+There are over 8 ready-to-use clustering algorithms available in PyCaret.
+
+
+
+By default, PyCaret trains a **K-Means Clustering model **with 4 clusters. Default values can be changed easily:
+
+- To change the model type use the **model** parameter within get_clusters().
+
+- To change the cluster number, use the **num_clusters** parameter.
+
+Example code for K-Modes Clustering with 6 clusters
+
+```python
+from pycaret.clustering import *
+dataset = get_clusters(dataset, model='kmodes', num_clusters=6, ignore_features=['Country'])
+```
+
+A new column which contains the cluster **Label** is attached to the original dataset. 
+
+In Power Pivot you need to make some changes to the data:
+
+- = Table.TransformColumnTypes(dataset,{{"Country", type text}, {"2000", type number}, {"2001", type number}, {"2002", type number}, {"2003", type number}, {"2004", type number}, {"2005", type number}, 
+- = Table.RemoveColumns(#"Changed Type",{"_1", "Column1"})
+- = Table.UnpivotOtherColumns(#"Removed Columns", {"Country", "Cluster"}, "Attribute", "Value")
+- = Table.RenameColumns(#"Unpivoted Columns",{{"Value", "GDP"}, {"Attribute", "Year"}})
+
+![](./image/dax.jpg)
+
+### New measurer
+Add new measurer:
+
+    Average GDP = CALCULATE(AVERAGE(clustering[GDP]))
+
+
+
+## Dashboard
+Once you have cluster labels in Power BI, here’s an example of how you can visualize it in dashboard to generate insights:
 
 
 

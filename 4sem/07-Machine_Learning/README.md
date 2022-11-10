@@ -10,9 +10,11 @@
 
 <!-- TOC -->
 
-- [Machine Learning 1](#machine-learning-1)
+- [Machine Learning](#machine-learning)
+    - [Links](#links)
 - [Machine Learning](#machine-learning)
 - [Steps in Machine Learning](#steps-in-machine-learning)
+- [Exploratory data analysis - EDA](#exploratory-data-analysis---eda)
 - [Definitions](#definitions)
 - [Machine Learning algorithms](#machine-learning-algorithms)
 - [Supervised Learning](#supervised-learning)
@@ -22,12 +24,16 @@
 - [Unsupervised Learning](#unsupervised-learning)
     - [Unsupervised Learning - Examples](#unsupervised-learning---examples)
 - [Reinforcement Learning](#reinforcement-learning)
-    - [Reinforcement Learning - Example](#reinforcement-learning---example)
+    - [Facebook - Horizon](#facebook---horizon)
 - [Machine Learning modules](#machine-learning-modules)
     - [SciPy](#scipy)
     - [scikit-learn](#scikit-learn)
 - [Consumer Behavior](#consumer-behavior)
 - [Bernoulli](#bernoulli)
+    - [Example Stress](#example-stress)
+    - [Example Twitter](#example-twitter)
+    - [Example Spam](#example-spam)
+        - [Test of the algorithm](#test-of-the-algorithm)
 - [Links](#links)
 
 <!-- /TOC -->
