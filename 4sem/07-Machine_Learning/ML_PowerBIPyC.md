@@ -84,12 +84,12 @@ There are o12 ready-to-use anomaly detection algorithms in PyCaret:
 - **sod** - Subspace Outlier Detection
 - **sos** - Stochastic Outlier Selection
 
-By default, PyCaret trains a **K-Nearest Neighbors Anomaly Detector** with a fraction of 5% (ie 5% of the total number of rows in the table are marked as outliers). 
+By default, PyCaret trains a **K-Nearest Neighbors Anomaly Detector** with a fraction of 5% (*ie 5% of the total number of rows in the table are marked as outliers*). 
 
 Default values can be easily changed:
 
-- You can use the fraction parameter in the get_outliers() function to change the fraction value.
-- Use the model parameter in get_outliers() to change the model type.
+- You can use the **fraction parameter** in the **get_outliers()** function to change the fraction value.
+- Use the **model parameter** in **get_outliers()** to change the model type.
 
 To train an **Isolation Forest** detector with a fraction of 0.1, use this code:
 
@@ -100,16 +100,15 @@ dataset = get_outliers(dataset, model = 'iforest', fraction = 0.1, ignore_featur
 
 ![](./image/power_bi_tabel.jpg)
 
+Two new columns are attached to the original table. Label (1 = outlier, 0 = inlier) and Score (data points with high scores are categorized as outlier). 
 
+Apply the query to see results in Power BI data set.
 
+![](./image/power_bi_lable.jpg)
 
+Now you can add som calculations and create a Power BI Dashboard.
 
-
-
-
-
-
-
+![](./image/dashboard.png)
 
 
 # Clustering in Power BI
@@ -117,7 +116,36 @@ Clustering is a machine learning technique that groups data points with similar 
 
 - Customer segmentation for the purpose of marketing.
 - Customer purchasing behavior analysis for promotions and discounts.
-- Identifying geo-clusters in an epidemic outbreak such as COVID-19.
+- Identifying geo-clusters
+
+We will implementing a clustering analysis in Power BI using PyCaret using the K-Means algorithm which is one of the simplest and most popular unsupervised machine learning algorithms. 
+
+![](https://cdn-images-1.medium.com/max/2726/1*2eQuIebjtTMJot27bWXgCQ.png)
+
+You can read more about K-Means [More](https://stanford.edu/~cpiech/cs221/handouts/kmeans.html)
+
+## Data
+We will use the current [health expenditure dataset](https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS) from the World Health Organization’s Global Health Expenditure database
+
+The dataset contains health expenditure as a % of National GDP for over 200 countries from year 2000 through 2017.
+
+Our objective is to find patterns and groups in this data by using a K-Means clustering algorithm.
+
+## Import data Power BI
+The first step is importing the dataset into Power BI Desktop. You can load the data using a web connector
+
+    Power BI Desktop → Get Data → From Web
+
+
+
+
+
+
+
+
+
+
+
 
 In this tutorial we will use **jewellery.csv** file that is available on PyCaret’s github repository. 
 
