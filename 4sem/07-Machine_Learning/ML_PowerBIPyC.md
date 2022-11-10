@@ -152,7 +152,7 @@ dataset = get_clusters(dataset, num_clusters=5, ignore_features=['Country'])
 
 There are over 8 ready-to-use clustering algorithms available in PyCaret.
 
-
+![](./clustering_8.png)
 
 By default, PyCaret trains a **K-Means Clustering model **with 4 clusters. Default values can be changed easily:
 
@@ -171,10 +171,10 @@ A new column which contains the cluster **Label** is attached to the original da
 
 In Power Pivot you need to make some changes to the data:
 
-- = Table.TransformColumnTypes(dataset,{{"Country", type text}, {"2000", type number}, {"2001", type number}, {"2002", type number}, {"2003", type number}, {"2004", type number}, {"2005", type number}, 
-- = Table.RemoveColumns(#"Changed Type",{"_1", "Column1"})
-- = Table.UnpivotOtherColumns(#"Removed Columns", {"Country", "Cluster"}, "Attribute", "Value")
-- = Table.RenameColumns(#"Unpivoted Columns",{{"Value", "GDP"}, {"Attribute", "Year"}})
+- **Changed Type** = Table.TransformColumnTypes(dataset,{{"Country", type text}, {"2000", type number}, {"2001", type number}, {"2002", type number}, {"2003", type number}, {"2004", type number}, {"2005", type number}, {"2006", type number}, {"2007", type number}, {"2008", type number}, {"2009", type number}, {"2010", type number}, {"2011", type number}, {"2012", type number}, {"2013", type number}, {"2014", type number}, {"2015", type number}, {"2016", type number}, {"2017", type number}, {"Column1", type text}, {"_1", type text}, {"Cluster", type text}})
+- **Removed Columns** = Table.RemoveColumns(#"Changed Type",{"Column1", "_1"})
+- **Unpivoted Columns** = Table.UnpivotOtherColumns(#"Removed Columns", {"Country", "Cluster"}, "Attribute", "Value")
+- **Renamed Columns** = Table.RenameColumns(#"Unpivoted Columns",{{"Value", "GDP"}, {"Attribute", "Year"}})
 
 ![](./image/dax.jpg)
 
@@ -183,21 +183,15 @@ Add new measurer:
 
     Average GDP = CALCULATE(AVERAGE(clustering[GDP]))
 
-
-
 ## Dashboard
 Once you have cluster labels in Power BI, here’s an example of how you can visualize it in dashboard to generate insights:
 
+![](./image/bi_dashboard.jpg)
 
 
 
-
-
-
-
-
-
-In this tutorial we will use **jewellery.csv** file that is available on PyCaret’s github repository. 
+# Clustering jewellery
+In this demo we will use **jewellery.csv** file that is available on PyCaret’s github repository. 
 
 You can load the data using a web connector. 
 
@@ -219,9 +213,13 @@ Run the following code as a Python script:
 
 ```python
 from pycaret.clustering import *
-dataset = get_clusters(data = dataset)
+dataset = get_clusters(dataset, model = 'kmodes', num_clusters = 6)
 ```
 
-![](./image/python_script.jpg)
+A new column **Cluster** containing label is attached to the original table.
 
-# 
+Apply the query
+    Power Query Editor → Home → Close & Apply)
+
+# More
+[Have a look at more examples](https://pycaret.gitbook.io/docs/learn-pycaret/official-blog/machine-learning-in-power-bi-using-pycaret)
