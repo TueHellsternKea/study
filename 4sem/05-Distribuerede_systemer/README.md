@@ -1,6 +1,6 @@
 [Home](modul-4-2.md)
 # Distribuerede systemer
-    - 01-10-2022 - Tirsdag
+    - 11-11-2022 - Fredag
 
 # Beskrivelse
 **Introduction to:**
