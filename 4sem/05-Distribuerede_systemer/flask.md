@@ -48,20 +48,22 @@ if __name__ == '__main__':
 ```
 
 # HTML
-
 It is possible to combine a HTML page and Flask.
 
 - Start by running the Python Falsk application - **app.py**
-- When the Flask server is running open the HTML page in a browser
+- When the **Flask server** is running open the **HTML page** in a browser
 
 ![](./image/flask_1.jpg)
 
 ![](./image/flask_2.png)
 
 ## Code - HTML version
+This example uses a HTML file and a Python - Flask file
 
-This is the code for the HTML page - **login.html**
+- Start the Falsk server by running the **app.py** file
+- Open the HTML file **login.html** in a browser
 
+### login.html
 ```html
 <html>
 	<body>	
@@ -74,8 +76,9 @@ This is the code for the HTML page - **login.html**
 </html>
 ```
 
-Code for the Python file - app.py
+Code for the Python file - **app.py**
 
+### app.py
 ```python
 from flask import Flask, redirect, url_for, request
 app = Flask(__name__)
@@ -96,6 +99,9 @@ def login():
 if __name__ == '__main__':
     app.run(debug = True)
 ```
+
+## GitHub
+You can find the code at GitHub - [github.com/TueHellsternKea/4_sem_code/tree/main/flask_demo](https://github.com/TueHellsternKea/4_sem_code/tree/main/flask_demo)
 
 ## Links
 - [Flask](https://flask.palletsprojects.com/en/2.1.x/)

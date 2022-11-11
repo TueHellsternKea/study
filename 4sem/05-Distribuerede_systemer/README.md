@@ -11,20 +11,16 @@
 - MVC
 
 # Slides
-- [HTML](./Distributed_Systems_Docker.html)
-- [PDF](./Distributed_Systems_Docker.pdf)
+- [PDF](./Distributed_Systems.pdf)
 
 
 # Flask
 Flask is a micro web framework written in Python.
-
-- [Flask](./flask_demo.md)
 - [Flask](./flask.md)
 
 # Ray
 Ray is an open source project that makes it simple to scale any compute-intensive Python workload — *from deep learning to production model serving*
-
-[Ray](./ray.md)
+- [Ray](./ray.md)
 
 # Design pattens
 Because Python is so powerful and flexible, we need some rules - **patterns** - when programming. 
