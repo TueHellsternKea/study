@@ -28,6 +28,6 @@ Because Python is so powerful and flexible, we need some rules - **patterns** - 
 [Pattens](./Pattens.md)
 
 # Jupyter Lab Online
-Use Jupyter Lab online.
+You can use Jupyter Lab online.
 
 [Try Jupyter Lab](https://jupyter.org/try)
